@@ -1,0 +1,23 @@
+from flask import Flask,render_template
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return render_template("index.html")
+
+@app.route('/login')
+def loginpage():
+    return render_template("login.html")
+
+@app.route('/console')
+def consolepage():
+    return render_template("console.html")
+
+@app.route('/setup')
+def setuppage():
+    return render_template("setup.html")
+
+if __name__ == '__main__':
+    app.run()
