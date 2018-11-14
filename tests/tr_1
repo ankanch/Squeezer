@@ -1,0 +1,4 @@
+Squeezer by kanch. This is the rule definition for grabber.
+tr_1
+http://www.windowslatest.com
+[[10, '#td-outer-wrap > div.td-main-content-wrap.td-main-page-wrap.td-container-wrap > div.td-container.td-pb-article-list > div > div.td-pb-span8.td-main-content > div > div > div.item-details > h3 > a'], [11, '']]

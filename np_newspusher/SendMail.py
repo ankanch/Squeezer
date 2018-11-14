@@ -17,9 +17,12 @@ def sendMail(fs, to, title, mcontent):
     ret += "<br/>response headers : " + str(response.headers)
     return ret
 
-def makeupNewsList():
-    pass
+def makeupNewsList(nl):
+    data = ""
+    for news in nl:
+        data += "<a href=\"" + news[1] + "\">" + news[0] + "</a><br/>"
+    return data
 
 
 if __name__ == "__main__":
-    sendMail("test@akakanch.com", "kanchisme@gmail.com", "this is a test email", "test contenct here")
+    sendMail("squeezer@akakanch.com", "1075900121@qq.com", "this is a test email", "test contenct here")

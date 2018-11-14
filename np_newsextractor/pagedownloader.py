@@ -21,3 +21,5 @@ if __name__ == "__main__":
     v = npPageDownloder()
     t = v.getPage("https://www.cnbeta.com/topics/4.htm")
     print(type(t),t)
+    t = v.getPage("http://www.windowslatest.com")
+    print(type(t),t)
