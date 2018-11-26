@@ -10,5 +10,8 @@ EMAIL_RECIVIER = "1075900121@qq.com"
 # web UI preference
 CONSOLE_PWD = ""
 
-# squeezer
+# news cache
+MAX_CACHED_NEWS = 1000
+
+# squeezer source
 VERSION = "0.1"
