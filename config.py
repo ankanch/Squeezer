@@ -4,7 +4,7 @@ from np_tools.loadconfidentials import loadConfidential
 SENDGRID_MAIL_API_KEY = loadConfidential("confidentials/SendGridAPIKey.txt")
 
 # email preference
-EMAIL_SENDING_TIME = "21:42"     # in UTC+0
+EMAIL_SENDING_TIME = "16:08"     # in UTC+0
 EMAIL_RECIVIER = "1075900121@qq.com"
 
 # web UI preference

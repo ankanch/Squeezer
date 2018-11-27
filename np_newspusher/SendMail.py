@@ -8,8 +8,8 @@ from sendgrid.helpers.mail import *
 sg = sendgrid.SendGridAPIClient(apikey=npconfig.SENDGRID_MAIL_API_KEY)
 
 mailtemp = """
-            <div style="text-align: left;"><i>Today is @DATETIME .</i></div>
-            <div style="text-align: left;"><i>Here's the news of the day.</i></div>
+            <div style="text-align: left;"><i>Today is @DATETIME. You have @NCOUNT news to read.</i></div>
+            <div style="text-align: left;"><i>Here're the news of the day.</i></div>
             <div style="text-align: left;">================================</div>
             <div style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NEWS OF THE TODAY</div>
             <div style="text-align: left;">================================</div>
@@ -49,7 +49,8 @@ def makeupNewsList(nl):
     newmail = mailtemp.replace("@DATETIME",todaystr)\
             .replace("@GENTIME",gentime)\
             .replace("@NEWSLIST",data)\
-            .replace("@VERSION",npconfig.VERSION)
+            .replace("@VERSION",npconfig.VERSION)\
+            .replace("@NCOUNT",str(len(nl)))
     return newmail
 
 

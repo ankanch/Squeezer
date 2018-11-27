@@ -2,6 +2,7 @@ import time,os, datetime
 from np_newsextractor.ruleset import ruleset
 from np_newsextractor.rsinterpreter import executeRuleset
 from np_newspusher.SendMail import sendMail,makeupNewsList
+from np_tools.newscache import newscache
 import config as CFG
 
 bypasscheck = False
@@ -40,11 +41,15 @@ def pushNews(nl):
 
 if __name__ == "__main__":
     print("Squeezer Job Scheduler Running")
-    print("schedule push time is ", CFG.EMAIL_SENDING_TIME)
+    print("Schedule push time is ", CFG.EMAIL_SENDING_TIME)
+    nc = newscache()
+    nc.load()
+    print("started.")
     while True:
         if checkschdule():
             try:
                 nl = runTask()
+                nl = nc.filternews(nl)
                 pushNews(nl)
                 bypasscheck = False
                 print("news pushed")

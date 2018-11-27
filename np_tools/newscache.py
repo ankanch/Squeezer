@@ -1,7 +1,7 @@
 import config as CFG
 
 class newscache:
-    path_to_cache = "../tests/news.cache"
+    path_to_cache = "cache/news.cache" # class unit test one : "../tests/news.cache"
     cached_news_list = []
     def load(self):
         """
@@ -11,15 +11,15 @@ class newscache:
         self.cached_news_list.clear()
         with open(self.path_to_cache,encoding="utf-8") as f:
             self.cached_news_list = f.readlines()
-        print(self.cached_news_list)
+        print("INFO|CLASS|newscache|load()|",len(self.cached_news_list),"cached news loaded.")
 
     def clearExceeds(self):
         """clear news that exceeds maximum limit """
         if len(self.cached_news_list) > CFG.MAX_CACHED_NEWS:
             self.cached_news_list = self.cached_news_list[:CFG.MAX_CACHED_NEWS]
-            with open(self.path_to_cache,"w",encoding="utf-8") as f:
-                f.truncate()
-                f.writelines(self.cached_news_list)
+        with open(self.path_to_cache,"w",encoding="utf-8") as f:
+            f.truncate()
+            f.writelines(self.cached_news_list)
 
     def filternews(self,newslist):
         """
