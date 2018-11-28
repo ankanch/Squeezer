@@ -45,6 +45,73 @@ class newsextractor:
             return True, nllist
         return False, "err"
 
+    def select(self,selector):
+        """
+        select an html element
+        :param selector:css selector
+        :return:selected element in BS4 variable
+        """
+        return self.soup.select(selector)
+
+    def selectAll(self,selector,ignorelist=[],containskey=[]):
+        """
+        select an html element ignore nth-child() in given index,works only for non-container element.
+        :param selector: css selector
+        :param ignorelist:ignore nth-child() index, empty list works the same as select()
+        :param containskey:only select element with string in given list
+        :return:selected list filled with elements in BS4 variable
+        """
+        if len(ignorelist) == 0:
+            return self.select(selector)
+        nthchild = ":nth-child("
+        nthchildlen = len(nthchild)
+        if selector.count(nthchild) < len(ignorelist):
+            raise Exception("nth-child() not enough.")
+        sortedigl = sorted(ignorelist)
+        newselector = selector
+        for ig in sortedigl:
+            begindex = 0
+            endindex = 0
+            for i in range(1,ig+1):
+                begindex = newselector.find(nthchild,begindex)
+                endindex = newselector.find(")",begindex)
+                begindex += nthchildlen
+            begindex -= nthchildlen
+            newselector = newselector[:begindex] + newselector[endindex+1:]
+            sortedigl = [ ix-1 for ix  in sortedigl ]
+        newselector = newselector.replace("nth-child","nth-of-type")
+        print("new selector=",newselector)
+        return self.soup.select(newselector)
+
+    def getElemString(self,tag):
+        """
+        get element string, <ele>string</ele>
+        :param tag: a BS4 variable
+        :return: the string
+        """
+        return tag.string
+
+    def getElemHyperref(self,tag):
+        """
+        get element hyper-reference: <a href="hyper-reference">string</a>
+        :param tag:a BS4 variable
+        :return:the link
+        """
+        return tag["href"]
+
+    def getAllFilteredTitleLinks(self,staglist,key=""):
+        """
+        get filtered title-link list
+        :param staglist: selected tag list by selectAll()
+        :param key: key to filter titles
+        :return: 2D list with title and links
+        """
+        data = []
+        for tag in staglist:
+            if key == "" or tag.string.find(key) > -1:
+                data.append([tag.string, tag["href"]])
+        return data
+
 
 if __name__ == "__main__":
     with open("../tests/testdata1.txt", encoding="utf-8") as f:
@@ -62,4 +129,11 @@ if __name__ == "__main__":
         v.getNewsList(
             "#filtered-post-container > article.post-archive.post.type-post.status-publish.format-standard.hentry.category-pc.tag-windows-insider-program > div > header > h2 > a")
         status, news = v.getTitleLinks("string", "href")
+        print(news)
+    with open("../tests/td4",encoding="utf-8") as f:
+        testhtml = f.read()
+        v = newsextractor()
+        v.feedHTML(testhtml)
+        all = v.selectAll("body > div.Mid > div.Mid1 > div.Mid1_M > div:nth-child(1) > div.Mid1Mcon.block > ul.Ptxt.block > li:nth-child(2) > div.txt > a",[2])
+        news = v.getAllFilteredTitleLinks(all)
         print(news)

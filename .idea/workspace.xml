@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f419f54-965b-434c-92fb-f648b8edc8b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/td4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/news.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cache/news.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobschduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobschduler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/np_newsextractor/pagedownloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/np_newsextractor/pagedownloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/np_newspusher/SendMail.py" beforeDir="false" afterPath="$PROJECT_DIR$/np_newspusher/SendMail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/np_tools/newscache.py" beforeDir="false" afterPath="$PROJECT_DIR$/np_tools/newscache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/np_newsextractor/newsextractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/np_newsextractor/newsextractor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +18,11 @@
     <SUITE FILE_PATH="coverage/NewsPush$config.coverage" NAME="config Coverage Results" MODIFIED="1542170563961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewsPush$newscache.coverage" NAME="newscache Coverage Results" MODIFIED="1543305743252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_tools" />
     <SUITE FILE_PATH="coverage/NewsPush$timeconversion.coverage" NAME="timeconversion Coverage Results" MODIFIED="1542165362727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_tools" />
-    <SUITE FILE_PATH="coverage/NewsPush$newsextractor.coverage" NAME="newsextractor Coverage Results" MODIFIED="1542116144297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
+    <SUITE FILE_PATH="coverage/NewsPush$newsextractor.coverage" NAME="newsextractor Coverage Results" MODIFIED="1543412396629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
     <SUITE FILE_PATH="coverage/NewsPush$NewsPush.coverage" NAME="NewsPush Coverage Results" MODIFIED="1541250867566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/NewsPush$rsinterpreter.coverage" NAME="rsinterpreter Coverage Results" MODIFIED="1542170711554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
-    <SUITE FILE_PATH="coverage/NewsPush$ruleset.coverage" NAME="ruleset Coverage Results" MODIFIED="1542116110630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
     <SUITE FILE_PATH="coverage/NewsPush$loadconfidentials.coverage" NAME="loadconfidentials Coverage Results" MODIFIED="1542169182971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_tools" />
+    <SUITE FILE_PATH="coverage/NewsPush$ruleset.coverage" NAME="ruleset Coverage Results" MODIFIED="1543410338666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
     <SUITE FILE_PATH="coverage/NewsPush$pagedownloader.coverage" NAME="pagedownloader Coverage Results" MODIFIED="1543306805034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
     <SUITE FILE_PATH="coverage/NewsPush$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1542093351327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/NewsPush$extractrules.coverage" NAME="extractrules Coverage Results" MODIFIED="1542112808583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
@@ -49,25 +45,27 @@
     <session id="883783434">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cache" value="5" />
           <entry key="html" value="8" />
-          <entry key="py" value="52" />
-          <entry key="td2" value="1" />
+          <entry key="py" value="56" />
+          <entry key="td2" value="2" />
           <entry key="td3" value="1" />
-          <entry key="tr_1" value="6" />
+          <entry key="td4" value="2" />
+          <entry key="tr_1" value="7" />
+          <entry key="tr_1_new" value="1" />
           <entry key="tr_2" value="1" />
           <entry key="txt" value="2" />
         </counts>
@@ -75,8 +73,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="8" />
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="52" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -84,35 +82,27 @@
           <entry key="cache" value="11" />
           <entry key="dummy" value="29" />
           <entry key="html" value="1701" />
-          <entry key="py" value="7833" />
+          <entry key="py" value="9648" />
+          <entry key="tr_1_new" value="209" />
           <entry key="txt" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1701" />
-          <entry key="PLAIN_TEXT" value="101" />
-          <entry key="Python" value="7833" />
+          <entry key="PLAIN_TEXT" value="310" />
+          <entry key="Python" value="9648" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/np_newsextractor/rsinterpreter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="37" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/np_newsextractor/ruleset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+            <state relative-caret-position="-627">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -120,8 +110,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/np_newsextractor/newsextractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+            <state relative-caret-position="222">
+              <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+              <folding>
+                <marker date="1543412395914" expanded="true" signature="2902:2908" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,7 +155,6 @@
         <option value="$PROJECT_DIR$/np_newsextractor/extractrules.py" />
         <option value="$PROJECT_DIR$/np_newsextractor/ruleset.py" />
         <option value="$PROJECT_DIR$/np_newsextractor/rsinterpreter.py" />
-        <option value="$PROJECT_DIR$/np_newsextractor/newsextractor.py" />
         <option value="$PROJECT_DIR$/np_tools/timeconversion.py" />
         <option value="$PROJECT_DIR$/np_tools/loadconfidentials.py" />
         <option value="$PROJECT_DIR$/tests/news.cache" />
@@ -171,6 +163,10 @@
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/np_newspusher/SendMail.py" />
         <option value="$PROJECT_DIR$/np_newsextractor/pagedownloader.py" />
+        <option value="$PROJECT_DIR$/tests/td4" />
+        <option value="$PROJECT_DIR$/tests/tr_1_new" />
+        <option value="$PROJECT_DIR$/np_newsextractor/squeezerscript.py" />
+        <option value="$PROJECT_DIR$/np_newsextractor/newsextractor.py" />
       </list>
     </option>
   </component>
@@ -205,6 +201,11 @@
               <item name="NewsPush" type="462c0819:PsiDirectoryNode" />
               <item name="np_newsextractor" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NewsPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsPush" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -232,29 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pagedownloader">
-    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NewsPush" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.newsextractor">
     <configuration name="jobschduler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsPush" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,6 +278,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="newsextractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewsPush" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/np_newsextractor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/np_newsextractor/newsextractor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pagedownloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsPush" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -321,7 +322,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rsinterpreter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ruleset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsPush" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -334,7 +335,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/np_newsextractor/rsinterpreter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/np_newsextractor/ruleset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,18 +362,18 @@
     <list>
       <item itemvalue="Flask server.NewsPush" />
       <item itemvalue="Python.jobschduler" />
-      <item itemvalue="Python.config" />
-      <item itemvalue="Python.rsinterpreter" />
       <item itemvalue="Python.pagedownloader" />
       <item itemvalue="Python.newscache" />
+      <item itemvalue="Python.newsextractor" />
+      <item itemvalue="Python.ruleset" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.newsextractor" />
+        <item itemvalue="Python.ruleset" />
         <item itemvalue="Python.pagedownloader" />
         <item itemvalue="Python.jobschduler" />
         <item itemvalue="Python.newscache" />
-        <item itemvalue="Python.rsinterpreter" />
-        <item itemvalue="Python.config" />
       </list>
     </recent_temporary>
   </component>
@@ -410,12 +411,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.295764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30937973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.31260228" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.31260228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,13 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1457">
           <caret line="1134" column="7" selection-start-line="1134" selection-start-column="7" selection-end-line="1134" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/td2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="1028" lean-forward="true" selection-start-line="1028" selection-end-line="1028" />
         </state>
       </provider>
     </entry>
@@ -515,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tr_1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/news.cache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-395">
@@ -545,9 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -575,30 +559,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/np_newsextractor/rsinterpreter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="37" />
+        <state relative-caret-position="19">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/td2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="1028" lean-forward="true" selection-start-line="1028" selection-end-line="1028" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/td4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90535">
+          <caret line="4765" column="14" selection-start-line="4765" selection-start-column="14" selection-end-line="4765" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tr_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-end-line="3" selection-end-column="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tr_1_new">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/np_newsextractor/squeezerscript.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/np_newsextractor/ruleset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        <state relative-caret-position="-627">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/np_newsextractor/newsextractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        <state relative-caret-position="222">
+          <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+          <folding>
+            <marker date="1543412395914" expanded="true" signature="2902:2908" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
