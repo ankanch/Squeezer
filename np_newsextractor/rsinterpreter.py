@@ -19,11 +19,15 @@ def executeRuleset(rs):
     lastprocess = None
 
     for rule in rules:
-        if rule[0] == ruleset.AT_SELECT_ALL:
+        if rule[0] == ruleset.AT_SELECT_ALL_NEWS:
             re.getNewsList(rule[1])
         if rule[0] == ruleset.AT_READ_TITLE_LINKS:
             status, news = re.getFilteredTitleLinks(rule[1],"string", "href")
             data.extend(news)
+        if rule[0] == ruleset.AT_SELECT_ALL:
+            re.selectAll(rule[1],[],[])
+        if rule[0] == ruleset.AT_GETALL_TITLEANDLINKS:
+            data.extend(re.getAllFilteredTitleLinks(key=rule[1]))
     return data
 
 

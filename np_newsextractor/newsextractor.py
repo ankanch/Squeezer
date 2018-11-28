@@ -51,7 +51,8 @@ class newsextractor:
         :param selector:css selector
         :return:selected element in BS4 variable
         """
-        return self.soup.select(selector)
+        self.nlist = self.soup.select(selector)
+        return self.nlist
 
     def selectAll(self,selector,ignorelist=[],containskey=[]):
         """
@@ -81,25 +82,10 @@ class newsextractor:
             sortedigl = [ ix-1 for ix  in sortedigl ]
         newselector = newselector.replace("nth-child","nth-of-type")
         print("new selector=",newselector)
-        return self.soup.select(newselector)
+        self.nlist = self.soup.select(newselector)
+        return self.nlist
 
-    def getElemString(self,tag):
-        """
-        get element string, <ele>string</ele>
-        :param tag: a BS4 variable
-        :return: the string
-        """
-        return tag.string
-
-    def getElemHyperref(self,tag):
-        """
-        get element hyper-reference: <a href="hyper-reference">string</a>
-        :param tag:a BS4 variable
-        :return:the link
-        """
-        return tag["href"]
-
-    def getAllFilteredTitleLinks(self,staglist,key=""):
+    def getAllFilteredTitleLinks(self,key="",staglist=[]):
         """
         get filtered title-link list
         :param staglist: selected tag list by selectAll()
@@ -107,6 +93,8 @@ class newsextractor:
         :return: 2D list with title and links
         """
         data = []
+        if len(staglist) == 0:
+            staglist = self.nlist
         for tag in staglist:
             if key == "" or tag.string.find(key) > -1:
                 data.append([tag.string, tag["href"]])
@@ -134,6 +122,6 @@ if __name__ == "__main__":
         testhtml = f.read()
         v = newsextractor()
         v.feedHTML(testhtml)
-        all = v.selectAll("body > div.Mid > div.Mid1 > div.Mid1_M > div:nth-child(1) > div.Mid1Mcon.block > ul.Ptxt.block > li:nth-child(2) > div.txt > a",[2])
-        news = v.getAllFilteredTitleLinks(all)
+        v.selectAll("body > div.Mid > div.Mid1 > div.Mid1_M > div:nth-child(1) > div.Mid1Mcon.block > ul.Ptxt.block > li:nth-child(2) > div.txt > a",[2])
+        news = v.getAllFilteredTitleLinks()
         print(news)

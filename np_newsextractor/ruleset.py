@@ -4,8 +4,10 @@ class ruleset:
     site = ""
     rsc = False
     # Action types definition
-    AT_SELECT_ALL = 10
-    AT_READ_TITLE_LINKS = 11    # second param is for filtering, keep title with given keyword only
+    AT_SELECT_ALL_NEWS = 10       # 2 element list to match getNewsList(self, selector):
+    AT_READ_TITLE_LINKS = 11      # second param is for filtering, keep title with given keyword only , matching getFilteredTitleLinks(self, key, titlefield, linksfield):
+    AT_SELECT_ALL = 12            # 4 element list to match selectAll(self,selector,ignorelist=[],containskey=[])
+    AT_GETALL_TITLEANDLINKS = 13  #2 element list to match getAllFilteredTitleLinks(self,key="",staglist=[]):
 
     def createRuleSet(self, name, site):
         if self.rsc != True:
@@ -55,7 +57,7 @@ if __name__ == "__main__":
     # test for create and export ruleset
     rm = ruleset()
     rm.createRuleSet("tr_1", "http://www.windowslatest.com")
-    rm.addStep(rm.AT_SELECT_ALL,
+    rm.addStep(rm.AT_SELECT_ALL_NEWS,
                "#td-outer-wrap > div.td-main-content-wrap.td-main-page-wrap.td-container-wrap > div.td-container.td-pb-article-list > div > div.td-pb-span8.td-main-content > div > div > div.item-details > h3 > a")
     rm.addStep(rm.AT_READ_TITLE_LINKS, "")
     rm.exportRules("../tests/tr_1")
