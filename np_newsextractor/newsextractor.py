@@ -9,12 +9,15 @@ class newsextractor:
 
     def feedHTML(self, html):
         try:
-            self.soup = BeautifulSoup(html, 'html.parser')
+            self.soup = BeautifulSoup(html, 'html5lib')
             shtml = html
             self.feeded = True
             print("HTML with length of ",len(html),"feeded")
-        except:
-            print("err")
+            with open("../cache/last_feed.txt","w", encoding="utf-8",) as f:
+                f.truncate()
+                f.write(html)
+        except Exception as e:
+            print("err:",e)
         return True, self.soup
 
     def digested(self, feeded=False):
@@ -81,8 +84,8 @@ class newsextractor:
             newselector = newselector[:begindex] + newselector[endindex+1:]
             sortedigl = [ ix-1 for ix  in sortedigl ]
         newselector = newselector.replace("nth-child","nth-of-type")
-        print("new selector=",newselector)
         self.nlist = self.soup.select(newselector)
+        print(len(self.nlist),"selected. New_selector=", newselector)
         return self.nlist
 
     def getAllFilteredTitleLinks(self,key="",staglist=[]):
@@ -118,7 +121,7 @@ if __name__ == "__main__":
             "#filtered-post-container > article.post-archive.post.type-post.status-publish.format-standard.hentry.category-pc.tag-windows-insider-program > div > header > h2 > a")
         status, news = v.getTitleLinks("string", "href")
         print(news)
-    with open("../tests/td4",encoding="utf-8") as f:
+    with open("../tests/td4.1",encoding="utf-8") as f:
         testhtml = f.read()
         v = newsextractor()
         v.feedHTML(testhtml)

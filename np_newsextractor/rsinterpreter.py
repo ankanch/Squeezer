@@ -25,9 +25,9 @@ def executeRuleset(rs):
             status, news = re.getFilteredTitleLinks(rule[1],"string", "href")
             data.extend(news)
         if rule[0] == ruleset.AT_SELECT_ALL:
-            re.selectAll(rule[1],[],[])
+            re.selectAll(rule[1][0],rule[1][1],rule[1][2])
         if rule[0] == ruleset.AT_GETALL_TITLEANDLINKS:
-            data.extend(re.getAllFilteredTitleLinks(key=rule[1]))
+            data.extend(re.getAllFilteredTitleLinks(key=rule[1][0]))
     return data
 
 
@@ -35,10 +35,18 @@ def executeRuleset(rs):
 if __name__ == "__main__":
     # import a ruleset
     rm = ruleset()
+    """
     rm.resetRuleSet()
     rm.importRules(dir="../tests/tr_1")
     print(rm.name,rm.site)
 
     # test interpreter
+    data = executeRuleset(rm)
+    print(data)
+    """
+    # import and test
+    rm.resetRuleSet()
+    rm.importRules(dir="../tests/tr_0")
+    print(rm.name,rm.site)
     data = executeRuleset(rm)
     print(data)

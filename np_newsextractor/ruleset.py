@@ -19,7 +19,7 @@ class ruleset:
 
     def resetRuleSet(self):
         self.rsc = False
-        self.rules = []
+        self.rules.clear()
         self.name = ""
         self.site = ""
 
@@ -54,15 +54,23 @@ class ruleset:
 
 
 if __name__ == "__main__":
-    # test for create and export ruleset
+    # test for create and export ruleset     AT_SELECT_ALL_NEWS  + AT_READ_TITLE_LINKS
     rm = ruleset()
     rm.createRuleSet("tr_1", "http://www.windowslatest.com")
     rm.addStep(rm.AT_SELECT_ALL_NEWS,
                "#td-outer-wrap > div.td-main-content-wrap.td-main-page-wrap.td-container-wrap > div.td-container.td-pb-article-list > div > div.td-pb-span8.td-main-content > div > div > div.item-details > h3 > a")
     rm.addStep(rm.AT_READ_TITLE_LINKS, "")
     rm.exportRules("../tests/tr_1")
-
+    print(rm.name,rm.site)
     # test for import ruleset
     rm.resetRuleSet()
-    rm.importRules(dir="../tests/tr_1")
-    print(rm.name,rm.site)
+
+    # test for create and export ruleset     AT_SELECT_ALL  + AT_GETALL_TITLEANDLINKS
+    rm = ruleset()
+    rm.createRuleSet("tr_0", "https://www.gamersky.com/")
+    rm.addStep(rm.AT_SELECT_ALL,
+               ["body > div.Mid > div.Mid1 > div.Mid1_M > div:nth-child(1) > div.Mid1Mcon.block > ul.Ptxt.block > li:nth-child(1) > div.txt > a"
+                ,[2],[]])
+    rm.addStep(rm.AT_GETALL_TITLEANDLINKS,["",[]])
+    rm.exportRules("../tests/tr_0")
+    print(rm.name, rm.site)
