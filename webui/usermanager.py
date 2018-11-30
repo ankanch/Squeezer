@@ -18,7 +18,6 @@ def getLoggedSID():
         return f.read().replace("\n","")
 
 def checkSID(sid):
-    print(sid,getLoggedSID())
     if sid == getLoggedSID():
         return True
     return False

@@ -1,6 +1,7 @@
 from flask import Flask,render_template,session,redirect,url_for,request,make_response
 from functools import wraps
 from webui import  usermanager as UM
+from webui import rulemanager as RM
 import config as CFG
 
 app = Flask(__name__)
@@ -11,7 +12,7 @@ def login_required(f):
     def decorated_function(*args, **kwargs):
         if "sid" in session.keys():
             if UM.checkSID(session["sid"]):
-                return render_template("console.html")
+                return f(*args, **kwargs)
             return redirect(url_for('loginpage', next=request.url))
         sid = UM.generateSID()
         session["sid"] = sid
@@ -41,7 +42,10 @@ def loginpage():
 @app.route('/console')
 @login_required
 def consolepage():
-    return render_template("console.html")
+    # get all rule data
+    rules = RM.listrules()
+    print(rules)
+    return render_template("console.html",ruledata=rules,email=CFG.EMAIL_RECIVIER,apikey=CFG.SENDGRID_MAIL_API_KEY)
 
 @app.route('/logout')
 def logout():

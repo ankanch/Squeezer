@@ -1,6 +1,6 @@
 import os
 
-PATH_RULE_FOLDER = "../schduled_rulesets/"
+PATH_RULE_FOLDER = "schduled_rulesets/"
 
 def listrules():
     """
@@ -11,6 +11,7 @@ def listrules():
     ruledata = []
     for rule in rules:
         ruledata.append(getRuleInfo(PATH_RULE_FOLDER+rule))
+        print(ruledata)
     return ruledata
 
 def getRuleInfo(rulepath):
