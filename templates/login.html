@@ -15,21 +15,27 @@
     <div class="card" style="margin:5% auto;width: 45%;">
       <div class="card-body">
         <h5 class="card-title">Login</h5>
-        <p class="card-text">Log into the console to manage subscriptions.</p>
-        <form>
+          <p class="card-text">You must to log in to continue.</p>
+        <p class="card-text">Log into the console to manage your subscriptions.</p>
+        <form action="login" onsubmit="return validateForm()" method="post">
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
           </div>
             for recaptcha
-          <div class="form-group form-check">
+          <!--div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="savepwd">
             <label class="form-check-label" for="savepwd">Save Password</label>
-          </div>
+          </div-->
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
 </div>
 </div>
+<script>
+    function validateForm(){
+
+    }
+</script>
 </body>
 </html>

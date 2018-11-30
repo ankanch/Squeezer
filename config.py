@@ -8,7 +8,8 @@ EMAIL_SENDING_TIME = "16:08"     # in UTC+0
 EMAIL_RECIVIER = "1075900121@qq.com"
 
 # web UI preference
-CONSOLE_PWD = ""
+CONSOLE_PWD = loadConfidential("cache/WebUI.Password")
+FIRST_SETUP = False
 
 # news cache
 MAX_CACHED_NEWS = 1000
