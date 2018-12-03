@@ -22,7 +22,7 @@ def getRuleInfo(rulepath):
     """
     with open(rulepath,encoding="utf-8") as f:
         rd = f.readlines()
-        return [ rd[1],rd[2] ]
+        return [ rd[1],rd[2], "-SP;".join(rd).replace("\n","") ]
 
 if __name__ == "__main__":
     print(listrules())

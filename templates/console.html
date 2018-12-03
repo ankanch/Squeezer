@@ -134,9 +134,14 @@
                                             <td>{{ rule[0] }}</td>
                                             <td>{{ rule[1] }}</td>
                                             <td>
-                                                <button type="button" class="btn btn-success btn-sm">View</button>
-                                                <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                                                <div id="criteria" style="display: none"></div>
+                                                <button type="button" class="btn btn-success btn-sm"
+                                                        onclick="viewRule('rule_{{ loop.index }}')">View
+                                                </button>
+                                                <button type="button" class="btn btn-danger btn-sm"
+                                                        onclick="delRule('rule_{{ loop.index }}')">Delete
+                                                </button>
+                                                <div id='rule_{{ loop.index }}'
+                                                     style="display: none">{{ rule[2] }}</div>
                                             </td>
                                         </tr>
                                     {% endfor %}
@@ -151,40 +156,56 @@
     </div>
     <!-- Modal -->
     <div class="modal fade" id="addnewrule" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-         aria-hidden="true">
+         aria-hidden="true" data-backdrop="static" data-keyboard="false">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Add a new rule</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Add a news grab rule</h5>
                 </div>
                 <div class="modal-body">
                     <form id="form_add_rule">
+                        <h6>Basic info:</h6>
                         <div class=" row">
                             <div class="form-group col-md-4">
                                 <input type="text" class="form-control" id="add_rulename" aria-describedby="emailHelp"
-                                       placeholder="Enter the name of the rule" name="nr_name">
+                                       placeholder="Name of the rule" name="nr_name">
                             </div>
                             <div class="form-group col-md-8">
                                 <input type="text" class="form-control" id="add_website"
-                                       placeholder="website for this rule" name="nr_site">
+                                       placeholder="Website for this rule" name="nr_site">
                             </div>
                         </div>
+                        <hr>
+                        <h6>Rule:</h6>
                         <div class="row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" id="add_grabkey"
-                                       placeholder="keywords to filter news" name="nr_key">
+                            <div class="col-md-4">
+                                <select class="form-control" id="add_ruletype" onchange="selectRuleType()">
+                                    <option>---Select Rule Type---</option>
+                                    <option value="rt_gnc">Grab News Container</option>
+                                    <option value="rt_gn">Get News</option>
+                                </select>
                             </div>
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" id="add_ignorenthofchild"
-                                       placeholder="nth-of-child to ignore" name="nr_igchild">
+                            <div class="col-md-2">
+                                <button type="button" class="btn btn-success" onclick="allArule()">Add</button>
                             </div>
                         </div>
+                        <small>Rule Parameters:</small>
+                        <div class="row" id="rp_rt_gnc" style="display: none;">
+                            <div class="form-group col-md-8">
+                                <input type="text" class="form-control" id="add_gnc_ignorechild"
+                                       placeholder="child list to ignore">
+                            </div>
+                        </div>
+                        <div class="row" id="rp_rt_gn" style="display: none;">
+                            <div class="form-group col-md-8">
+                                <input type="text" class="form-control" id="add_gn_keywords"
+                                       placeholder="keywords to filter news">
+                            </div>
+                        </div>
+                        <h6>Ruleset:</h6>
                         <div class="form-group">
-                            <textarea class="form-control" id="add_selectors" rows="2"
-                                      placeholder="one selector for one line" name="nr_selectors"></textarea>
+                            <textarea class="form-control" id="add_ruleset" rows="2"
+                                      placeholder="one selector for one line" name="nr_ruleset" readonly></textarea>
                         </div>
                     </form>
                     <hr>
@@ -196,8 +217,14 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary" onclick="addrule()">Add</button>
+                    <div id="viewrule_btn" style="display: none;">
+                        <button type="button" class="btn btn-danger" onclick="closeview()">Close</button>
+                        <button type="button" class="btn btn-primary">Update</button>
+                    </div>
+                    <div id="addrule_btn">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" onclick="addrule()">Save Rule</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -229,7 +256,7 @@
     }
 
     function validateform() {
-        var fid = new Array("add_rulename", "add_website", "add_grabkey", "add_ignorenthofchild", "add_selectors");
+        var fid = new Array("add_rulename", "add_website", "add_ruleset");
         var checkstatus = true;
         fid.forEach(element => {
             if ($("#" + element).val() == "") {
@@ -256,11 +283,60 @@
 
     }
 
+    function selectRuleType() {
+        var selval = $("#add_ruletype").val();
+        console.log(selval);
+        switch (selval) {
+            case "rt_gnc":
+                $("#rp_rt_gnc").show();
+                $("#rp_rt_gn").hide();
+                break;
+            case "rt_gn":
+                $("#rp_rt_gnc").hide();
+                $("#rp_rt_gn").show();
+                break;
+            default:
+                console.log("no selected or unexpected value.")
+        }
+    }
+
+    function allArule() {
+
+    }
+
     function addrule() {
         if (validateform() == false) {
             alert("please fill all necessary filed before you continue.");
             return;
         }
+    }
+
+    String.prototype.replaceAll = function (search, replacement) {
+        var target = this;
+        return target.replace(new RegExp(search, 'g'), replacement);
+    };
+
+    function viewRule(id) {
+        $('#addnewrule').modal('show');
+        $("#addrule_btn").toggle();
+        $("#viewrule_btn").toggle();
+        // portion of rule data are split by "-SP;"
+        ruledata = ($("#" + id).html()).split("-SP;");
+        console.log(ruledata);
+        $("#add_rulename").val(ruledata[1]);
+        $("#add_website").val(ruledata[2]);
+        $("#add_ruleset").val(ruledata[3].replaceAll("&gt;", ">"));
+
+    }
+
+    function delRule(id) {
+
+    }
+
+    function closeview() {
+        $('#addnewrule').modal('hide');
+        $("#addrule_btn").toggle();
+        $("#viewrule_btn").toggle();
     }
 
 

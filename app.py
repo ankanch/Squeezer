@@ -23,8 +23,9 @@ def login_required(f):
 
 
 @app.route('/')
+@login_required
 def index():
-    return render_template("index.html")
+    return redirect(url_for("loginpage"))
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -44,7 +45,7 @@ def loginpage():
         return make_response(redirect("login"))
 
 
-@app.route('/console')
+@app.route('/consolehq')
 @login_required
 def consolepage():
     # get all rule data
@@ -71,9 +72,7 @@ def setuppage():
 def api_testrule():
     rulename = request.form["nr_name"]
     website = request.form["nr_site"]
-    fkey = request.form["nr_key"]
-    igchild = request.form["nr_igchild"]
-    selectos = request.form["nr_selectors"]
+    selectos = request.form["nr_ruleset"]
     return rulename
 
 
@@ -82,9 +81,7 @@ def api_testrule():
 def api_addrule():
     rulename = request.form["nr_name"]
     website = request.form["nr_site"]
-    fkey = request.form["nr_key"]
-    igchild = request.form["nr_igchild"]
-    selectos = request.form["nr_selectors"]
+    selectos = request.form["nr_ruleset"]
     return rulename
 
 
