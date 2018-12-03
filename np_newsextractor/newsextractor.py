@@ -57,12 +57,11 @@ class newsextractor:
         self.nlist = self.soup.select(selector)
         return self.nlist
 
-    def selectAll(self,selector,ignorelist=[],containskey=[]):
+    def selectAll(self, selector, ignorelist=[]):
         """
         select an html element ignore nth-child() in given index,works only for non-container element.
         :param selector: css selector
         :param ignorelist:ignore nth-child() index, empty list works the same as select()
-        :param containskey:only select element with string in given list
         :return:selected list filled with elements in BS4 variable
         """
         if len(ignorelist) == 0:
@@ -88,7 +87,7 @@ class newsextractor:
         print(len(self.nlist),"selected. New_selector=", newselector)
         return self.nlist
 
-    def getAllFilteredTitleLinks(self,key="",staglist=[]):
+    def getAllFilteredTitleLinks(self,key=[],staglist=[]):
         """
         get filtered title-link list
         :param staglist: selected tag list by selectAll()
@@ -98,9 +97,14 @@ class newsextractor:
         data = []
         if len(staglist) == 0:
             staglist = self.nlist
-        for tag in staglist:
-            if key == "" or tag.string.find(key) > -1:
-                data.append([tag.string, tag["href"]])
+        if len(key) > 0:
+            for tag in staglist:
+                for k in key:
+                    if tag.string.find(k) > -1:
+                        data.append([tag.string, tag["href"]])
+        else:
+            for tag in staglist:
+                    data.append([tag.string, tag["href"]])
         return data
 
 
@@ -125,6 +129,8 @@ if __name__ == "__main__":
         testhtml = f.read()
         v = newsextractor()
         v.feedHTML(testhtml)
-        v.selectAll("body > div.Mid > div.Mid1 > div.Mid1_M > div:nth-child(1) > div.Mid1Mcon.block > ul.Ptxt.block > li:nth-child(2) > div.txt > a",[2])
+        v.selectAll(
+            "body > div.Mid > div.Mid1 > div.Mid1_M > div:nth-child(1) > div.Mid1Mcon.block > ul.Ptxt.block > li:nth-child(2) > div.txt > a",
+            [2])
         news = v.getAllFilteredTitleLinks()
         print(news)

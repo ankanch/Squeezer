@@ -191,9 +191,13 @@
                         </div>
                         <small>Rule Parameters:</small>
                         <div class="row" id="rp_rt_gnc" style="display: none;">
-                            <div class="form-group col-md-8">
+                            <div class="form-group col-md-10">
+                                <input type="text" class="form-control" id="add_gnc_selector"
+                                       placeholder="selector which selects news from a news list.">
+                            </div>
+                            <div class="form-group col-md-10">
                                 <input type="text" class="form-control" id="add_gnc_ignorechild"
-                                       placeholder="child list to ignore">
+                                       placeholder="child list to ignore,use comma to split multiples">
                             </div>
                         </div>
                         <div class="row" id="rp_rt_gn" style="display: none;">
@@ -205,7 +209,7 @@
                         <h6>Ruleset:</h6>
                         <div class="form-group">
                             <textarea class="form-control" id="add_ruleset" rows="2"
-                                      placeholder="one selector for one line" name="nr_ruleset" readonly></textarea>
+                                      placeholder="preview for the rule set" name="nr_ruleset" readonly></textarea>
                         </div>
                     </form>
                     <hr>
@@ -213,7 +217,7 @@
                         <div class="col-md-2">
                             <button type="button" class="btn btn-warning" onclick="testNewRule()">-- Test --</button>
                         </div>
-                        <span class="col-md-10" id="testresult">After you added rule information,please click test to test if the rule works as expected. The test result(grabbed news) will be displayed in this filed.</span>
+                        <div class="col-md-10" id="testresult">After you added rule information,please click test to test if the rule works as expected. The test result(grabbed news) will be displayed in this filed.</div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -242,6 +246,7 @@
 <script>
 
     var apikeydisplay = false;
+    var ruleset = [];
 
     function showAPIkey() {
         if (apikeydisplay) {
@@ -274,7 +279,7 @@
         $.ajax({
             url: '/api/testrule',
             type: 'post',
-            dataType: 'json',
+            dataType: 'html',
             data: $("#form_add_rule").serialize(),
             success: function (data) {
                 $("#testresult").text(data);
@@ -285,7 +290,6 @@
 
     function selectRuleType() {
         var selval = $("#add_ruletype").val();
-        console.log(selval);
         switch (selval) {
             case "rt_gnc":
                 $("#rp_rt_gnc").show();
@@ -301,7 +305,36 @@
     }
 
     function allArule() {
-
+        var selval = $("#add_ruletype").val();
+        var ruleparam = [];
+        var action = "";
+        switch (selval) {
+            case "rt_gnc":
+                action = "SELECT_ALL";
+                ruleparam.push($("#add_gnc_selector").val());
+                var ilist = []
+                var silist = $("#add_gnc_ignorechild").val().split(",");
+                for (var i = 0; i < silist.length; i++) {
+                    ilist.push(parseInt( silist[i] ));
+                }
+                ruleparam.push(ilist);
+                break;
+            case "rt_gn":
+                action = "GET_NEWS"
+                silist = $("#add_gn_keywords").val().split(",");
+                ruleparam.push(silist);
+                break;
+            default:
+                alert("select a rule type before you continue.");
+                return;
+        }
+        if (selval == "rt_gnc" && ruleparam[0].length < 2) {
+            alert("Please fill the selector filed!");
+            return;
+        }
+        // make up rule and fill it into the preview
+        ruleset.push([action, ruleparam]);
+        $("#add_ruleset").val(JSON.stringify(ruleset));
     }
 
     function addrule() {

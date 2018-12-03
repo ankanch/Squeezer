@@ -39,10 +39,10 @@ def loginpage():
             if CFG.CONSOLE_PWD == request.form["password"]:
                 UM.setLoggedSID(session["sid"])
                 print("sid=", str(session["sid"]))
-                return make_response(redirect("console"))
+                return make_response(redirect(url_for("consolepage")))
         except Exception as e:
             print("login error:", e)
-        return make_response(redirect("login"))
+        return make_response(redirect(url_for("loginpage")))
 
 
 @app.route('/consolehq')
@@ -70,10 +70,13 @@ def setuppage():
 @app.route('/api/testrule', methods=['POST'])
 @login_required
 def api_testrule():
-    rulename = request.form["nr_name"]
-    website = request.form["nr_site"]
-    selectos = request.form["nr_ruleset"]
-    return rulename
+    try:
+        website = request.form["nr_site"]
+        ruleset = request.form["nr_ruleset"]
+        ret = RM.testRuleset(website,ruleset)
+        return str("<br/>".join([ news[0] for news in ret]))
+    except Exception as e:
+        return "error:" + e
 
 
 @app.route('/api/addrule', methods=['POST'])

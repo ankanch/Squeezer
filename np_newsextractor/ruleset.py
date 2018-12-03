@@ -5,9 +5,9 @@ class ruleset:
     rsc = False
     # Action types definition
     AT_SELECT_ALL_NEWS = 10       # 2 element list to match getNewsList(self, selector):
-    AT_READ_TITLE_LINKS = 11      # second param is for filtering, keep title with given keyword only , matching getFilteredTitleLinks(self, key, titlefield, linksfield):
-    AT_SELECT_ALL = 12            # 4 element list to match selectAll(self,selector,ignorelist=[],containskey=[])
-    AT_GETALL_TITLEANDLINKS = 13  #2 element list to match getAllFilteredTitleLinks(self,key="",staglist=[]):
+    AT_READ_TITLE_LINKS = 11        # second param is for filtering, keep title with given keyword only , matching getFilteredTitleLinks(self, key, titlefield, linksfield):
+    AT_SELECT_ALL = "SELECT_ALL"         #12            # 4 element list to match selectAll(self, selector, ignorelist=[])
+    AT_GETALL_TITLEANDLINKS = "GET_NEWS" #13  #2 element list to match getAllFilteredTitleLinks(self,key=[],staglist=[]):
 
     def createRuleSet(self, name, site):
         if self.rsc != True:
@@ -39,18 +39,19 @@ class ruleset:
             return raw
         return ""
 
-    def importRules(self, dir, raw=""):
+    def importRules(self, dir):
         if self.rsc == False:
-            if raw == "":
-                with open(dir) as f:
-                    v = f.readlines()
-                    self.name = v[1]
-                    self.site = v[2]
-                    self.rules = eval(v[3])
-                    return self.rules
-            self.rules = eval(raw)
-            return self.rules
+            with open(dir) as f:
+                v = f.readlines()
+                self.name = v[1]
+                self.site = v[2]
+                self.rules = eval(v[3])
+                return self.rules
         return []
+
+    def parseRules(self,raw=""):
+        self.rules = eval(raw)
+        return self.rules
 
 
 if __name__ == "__main__":

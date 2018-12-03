@@ -25,7 +25,7 @@ def executeRuleset(rs):
             status, news = re.getFilteredTitleLinks(rule[1],"string", "href")
             data.extend(news)
         if rule[0] == ruleset.AT_SELECT_ALL:
-            re.selectAll(rule[1][0],rule[1][1],rule[1][2])
+            re.selectAll(rule[1][0], rule[1][1])
         if rule[0] == ruleset.AT_GETALL_TITLEANDLINKS:
             data.extend(re.getAllFilteredTitleLinks(key=rule[1][0]))
     return data
