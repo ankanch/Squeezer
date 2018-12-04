@@ -39,5 +39,29 @@ def testRuleset(website,rulesets):
     data = executeRuleset(rm)
     return data
 
+def addRule(name,website,rulesets):
+    """
+    add a new rule to system
+    :param name:  name of the rule
+    :param website:web address of the rule
+    :param rulesets: ruleset
+    :return:  status to indicate if ruleset has been added
+    """
+    try:
+        rm = ruleset()
+        rm.createRuleSet(name, website)
+        rm.parseRules(raw=rulesets)
+        rm.exportRules("schduled_rulesets/" + name)
+        return "Success added a new rule."
+    except Exception as e:
+        return e
+
+def removeRule(ruleid):
+    try:
+        os.remove(PATH_RULE_FOLDER + ruleid)
+    except Exception as e:
+        return e
+    return "Success removed rule."
+
 if __name__ == "__main__":
     print(listrules())

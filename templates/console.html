@@ -217,7 +217,10 @@
                         <div class="col-md-2">
                             <button type="button" class="btn btn-warning" onclick="testNewRule()">-- Test --</button>
                         </div>
-                        <div class="col-md-10" id="testresult">After you added rule information,please click test to test if the rule works as expected. The test result(grabbed news) will be displayed in this filed.</div>
+                        <div class="col-md-10" id="testresult">After you added rule information,please click test to
+                            test if the rule works as expected. The test result(grabbed news) will be displayed in this
+                            filed.
+                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -315,7 +318,7 @@
                 var ilist = []
                 var silist = $("#add_gnc_ignorechild").val().split(",");
                 for (var i = 0; i < silist.length; i++) {
-                    ilist.push(parseInt( silist[i] ));
+                    ilist.push(parseInt(silist[i]));
                 }
                 ruleparam.push(ilist);
                 break;
@@ -342,6 +345,15 @@
             alert("please fill all necessary filed before you continue.");
             return;
         }
+        $.ajax({
+            url: '/api/addrule',
+            type: 'post',
+            dataType: 'html',
+            data: $("#form_add_rule").serialize(),
+            success: function (data) {
+                alert(data);
+            }
+        });
     }
 
     String.prototype.replaceAll = function (search, replacement) {
@@ -355,7 +367,6 @@
         $("#viewrule_btn").toggle();
         // portion of rule data are split by "-SP;"
         ruledata = ($("#" + id).html()).split("-SP;");
-        console.log(ruledata);
         $("#add_rulename").val(ruledata[1]);
         $("#add_website").val(ruledata[2]);
         $("#add_ruleset").val(ruledata[3].replaceAll("&gt;", ">"));
@@ -363,7 +374,19 @@
     }
 
     function delRule(id) {
-
+        ruledata = ($("#" + id).html()).split("-SP;");
+        ruleid = ruledata[1];
+        if (confirm("Comfirm to delete the rule [" + ruleid + "] ?")) {
+            $.ajax({
+                url: '/api/delrule',
+                type: 'post',
+                dataType: 'html',
+                data: {ruleid: ruleid},
+                success: function (data) {
+                    alert(data);
+                }
+            });
+        }
     }
 
     function closeview() {

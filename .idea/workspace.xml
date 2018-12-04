@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f419f54-965b-434c-92fb-f648b8edc8b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/schduled_rulesets/tr_0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cache/user.logged" beforeDir="false" afterPath="$PROJECT_DIR$/cache/user.logged" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/np_newsextractor/newsextractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/np_newsextractor/newsextractor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/np_newsextractor/rsinterpreter.py" beforeDir="false" afterPath="$PROJECT_DIR$/np_newsextractor/rsinterpreter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/np_newsextractor/ruleset.py" beforeDir="false" afterPath="$PROJECT_DIR$/np_newsextractor/ruleset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schduled_rulesets/tr_1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/console.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/console.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webui/rulemanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/rulemanager.py" afterDir="false" />
     </list>
@@ -31,7 +28,7 @@
     <SUITE FILE_PATH="coverage/NewsPush$loadconfidentials.coverage" NAME="loadconfidentials Coverage Results" MODIFIED="1542169182971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_tools" />
     <SUITE FILE_PATH="coverage/NewsPush$ruleset.coverage" NAME="ruleset Coverage Results" MODIFIED="1543841558120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
     <SUITE FILE_PATH="coverage/NewsPush$pagedownloader.coverage" NAME="pagedownloader Coverage Results" MODIFIED="1543306805034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
-    <SUITE FILE_PATH="coverage/NewsPush$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1543836843389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NewsPush$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1543886566766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewsPush$extractrules.coverage" NAME="extractrules Coverage Results" MODIFIED="1542112808583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
   </component>
   <component name="DatabaseView">
@@ -52,16 +49,16 @@
     <session id="883783434">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="7" />
           <entry key="project.open.time.7" value="8" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,7 +68,7 @@
           <entry key="cache" value="6" />
           <entry key="html" value="18" />
           <entry key="logged" value="5" />
-          <entry key="py" value="91" />
+          <entry key="py" value="93" />
           <entry key="td2" value="2" />
           <entry key="td3" value="2" />
           <entry key="td4" value="3" />
@@ -86,7 +83,7 @@
         <counts>
           <entry key="HTML" value="18" />
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="91" />
+          <entry key="Python" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -94,66 +91,52 @@
           <entry key="Password" value="10" />
           <entry key="cache" value="11" />
           <entry key="dummy" value="34" />
-          <entry key="html" value="5581" />
-          <entry key="py" value="12984" />
+          <entry key="html" value="5693" />
+          <entry key="py" value="13446" />
           <entry key="tr_0" value="1" />
           <entry key="tr_1_new" value="209" />
           <entry key="tr_2" value="2" />
-          <entry key="txt" value="368" />
+          <entry key="txt" value="443" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="5581" />
-          <entry key="PLAIN_TEXT" value="635" />
-          <entry key="Python" value="12984" />
+          <entry key="HTML" value="5693" />
+          <entry key="PLAIN_TEXT" value="710" />
+          <entry key="Python" value="13446" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+            <state relative-caret-position="297">
+              <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
               <folding>
-                <marker date="1543846170287" expanded="true" signature="1955:2521" ph="..." />
-                <marker date="1543846170287" expanded="true" signature="2048:2300" ph="..." />
-                <marker date="1543846170287" expanded="true" signature="2518:2521" ph="..." />
+                <marker date="1543887017239" expanded="true" signature="1955:2697" ph="..." />
+                <marker date="1543887017239" expanded="true" signature="2378:2449" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/np_newsextractor/ruleset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <caret line="51" column="18" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/console.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="281" column="27" selection-start-line="281" selection-start-column="27" selection-end-line="281" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webui/rulemanager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1543843749591" expanded="true" signature="768:1073" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/np_newsextractor/rsinterpreter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="29" column="65" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="65" />
+            <state relative-caret-position="311">
+              <caret line="353" column="28" selection-start-line="353" selection-start-column="28" selection-end-line="353" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -214,9 +197,9 @@
         <option value="$PROJECT_DIR$/schduled_rulesets/tr_2" />
         <option value="$PROJECT_DIR$/np_newsextractor/rsinterpreter.py" />
         <option value="$PROJECT_DIR$/np_newsextractor/ruleset.py" />
+        <option value="$PROJECT_DIR$/templates/console.html" />
         <option value="$PROJECT_DIR$/webui/rulemanager.py" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/templates/console.html" />
       </list>
     </option>
   </component>
@@ -239,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,13 +243,17 @@
             <path>
               <item name="NewsPush" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewsPush" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsPush" type="462c0819:PsiDirectoryNode" />
               <item name="webui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rsinterpreter">
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
     <configuration name="newsextractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsPush" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -429,10 +417,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.rsinterpreter" />
         <item itemvalue="Python.ruleset" />
         <item itemvalue="Python.newsextractor" />
-        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.rulemanager" />
       </list>
     </recent_temporary>
@@ -511,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543816601526</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="implement the testing of ruleset. refine rule definitions for human read.">
+      <created>1543846280015</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543846280015</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -527,7 +522,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20272315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -566,7 +561,8 @@
     <MESSAGE value="implement partial console UI" />
     <MESSAGE value="add two view functions for add/test rules" />
     <MESSAGE value="redesign add rule set page" />
-    <option name="LAST_COMMIT_MESSAGE" value="redesign add rule set page" />
+    <MESSAGE value="implement the testing of ruleset. refine rule definitions for human read." />
+    <option name="LAST_COMMIT_MESSAGE" value="implement the testing of ruleset. refine rule definitions for human read." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/np_pagedownloader/PageDownloader.py" />
@@ -747,28 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/np_newsextractor/ruleset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/schduled_rulesets/tr_0">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="171" selection-start-line="3" selection-start-column="171" selection-end-line="3" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/rulemanager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543843749591" expanded="true" signature="768:1073" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,22 +757,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/templates/console.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        <state relative-caret-position="311">
+          <caret line="353" column="28" selection-start-line="353" selection-start-column="28" selection-end-line="353" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/np_newsextractor/ruleset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webui/rulemanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
-            <marker date="1543846170287" expanded="true" signature="1955:2521" ph="..." />
-            <marker date="1543846170287" expanded="true" signature="2048:2300" ph="..." />
-            <marker date="1543846170287" expanded="true" signature="2518:2521" ph="..." />
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1543886998758" expanded="true" signature="768:1726" ph="..." />
+            <marker date="1543886998758" expanded="true" signature="1108:1568" ph="..." />
+            <marker date="1543886998758" expanded="true" signature="1600:1726" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/console.html">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="281" column="27" selection-start-line="281" selection-start-column="27" selection-end-line="281" selection-end-column="27" />
+        <state relative-caret-position="297">
+          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <folding>
+            <marker date="1543887017239" expanded="true" signature="1955:2697" ph="..." />
+            <marker date="1543887017239" expanded="true" signature="2378:2449" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

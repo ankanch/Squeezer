@@ -78,14 +78,19 @@ def api_testrule():
     except Exception as e:
         return "error:" + e
 
+@app.route('/api/delrule', methods=['POST'])
+@login_required
+def api_delrule():
+    ruleid = request.form["ruleid"]
+    return RM.removeRule(ruleid)
 
 @app.route('/api/addrule', methods=['POST'])
 @login_required
 def api_addrule():
     rulename = request.form["nr_name"]
     website = request.form["nr_site"]
-    selectos = request.form["nr_ruleset"]
-    return rulename
+    ruleset = request.form["nr_ruleset"]
+    return RM.addRule(rulename,website,ruleset)
 
 
 if __name__ == '__main__':
