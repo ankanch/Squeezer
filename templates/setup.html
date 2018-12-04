@@ -203,7 +203,7 @@
     <div class="row">
         <div class="col-md-5"></div>
         <div class="col-md-2">
-            <button type="button" class="btn btn-primary btn-lg">Confirm</button>
+            <button onclick="setup()" type="button" class="btn btn-primary btn-lg" id="btnconfirm">Confirm</button>
         </div>
         <div class="col-md-5"></div>
     </div>
@@ -218,5 +218,39 @@
         </div>
     </div>
 </div>
+<script>
+
+    $(document).ready(function () {
+        $('#confirminfo').change(function () {
+            if (this.checked != true) {
+                btnconfirm.disable(true);
+            }else{
+                btnconfirm.disable(false);
+            }
+        });
+    });
+
+    function setup() {
+        var email = $("#email").val();
+        var hh = $('#time_hour').find(":selected").text();
+        var mm = $('#time_minute').find(":selected").text();
+        var time = hh + ":" + mm;
+        var apikey = $("#apikey").val();
+        var password = $("#password").val();
+        if (email.length < 0 || time.length < 2 || apikey.length < 10 || password.length < 6) {
+            alert("error,please fill all the information");
+            return;
+        }
+        $.ajax({
+            url: '/api/firstsetup',
+            type: 'post',
+            dataType: 'html',
+            data: {email: email, time: time, apikey: apikey, password: password},
+            success: function (data) {
+                alert(data);
+            }
+        });
+    }
+</script>
 </body>
 </html>

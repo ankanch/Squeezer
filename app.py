@@ -2,6 +2,7 @@ from flask import Flask, render_template, session, redirect, url_for, request, m
 from functools import wraps
 from webui import usermanager as UM
 from webui import rulemanager as RM
+from np_tools import  configmanager as CFGM
 import config as CFG
 
 app = Flask(__name__)
@@ -76,6 +77,19 @@ def setuppage():
         return render_template("setup.html",version=CFG.VERSION)
     return redirect(url_for('loginpage', next="console"))
 
+@app.route('/api/firstsetup', methods=['POST'])
+def api_firstsetup():
+    if CFG.FIRST_SETUP:
+        email = request.form["email"]
+        time = request.form["time"]
+        apikey = request.form["apikey"]
+        password = request.form["password"]
+        CFGM.changConfigure("email",email)
+        CFGM.changConfigure("time",time)
+        CFGM.changConfigure("apikey",apikey)
+        CFGM.changConfigure("password",password)
+    return "error,you already setup Squeezer"
+
 
 @app.route('/api/testrule', methods=['POST'])
 @login_required
@@ -104,12 +118,12 @@ def api_addrule():
     ruleset = request.form["nr_ruleset"]
     return RM.addRule(rulename, website, ruleset)
 
-@app.route('/api/updatetime', methods=['POST'])
+@app.route('/api/updateinfo', methods=['POST'])
 @login_required
 def api_updatetime():
-    hour = request.form["up_hour"]
-    minute = request.form["up_minute"]
-    CFG.EMAIL_SENDING_TIME = hour + ":" + minute
+    infotype = request.form["infotype"]
+    data = request.form["data"]
+    CFGM.changConfigure(infotype,data)
     return "Success"
 
 if __name__ == '__main__':

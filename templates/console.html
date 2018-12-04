@@ -57,12 +57,12 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                <input type="email" class="form-control" id="usueremail"
                                        aria-describedby="emailHelp" placeholder="Enter email" value="{{ email }}">
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <button type="submit" class="btn btn-primary">Update</button>
+                            <button type="button" class="btn btn-primary" onclick="updateInfo('email')">Update</button>
                         </div>
                         <small id="emailHelp" class="form-text text-muted"
                                style="margin-left: 17px;margin-bottom: 25px;">All you subscribed information will be
@@ -169,7 +169,7 @@
                         </div>
                         <div class="col-md-2">Format HH:MM</div>
                         <div class="col-md-2">
-                            <button type="submit" class="btn btn-primary">Update</button>
+                            <button type="button" class="btn btn-primary" onclick="updateInfo('time')">Update</button>
                         </div>
                         <small id="emailHelp" class="form-text text-muted"
                                style="margin-left: 17px;margin-bottom: 25px;">Time to send email to you.Squeezer will
@@ -191,7 +191,7 @@
                             <button type="submit" class="btn btn-warning" onclick="showAPIkey()" id="apikeydisplay">
                                 Show
                             </button>
-                            <button type="submit" class="btn btn-primary">Update</button>
+                            <button type="submit" class="btn btn-primary" onclick="updateInfo('apikey')">Update</button>
                         </div>
                         <small id="emailHelp" class="form-text text-muted"
                                style="margin-left: 17px;margin-bottom: 25px;">We will use the API key you provided to
@@ -501,6 +501,36 @@
         $('#addnewrule').modal('hide');
         $("#addrule_btn").toggle();
         $("#viewrule_btn").toggle();
+    }
+
+    function updateInfo(infotype) {
+        var data = "";
+        switch (infotype) {
+            case "email":
+                data = $("#usueremail").val();
+                break;
+            case "time":
+                var hh = $('#time_hour').find(":selected").text();
+                var mm = $('#time_minute').find(":selected").text();
+                data = hh + ":" + mm;
+                break;
+            case "apikey":
+                data = $("#apikey").val();
+                break;
+            default:
+                alert("wrong infotype");
+                break;
+        }
+        $.ajax({
+            url: '/api/updateinfo',
+            type: 'post',
+            dataType: 'html',
+            data: {infotype: infotype, data: data},
+            success: function (data) {
+                alert(data);
+            }
+        });
+
     }
 
     $(document).ready(function () {
