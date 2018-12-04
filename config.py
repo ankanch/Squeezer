@@ -15,4 +15,4 @@ FIRST_SETUP = False
 MAX_CACHED_NEWS = 1000
 
 # squeezer source
-VERSION = "0.1"
+VERSION = "ver 0.1 @ 2018"

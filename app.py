@@ -23,13 +23,17 @@ def login_required(f):
 
 
 @app.route('/')
-@login_required
 def index():
+    if CFG.FIRST_SETUP:
+        return redirect(url_for("setuppage"))
     return redirect(url_for("loginpage"))
 
 
 @app.route('/login', methods=['GET', 'POST'])
 def loginpage():
+    if "sid" not in session.keys():
+        sid = UM.generateSID()
+        session["sid"] = sid
     if request.method != 'POST':
         if UM.checkSID(session["sid"]):
             return redirect(url_for("consolepage"))
@@ -50,7 +54,13 @@ def loginpage():
 def consolepage():
     # get all rule data
     rules = RM.listrules()
-    return render_template("console.html", ruledata=rules, email=CFG.EMAIL_RECIVIER, apikey=CFG.SENDGRID_MAIL_API_KEY)
+    return render_template("console.html",
+                           ruledata=rules,
+                           email=CFG.EMAIL_RECIVIER,
+                           apikey=CFG.SENDGRID_MAIL_API_KEY,
+                           pushtime=CFG.EMAIL_SENDING_TIME.split(":"),
+                           version=CFG.VERSION
+                           )
 
 
 @app.route('/logout')
@@ -63,7 +73,7 @@ def logout():
 @app.route('/setup')
 def setuppage():
     if CFG.FIRST_SETUP:
-        return render_template("setup.html")
+        return render_template("setup.html",version=CFG.VERSION)
     return redirect(url_for('loginpage', next="console"))
 
 
@@ -73,10 +83,11 @@ def api_testrule():
     try:
         website = request.form["nr_site"]
         ruleset = request.form["nr_ruleset"]
-        ret = RM.testRuleset(website,ruleset)
-        return str("<br/>".join([ news[0] for news in ret]))
+        ret = RM.testRuleset(website, ruleset)
+        return str("<br/>".join([news[0] for news in ret]))
     except Exception as e:
         return "error:" + e
+
 
 @app.route('/api/delrule', methods=['POST'])
 @login_required
@@ -84,14 +95,22 @@ def api_delrule():
     ruleid = request.form["ruleid"]
     return RM.removeRule(ruleid)
 
+
 @app.route('/api/addrule', methods=['POST'])
 @login_required
 def api_addrule():
     rulename = request.form["nr_name"]
     website = request.form["nr_site"]
     ruleset = request.form["nr_ruleset"]
-    return RM.addRule(rulename,website,ruleset)
+    return RM.addRule(rulename, website, ruleset)
 
+@app.route('/api/updatetime', methods=['POST'])
+@login_required
+def api_updatetime():
+    hour = request.form["up_hour"]
+    minute = request.form["up_minute"]
+    CFG.EMAIL_SENDING_TIME = hour + ":" + minute
+    return "Success"
 
 if __name__ == '__main__':
     app.run()

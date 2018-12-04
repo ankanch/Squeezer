@@ -3,14 +3,220 @@
 <head>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
     <title>Setup - Squeezer</title>
 </head>
 <body>
+<div class="container">
+    <h2 style="margin-bottom: 5%;margin-top: 1%">Squeezer Setup</h2>
+    <span>Hi there, just few steps away to get Squeezer to work. You will need to complete fatal settings below, once you've finished you will be automatically direct to the console page.</span>
+    <h5 style="margin-top: 3%">Subscriber Preference</h5>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+            Email Address:
+        </div>
+        <div class="col-md-4 form-group">
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                   placeholder="Enter email">
+        </div>
+        <div class="col-md-4">
+            <small id="emailHelp" class="form-text text-muted">Email will be sent to this address at set time.</small>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+            Preferred Push Time:
+        </div>
+        <div class="col-md-1 form-group">
+            <select class="form-control" id="time_hour">
+                <option>00</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
 
+            </select>
+        </div>
+        <div class="col-md-1 form-group">
+            <select class="form-control" id="time_minute">
+                <option>00</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+                <option>32</option>
+                <option>33</option>
+                <option>34</option>
+                <option>35</option>
+                <option>36</option>
+                <option>37</option>
+                <option>38</option>
+                <option>39</option>
+                <option>40</option>
+                <option>41</option>
+                <option>42</option>
+                <option>43</option>
+                <option>44</option>
+                <option>45</option>
+                <option>46</option>
+                <option>47</option>
+                <option>48</option>
+                <option>49</option>
+                <option>50</option>
+                <option>51</option>
+                <option>52</option>
+                <option>53</option>
+                <option>54</option>
+                <option>55</option>
+                <option>56</option>
+                <option>57</option>
+                <option>58</option>
+                <option>59</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            Format: HH:MM
+        </div>
+        <div class="col-md-4">
+            <small id="emailHelp" class="form-text text-muted">Time to send email to you.Squeezer will deal with the
+                timezone.
+            </small>
+        </div>
+    </div>
+    <h5>Email Provider</h5>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+            Provider:
+        </div>
+        <div class="col-md-2 form-group">
+            <select class="form-control" id="emailprovider">
+                <option>SendGrid</option>
+            </select>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <small id="emailHelp" class="form-text text-muted">Only <a href="https://sendgrid.com/" target="_blank">SendGrid</a>
+                is supported at this time.
+            </small>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+            API Key:
+        </div>
+        <div class="col-md-4 form-group">
+            <input type="text" class="form-control" id="apikey" placeholder="example: ASIH23948SDNASD010-SADJAD239">
+        </div>
+        <div class="col-md-4">
+            <small id="emailHelp" class="form-text text-muted">You can get your API key from your email provider.We will
+                use this key to send email.
+            </small>
+        </div>
+    </div>
+    <h5>Console Security</h5>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+            Password for console:
+        </div>
+        <div class="col-md-4 form-group">
+            <input type="password" class="form-control" id="password" placeholder="password to protect console">
+        </div>
+        <div class="col-md-4">
+            <small id="emailHelp" class="form-text text-muted">Set a password for Squeezer console where you manage your
+                subscriptions.
+            </small>
+        </div>
+    </div>
+
+    <div class="row" style="margin-bottom: 2%;margin-top: 2%">
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="confirminfo">
+                <label class="form-check-label" for="confirminfo">
+                    Info Is Right
+                </label>
+            </div>
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
+            <button type="button" class="btn btn-primary btn-lg">Confirm</button>
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+    <hr style="margin-top: 50px">
+    <div class="row" style="margin-bottom: 5%;">
+        <div class="col-md-6 ">
+            <a href="https://github.com/ankanch/Squeezer" target="_blank">Squeezer</a> by <a href="http://akakanch.com/"
+                                                                                             target="_blank">Kanch</a>.
+        </div>
+        <div class="col-md-6" style="text-align: right">
+            {{ version }}
+        </div>
+    </div>
+</div>
 </body>
 </html>

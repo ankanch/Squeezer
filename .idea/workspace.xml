@@ -5,9 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cache/user.logged" beforeDir="false" afterPath="$PROJECT_DIR$/cache/user.logged" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schduled_rulesets/tr_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/console.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/console.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webui/rulemanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/rulemanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/setup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
     <SUITE FILE_PATH="coverage/NewsPush$loadconfidentials.coverage" NAME="loadconfidentials Coverage Results" MODIFIED="1542169182971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_tools" />
     <SUITE FILE_PATH="coverage/NewsPush$ruleset.coverage" NAME="ruleset Coverage Results" MODIFIED="1543841558120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
     <SUITE FILE_PATH="coverage/NewsPush$pagedownloader.coverage" NAME="pagedownloader Coverage Results" MODIFIED="1543306805034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
-    <SUITE FILE_PATH="coverage/NewsPush$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1543886566766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NewsPush$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1543896335926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewsPush$extractrules.coverage" NAME="extractrules Coverage Results" MODIFIED="1542112808583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
   </component>
   <component name="DatabaseView">
@@ -49,26 +49,27 @@
     <session id="883783434">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="7" />
-          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="1" value="2" />
+          <entry key="Google@cnBeta" value="1" />
           <entry key="Password" value="2" />
           <entry key="cache" value="6" />
-          <entry key="html" value="18" />
+          <entry key="html" value="21" />
           <entry key="logged" value="5" />
-          <entry key="py" value="93" />
+          <entry key="py" value="96" />
           <entry key="td2" value="2" />
           <entry key="td3" value="2" />
           <entry key="td4" value="3" />
@@ -81,9 +82,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="18" />
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="93" />
+          <entry key="HTML" value="21" />
+          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="Python" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -91,52 +92,52 @@
           <entry key="Password" value="10" />
           <entry key="cache" value="11" />
           <entry key="dummy" value="34" />
-          <entry key="html" value="5693" />
-          <entry key="py" value="13446" />
+          <entry key="html" value="7205" />
+          <entry key="py" value="13625" />
           <entry key="tr_0" value="1" />
           <entry key="tr_1_new" value="209" />
           <entry key="tr_2" value="2" />
-          <entry key="txt" value="443" />
+          <entry key="txt" value="463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="5693" />
-          <entry key="PLAIN_TEXT" value="710" />
-          <entry key="Python" value="13446" />
+          <entry key="HTML" value="7205" />
+          <entry key="PLAIN_TEXT" value="730" />
+          <entry key="Python" value="13625" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+            <state relative-caret-position="259">
+              <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
               <folding>
-                <marker date="1543887017239" expanded="true" signature="1955:2697" ph="..." />
-                <marker date="1543887017239" expanded="true" signature="2378:2449" ph="..." />
+                <marker date="1543904603025" expanded="true" signature="2353:3329" ph="..." />
+                <marker date="1543904603025" expanded="true" signature="2777:2849" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/np_newsextractor/ruleset.py">
+        <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
-              <caret line="51" column="18" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="323">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/console.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/setup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="353" column="28" selection-start-line="353" selection-start-column="28" selection-end-line="353" selection-end-column="28" />
+            <state relative-caret-position="340">
+              <caret line="216" column="25" selection-start-line="216" selection-start-column="25" selection-end-line="216" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -171,7 +172,6 @@
         <option value="$PROJECT_DIR$/np_pagedownloader/PageDownloader.py" />
         <option value="$PROJECT_DIR$/data/testdata1.txt" />
         <option value="$PROJECT_DIR$/data/td2" />
-        <option value="$PROJECT_DIR$/templates/setup.html" />
         <option value="$PROJECT_DIR$/data/td3" />
         <option value="$PROJECT_DIR$/np_newsextractor/extractrules.py" />
         <option value="$PROJECT_DIR$/np_tools/timeconversion.py" />
@@ -187,7 +187,6 @@
         <option value="$PROJECT_DIR$/tests/td4.1" />
         <option value="$PROJECT_DIR$/tests/td4" />
         <option value="$PROJECT_DIR$/cache/WebUI.Password" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/cache/user.logged" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/webui/usermanager.py" />
@@ -197,9 +196,11 @@
         <option value="$PROJECT_DIR$/schduled_rulesets/tr_2" />
         <option value="$PROJECT_DIR$/np_newsextractor/rsinterpreter.py" />
         <option value="$PROJECT_DIR$/np_newsextractor/ruleset.py" />
-        <option value="$PROJECT_DIR$/templates/console.html" />
         <option value="$PROJECT_DIR$/webui/rulemanager.py" />
+        <option value="$PROJECT_DIR$/templates/console.html" />
+        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/setup.html" />
       </list>
     </option>
   </component>
@@ -222,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,6 +254,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543846280015</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="implemented add/remove ruleset">
+      <created>1543887143652</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543887143652</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -522,7 +530,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -562,7 +570,8 @@
     <MESSAGE value="add two view functions for add/test rules" />
     <MESSAGE value="redesign add rule set page" />
     <MESSAGE value="implement the testing of ruleset. refine rule definitions for human read." />
-    <option name="LAST_COMMIT_MESSAGE" value="implement the testing of ruleset. refine rule definitions for human read." />
+    <MESSAGE value="implemented add/remove ruleset" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented add/remove ruleset" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/np_pagedownloader/PageDownloader.py" />
@@ -655,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/setup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cache/WebUI.Password">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -680,13 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -712,9 +707,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schduled_rulesets/tr_1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/schduled_rulesets/tr_1" />
     <entry file="file://$PROJECT_DIR$/tests/td3">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -757,20 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/console.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="353" column="28" selection-start-line="353" selection-start-column="28" selection-end-line="353" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/np_newsextractor/ruleset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webui/rulemanager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
@@ -784,14 +763,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/np_newsextractor/ruleset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schduled_rulesets/Google@cnBeta">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+        <state relative-caret-position="259">
+          <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
           <folding>
-            <marker date="1543887017239" expanded="true" signature="1955:2697" ph="..." />
-            <marker date="1543887017239" expanded="true" signature="2378:2449" ph="..." />
+            <marker date="1543904603025" expanded="true" signature="2353:3329" ph="..." />
+            <marker date="1543904603025" expanded="true" signature="2777:2849" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/console.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="352" column="12" selection-start-line="352" selection-start-column="12" selection-end-line="352" selection-end-column="25" />
+          <folding>
+            <element signature="n#select#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#select#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/setup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="216" column="25" selection-start-line="216" selection-start-column="25" selection-end-line="216" selection-end-column="25" />
         </state>
       </provider>
     </entry>
