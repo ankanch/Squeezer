@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f419f54-965b-434c-92fb-f648b8edc8b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/np_tools/configmanager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/console.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/console.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/setup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +64,9 @@
           <entry key="Password" value="3" />
           <entry key="cache" value="6" />
           <entry key="html" value="30" />
-          <entry key="ini" value="6" />
+          <entry key="ini" value="10" />
           <entry key="logged" value="5" />
-          <entry key="py" value="106" />
+          <entry key="py" value="108" />
           <entry key="td2" value="2" />
           <entry key="td3" value="2" />
           <entry key="td4" value="3" />
@@ -86,9 +80,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="30" />
-          <entry key="Ini" value="6" />
+          <entry key="Ini" value="10" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Python" value="106" />
+          <entry key="Python" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -98,19 +92,19 @@
           <entry key="dummy" value="34" />
           <entry key="html" value="7891" />
           <entry key="ini" value="79" />
-          <entry key="py" value="14351" />
+          <entry key="py" value="14374" />
           <entry key="tr_0" value="1" />
           <entry key="tr_1_new" value="209" />
           <entry key="tr_2" value="2" />
-          <entry key="txt" value="558" />
+          <entry key="txt" value="781" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="7891" />
           <entry key="Ini" value="79" />
-          <entry key="PLAIN_TEXT" value="825" />
-          <entry key="Python" value="14351" />
+          <entry key="PLAIN_TEXT" value="1048" />
+          <entry key="Python" value="14374" />
         </counts>
       </usages-collector>
     </session>
@@ -120,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/setup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="449">
               <caret line="227" column="40" selection-start-line="227" selection-start-column="40" selection-end-line="227" selection-end-column="40" />
               <folding>
                 <element signature="n#select#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -131,49 +125,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="89" column="37" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="37" />
+            <state relative-caret-position="81">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding>
                 <element signature="e#0#92#0" expanded="true" />
-                <marker date="1543917536384" expanded="true" signature="2874:3838" ph="..." />
-                <marker date="1543917536384" expanded="true" signature="3298:3370" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/np_tools/configmanager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <marker date="1543917610601" expanded="true" signature="89:94" ph="..." />
-                <marker date="1543917610601" expanded="true" signature="690:691" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
+                <marker date="1543918041218" expanded="true" signature="2874:3838" ph="..." />
+                <marker date="1543918041218" expanded="true" signature="3298:3370" ph="..." />
               </folding>
             </state>
           </provider>
@@ -236,10 +195,10 @@
         <option value="$PROJECT_DIR$/webui/rulemanager.py" />
         <option value="$PROJECT_DIR$/templates/console.html" />
         <option value="$PROJECT_DIR$/templates/setup.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/np_tools/configmanager.py" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -269,21 +228,6 @@
             <path>
               <item name="NewsPush" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewsPush" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewsPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsPush" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewsPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsPush" type="462c0819:PsiDirectoryNode" />
-              <item name="np_tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewsPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsPush" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -555,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543904678018</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="implement backend of console settings and first setups. Change configures from config.py to config.ini. &lt;bug raised: seems like first_setup field doesn't working?User can visit setup page directly by the address.&gt;">
+      <created>1543917856304</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543917856304</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -613,7 +564,8 @@
     <MESSAGE value="implement the testing of ruleset. refine rule definitions for human read." />
     <MESSAGE value="implemented add/remove ruleset" />
     <MESSAGE value="complete the UI of setup page, add change push time in console (for UI only, backend TBD)." />
-    <option name="LAST_COMMIT_MESSAGE" value="complete the UI of setup page, add change push time in console (for UI only, backend TBD)." />
+    <MESSAGE value="implement backend of console settings and first setups. Change configures from config.py to config.ini. &lt;bug raised: seems like first_setup field doesn't working?User can visit setup page directly by the address.&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement backend of console settings and first setups. Change configures from config.py to config.ini. &lt;bug raised: seems like first_setup field doesn't working?User can visit setup page directly by the address.&gt;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/np_pagedownloader/PageDownloader.py" />
@@ -821,28 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="89" column="37" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-            <marker date="1543917536384" expanded="true" signature="2874:3838" ph="..." />
-            <marker date="1543917536384" expanded="true" signature="3298:3370" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/np_tools/configmanager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -855,9 +785,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/setup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="449">
           <caret line="227" column="40" selection-start-line="227" selection-start-column="40" selection-end-line="227" selection-end-column="40" />
           <folding>
             <element signature="n#select#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -866,10 +813,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="81">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#92#0" expanded="true" />
+            <marker date="1543918041218" expanded="true" signature="2874:3838" ph="..." />
+            <marker date="1543918041218" expanded="true" signature="3298:3370" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

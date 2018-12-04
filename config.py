@@ -10,10 +10,10 @@ EMAIL_RECIVIER = loadKey("EMAIL_RECIVIER")
 
 # web UI preference
 CONSOLE_PWD = loadKey("console_password")
-FIRST_SETUP = loadKey("FIRST_SETUP")
+FIRST_SETUP = eval(loadKey("FIRST_SETUP"))
 
 # news cache
-MAX_CACHED_NEWS = loadKey("MAX_CACHED_NEWS")
+MAX_CACHED_NEWS = eval(loadKey("MAX_CACHED_NEWS"))
 
 # squeezer source
 VERSION = "ver 0.1 @ 2018"
