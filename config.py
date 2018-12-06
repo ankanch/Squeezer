@@ -16,5 +16,4 @@ FIRST_SETUP = eval(loadKey("FIRST_SETUP"))
 MAX_CACHED_NEWS = eval(loadKey("MAX_CACHED_NEWS"))
 
 # squeezer source fixed
-COMMAND_RUN_SCHEDULER = "CMD_RUN_SCHEDULER.CMD"
 VERSION = "ver 0.1 @ 2018"

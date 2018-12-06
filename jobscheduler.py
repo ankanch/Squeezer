@@ -1,10 +1,11 @@
-import time,os, datetime
+import time,os, datetime,sys
 from np_newsextractor.ruleset import ruleset
 from np_newsextractor.rsinterpreter import executeRuleset
 from np_newspusher.SendMail import sendMail,makeupNewsList
 from np_tools.newscache import newscache
 import config as CFG
 from np_tools import commandmanager
+from subprocess import Popen
 
 bypasscheck = False
 
@@ -42,8 +43,7 @@ def runScheduler():
     print("runScheduler():Squeezer Job Scheduler Running.Schedule push time is ", CFG.EMAIL_SENDING_TIME)
     nc = newscache()
     nc.load()
-    print("started.")
-    while True and commandmanager.checkCommand(CFG.COMMAND_RUN_SCHEDULER):
+    while True and commandmanager.checkCommand(commandmanager.COMMAND_RUN_SCHEDULER):
         if checkschdule():
             try:
                 nl = runTask()
@@ -57,5 +57,51 @@ def runScheduler():
                 time.sleep(10)
     print("runScheduler(): COMMAND_RUN_SCHEDULER not detected! Exit.")
 
+def performTask():
+    print("performTask():Start grabbing and pushing ")
+    nc = newscache()
+    nc.load()
+    finsiehd  = False
+    max_try = 10
+    tried = 1
+    while finsiehd == False and tried <= max_try:
+        try:
+            nl = runTask()
+            nl = nc.filternews(nl)
+            pushNews(nl)
+            print("news pushed")
+            finsiehd = True
+        except:
+            print("performTask(): error occurred. retry in 15 seconds.")
+            time.sleep(15)
+            tried += 1
+    return finsiehd
+
+def checkTime():
+    """
+    as long as minute matched, True will be returned
+    :return: True, if minute matched
+    """
+    ct = datetime.datetime.now().strftime('%H:%M')
+    if ct[:2] == CFG.EMAIL_SENDING_TIME[:2]:
+        if int(ct[3:]) - int(CFG.EMAIL_SENDING_TIME[3:]) <= 0:
+            return True
+    return False
+
 if __name__ == "__main__":
-    runScheduler()
+    if len(sys.argv) < 2:
+        #runScheduler()
+        performTask()
+    else:
+        print("jobscheduler.py:Scheduler Started ")
+        while True:
+            if checkTime():
+                if commandmanager.checkCommand(commandmanager.COMMAND_RUN_SCHEDULER):
+                    time.sleep(60)
+                    performTask()
+            time.sleep(10)
+            if commandmanager.checkCommand(commandmanager.COMMAND_RESTART_SCHEDULER):
+                commandmanager.removeCommand(commandmanager.COMMAND_RESTART_SCHEDULER)
+                break
+        print("jobscheduler.py:Scheduler Stopped.")
+        sys.exit(commandmanager.SCHEDULER_EXIT_CODE)

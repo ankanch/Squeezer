@@ -1,10 +1,23 @@
-from jobscheduler import runTask
 from subprocess import Popen
-import threading
+import time
+from np_tools import commandmanager as cmdmgr
 
-def watchScheduler():
+def startScheduler():
+    cmdmgr.addCommand(cmdmgr.COMMAND_RUN_SCHEDULER)
+
+def stopScheduler():
+    cmdmgr.removeCommand(cmdmgr.COMMAND_RUN_SCHEDULER)
+
+def restartScheduler():
+    cmdmgr.addCommand(cmdmgr.COMMAND_RESTART_SCHEDULER)
+
+if __name__ == "__main__":
+    p = Popen("python jobscheduler.py run as production env", shell=True)
     while True:
-        print("\nwatchScheduler():Starting... " )
-        p = Popen("python main.py", shell=True)
-        p.wait()
-        print("\nTerminated.")
+        statuscode = p.poll()
+        if statuscode == cmdmgr.SCHEDULER_EXIT_CODE:
+            print("scheduler_interface.py:Restarting....")
+            p = Popen("python jobscheduler.py run as production env", shell=True)
+        else:
+            #print("scheduler_interface.py: running fine")
+            time.sleep(5)

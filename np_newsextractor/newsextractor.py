@@ -13,7 +13,7 @@ class newsextractor:
             shtml = html
             self.feeded = True
             print("HTML with length of ",len(html),"feeded")
-            with open("../cache/last_feed.txt","w", encoding="utf-8",) as f:
+            with open("cache/last_feed.txt","w", encoding="utf-8",) as f:
                 f.truncate()
                 f.write(html)
         except Exception as e:
@@ -84,7 +84,7 @@ class newsextractor:
             sortedigl = [ ix-1 for ix  in sortedigl ]
         newselector = newselector.replace("nth-child","nth-of-type")
         self.nlist = self.soup.select(newselector)
-        print(len(self.nlist),"selected. New_selector=", newselector)
+        #print(len(self.nlist),"selected. New_selector=", newselector)
         return self.nlist
 
     def getAllFilteredTitleLinks(self,key=[],staglist=[]):
