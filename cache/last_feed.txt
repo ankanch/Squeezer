@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-transform " />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>Microsoft 微软 - cnBeta.COM</title>
+<meta name="resource-type" content="document" />
+<meta name="author" content="cnBeta" />
+<meta name="robots" content="index, follow" />
+<meta name="revisit-after" content="1 days" />
+<meta name="rating" content="general" />
+<meta name="applicable-device" content="pc,mobile">
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+<link rel="apple-touch-icon" sizes="57x57" href="//static.cnbetacdn.com/images/logo.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="//static.cnbetacdn.com/images/logo.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="//static.cnbetacdn.com/images/logo.png" />
+<script charset="utf-8" type="text/javascript">var GV = {JS_ROOT:"//www.cnbeta.com/js/", JS_VERSION:"", URL:{HOME:"//www.cnbeta.com"}, USER:{ID:0,NICK:'匿名人士',ICON:'https://www.cnbeta.com/images/anonymous.jpg'}};</script>
+<meta name="Cache-Control" content="max-age=3600">
+<meta name="keywords" content="Microsoft 微软,TOP10,cnBeta">
+<meta name="description" content="cnBeta.COM是互联网IT新闻业界的后起之秀,是国内领先的即时科技资讯站点和网友交流平台。消息速度快，报导立场公正中立，网友讨论气氛浓厚，在IT业界拥有独特的影响力。">
+<link href="//www.cnbeta.com/css/layout.css" rel="stylesheet">
+<link href="//www.cnbeta.com/js/util_libs/owl-carousel/cb.carousel.css" rel="stylesheet">
+<link href="//www.cnbeta.com/css/style.css" rel="stylesheet">
+<script src="//www.cnbeta.com/js/jquery.js"></script>
+<script src="//www.cnbeta.com/js/cb.js"></script><link rel="shortcut icon" href="//static.cnbetacdn.com/favicon.ico" type="image/x-icon">
+<meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="6CRnINz5hmBAUU7B_Z3LXcsgJ27JK4-7fcTO03gasweMayJEqoDuVRhleqiLr7lum2x4OI8cvMsvsYSQL0CFXw==">
+</head>
+<body><header class="pageHeader home_topics">
+    <div class="w1200">
+        <h1 class="cnbeta-logo-classic"><a href="http://www.cnbeta.com/">cnBeta.COM_中文业界资讯站</a></h1>
+<nav class="global-navi"><div class="nav-item "><a href="https://www.cnbeta.com/" class="tech">首页</a></div><div class="nav-item "><a href="https://hot.cnbeta.com/" target="_blank" class="nav-hot"><img src="https://static.cnbetacdn.com/frontend/nav/201703/7887e088360526e.png" style="max-height:40px"></a><span class="sub-navi"><a href="https://www.cnbeta.com/category/movie.htm" class="movie">影视</a><a href="https://www.cnbeta.com/category/music.htm" class="music">音乐</a><a href="https://www.cnbeta.com/category/game.htm" class="game">游戏</a><a href="https://www.cnbeta.com/category/comic.htm" class="comic">动漫</a><a href="https://www.cnbeta.com/category/funny.htm" class="funny">趣闻</a></span></div><div class="nav-item "><a href="https://www.cnbeta.com/category/science.htm" class="science">科学</a></div><div class="nav-item "><a href="https://www.cnbeta.com/category/soft.htm" class="soft">软件</a></div><div class="nav-item dropdown"><a href="https://www.cnbeta.com/topics.htm" class="nav-topic">主题<em></em></a><span class="sub-navi"><a href="https://www.cnbeta.com/topics/70.htm">硬件</a><a href="https://www.cnbeta.com/topics/9.htm">Apple</a><a href="https://www.cnbeta.com/topics/52.htm">Google</a><a href="https://www.cnbeta.com/topics/379.htm">iPhone</a><a href="https://www.cnbeta.com/topics/448.htm">科学探索</a><a href="https://www.cnbeta.com/topics/453.htm">人物</a><a href="https://www.cnbeta.com/topics/243.htm">手机</a><a href="https://www.cnbeta.com/topics/39.htm">游戏</a><a href="https://www.cnbeta.com/topics/305.htm">视点·观察</a><a href="https://www.cnbeta.com/topics/601.htm">阿里云</a><a href="https://www.cnbeta.com/topics/4.htm">微软</a><a href="https://www.cnbeta.com/topics/138.htm">通信技术</a><a href="https://www.cnbeta.com/topics/444.htm">Android</a><a href="https://www.cnbeta.com/topics/8.htm">软件和应用</a><a href="https://www.cnbeta.com/topics/197.htm">SONY 索尼</a><a href="https://www.cnbeta.com/topics/422.htm">the United States美国</a><a href="https://www.cnbeta.com/topics/464.htm">Apple iPad</a><a href="https://www.cnbeta.com/topics/184.htm">Windows Phone</a><a href="https://www.cnbeta.com/topics/32.htm">Intel英特尔</a><a href="https://www.cnbeta.com/topics/18.htm">腾讯</a><a href="https://www.cnbeta.com/topics/439.htm">HTC</a><a href="https://www.cnbeta.com/topics/157.htm">安全</a><a href="https://www.cnbeta.com/topics/163.htm">Mozilla FireFox</a><a href="https://www.cnbeta.com/topics/487.htm">小米科技</a><a href="https://www.cnbeta.com/topics/261.htm">百度</a><a href="https://www.cnbeta.com/topics/372.htm">通信运营商</a><a href="https://www.cnbeta.com/topics/19.htm">媒体播放器 / 视频网站</a><a href="https://www.cnbeta.com/topics/411.htm">BlackBerry 黑莓</a><a href="https://www.cnbeta.com/topics/128.htm">网络应用 / Web Apps</a><a href="https://www.cnbeta.com/topics/443.htm">Google Chrome</a><a href="https://www.cnbeta.com/topics/85.htm">Microsoft XBOX</a><a href="https://www.cnbeta.com/topics/144.htm">硬件 - 上网本 / 平板电脑 / 超极本</a><a href="https://www.cnbeta.com/topics/353.htm">电子商务 - B2C / B2B</a><a href="https://www.cnbeta.com/topics/239.htm">Lenovo 联想</a><a href="https://www.cnbeta.com/topics/83.htm">LG</a><a href="https://www.cnbeta.com/topics/91.htm">Yahoo! 雅虎</a><a href="https://www.cnbeta.com/topics/42.htm">AMD</a><a href="https://www.cnbeta.com/topics/455.htm">SNS 社交网络</a><a href="https://www.cnbeta.com/topics/147.htm">诺基亚</a><a href="https://www.cnbeta.com/topics/332.htm">Windows 7</a><a href="https://www.cnbeta.com/topics/331.htm">Huawei 华为</a><a href="https://www.cnbeta.com/topics/348.htm">中国移动</a><a href="https://www.cnbeta.com/topics/391.htm">中国联通</a><a href="https://www.cnbeta.com/topics/316.htm">中国电信</a><a href="https://www.cnbeta.com/topics.htm">更多...</a></span></div><div class="nav-item "><a href="https://www.cnbeta.com/top10.htm" class="top10">排行</a></div></nav>        <div class="topSearchBox">
+            <input id="cbsearchtxt" type="text" name="q" size="30" class="search_key" onkeypress="if(event.keyCode==13){document.getElementById('cbsearchsub').click();return false;}">
+            <button id="cbsearchsub" type="submit" value="" class="search_btn head" onclick="window.open('http://so.cnbeta.com/cse/search?s=14146556968177638016&q='+document.getElementById('cbsearchtxt').value, '_blank')">搜索</button>
+        </div>
+    </div>
+</header><div class="main-wrap"><div class="topContent">
+    <div class="topContentInner topContentInnerTop"></div>
+    <div class="w1200">
+        <div class="cnbeta-hot-welcome">
+            <div class="cate-brief"  >
+                                <h2><b>Microsoft 微软</b><span></span></h2>
+                            </div>
+            <div class="cate-help">
+                <div class="tac"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-3507708728694406";
+/* cnBeta.COM 首页顶部通栏 */
+google_ad_slot = "4977300739";
+google_ad_width = 980;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cnbeta-update">
+    <div class="w1200">
+        <div class="cnbeta-update-list category-update" data-type="topic|4" data-stop="0" data-page="1">
+            <div class="cbv" id="left1"></div>
+            <div class="items-area">
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/795545.htm" target="_blank">微软游戏业务营收2018财年首超100亿美元 占公司总营收9.4%</a></dt>
+                    <dd><p><strong>据美国财经网站CNBC报道，在截至6月30日的2018财年里，微软游戏业务营收首次超过100亿美元，占公司总营收的9.4%。</strong>自世纪之交以来，微软就一直从事游戏业务。从财务角度来看，该业务对公司很重要。
+
+Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows、Office和企业软件等其它产品的营收。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/795545.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1206/0e553e90503da14.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-12-06 12:52</li>
+                        <li>阅读 (83)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/795545.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/795465.htm" target="_blank"><span style="color:#c00000;">微软在线商店周年庆12月10日开启：Surface全系特惠 买Office送应用年卡</span></a></dt>
+                    <dd><p><strong>微软中国在线商店2018年周年庆页面上线了，活动时间是12月10日至18日，但我们现在就已经可以看到优惠的详情。</strong>此次年末活动不仅给Surface系列产品带来了堪比双11的折扣幅度，同时还迎来了一款新型号：Surface
+ Laptop 2 i5 8GB 256GB 
+灰粉金，Surface买家还有机会拿到小空翼秋衣裤礼品。Xbox游戏机系列也有数百元不等的折扣。购买一年的Office 
+365订阅，就可以获得热门应用会员年卡五选一。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/795465.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1206/8c0965f5a6f3a91.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-06 10:01</li>
+                        <li>阅读 (1983)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/795465.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/795401.htm" target="_blank">[图]微软自定义翻译上线 一般可用性定价将于2019年2月1日生效</a></dt>
+                    <dd><p><strong>今年早些时候召开的Build开发者大会上，微软宣布了基于微软翻译服务的自定义翻译（Custom Translator）功能预览版，而今天微软宣布该功能一般可用性定价将于2019年2月1日生效。</strong>在2019年2月1日之前, 培训或托管自定义模型不收取任何费用, 通过翻译文本 API 使用已部署的自定义模型将按常规的非自定义翻译文本 api 费率收费。托管和使用已部署的自定义模型需要付费订阅翻译文本 API。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/795401.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1206/56b97fe6023a024.gif"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-12-06 08:19</li>
+                        <li>阅读 (491)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/795401.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/795325.htm" target="_blank">微软不同团队的设计师正协作打造Windows、Office和Surface的体验</a></dt>
+                    <dd><p>微软改变了它的设计方式。本周公布的新办公软件图标是对公司内部正在进行的更大规模设计改造的第一次曝光。 Windows也有自己的图标更改，但更大的变化是Windows，Office和Surface团队之间的协作努力。<strong>该公司的Windows，Office和Surface团队现在都在一起工作，像一个内部开源团队一样运作，他们都在公开分享设计、批评检讨以及共同努力。</strong><br/></p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/795325.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1206/5aa906ad877f603.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>maomao 2018-12-06 01:36</li>
+                        <li>阅读 (1965)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/795325.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/795011.htm" target="_blank">[图]微软正开发Project Triton项目：增强游戏玩家的声音体验</a></dt>
+                    <dd><p><strong>援引外媒报道微软内部正在开发名为“Project Triton”的新项目，旨在增强游戏玩家的整体声音体验。</strong>该项目由微软研究院牵头，和The Coalition Studio（战争机器开发商）、RARE Studio（盗贼之海开发商）和Azure认知语音服务（Project Acoustics）共同合作推进。该项目小组还发表了一些科研论文，并已经在《战争机器4》中增强音频体验。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/795011.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1205/abd766b7895f016.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-12-05 09:55</li>
+                        <li>阅读 (554)</li>
+                        <li>评论 (1)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/795011.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794995.htm" target="_blank">[图]微软推出开源CNAB格式：轻松打包和管理分布式应用</a></dt>
+                    <dd><p>联合Docker和多家合作伙伴，微软开发出了一种能够在不同环境下轻松打包和维护主流容器应用的方法。<a href="https://open.microsoft.com/2018/12/04/announcing-cnab-cloud-agnostic-format-packaging-running-distributed-applications/" target="_blank">Cloud Native Application Bundles (CNAB) </a>是全新的开源打包格式规范，通过一个可安装文件就能管理多款，在不同环境中配置应用程序资源并分布式应用，在不同环境中配置应用程序资源，无需多个工具集就能轻松管理应用程序的生命周期。它兼容Azure，on-prem OpenStack, Kubernetes, Swarm, Ansible, Terraform等等。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794995.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1205/5d236c44611c395.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-12-05 09:26</li>
+                        <li>阅读 (1109)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794995.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794953.htm" target="_blank">[图]代号半人马座 微软内部正研发双屏笔记本</a></dt>
+                    <dd><p>近日有消息称微软内部正在打造名为“Windows Lite”的轻量级系统，以便在教育等领域增强同Chrome OS的竞争<strong>。而最新消息称微软内部正在研发代号为“Centaurus”（半人马座），与之前曝光的便携式可折叠设备“Andromeda”（仙女座）不同，它是更接近于平板的双屏设备，在系统方面可能就搭载Windows Lite。</strong></p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794953.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1205/aaab8d975d86331.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-12-05 08:26</li>
+                        <li>阅读 (1019)</li>
+                        <li>评论 (2)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794953.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794695.htm" target="_blank">[图]微软向Code.org注资1000万美元 推动美国计算机科学教育</a></dt>
+                    <dd><p>自2009年，非盈利组织Code.org每年都会举办计算机科学教育周活动（CS Ed Week）。该活动致力于将计算机科学作为K-12教育中的核心课程来推广。自该活动启动以来微软每年都会提供极大的支持，以激励全球的教师和K-12学生更多地关注计算机科学。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794695.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1204/f3baa83141a3381.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-12-04 14:02</li>
+                        <li>阅读 (672)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794695.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794527.htm" target="_blank">[图]国际残疾人日之际：PowerPoint和Skype将推实时字幕功能</a></dt>
+                    <dd><p><strong>“国际残疾人日”(International Day of Disabled Persons)之际，微软宣布即将在PowerPoint和Skype上推出实时字幕功能。</strong>在PowerPoint上，实时字幕功能支持将12种语言对话或者声音实时翻译成60多种语言，并显示在屏幕上。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794527.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1204/9f6c074095161b1.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-12-04 08:54</li>
+                        <li>阅读 (313)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794527.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794439.htm" target="_blank">传微软更大的双屏设备明年上市 代号Centaurus 采用Windows Core系统</a></dt>
+                    <dd><p>多年来，我们已经看到了许多与微软“Andromeda”移动设备相关的专利，但现在看来该公司可能对更大的非袖珍版本更感兴趣。 <strong>Brad Sams在他的新书中首次提到这个更大的设备，记录了微软Surface业务的起源，这个更大双屏设备的存在刚刚得到了第二份报告的证实。</strong><br/></p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794439.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1204/f2981020d5e5017.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>maomao 2018-12-04 00:22</li>
+                        <li>阅读 (1441)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794439.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794413.htm" target="_blank">微软联手万事达以改进数字身份管理</a></dt>
+                    <dd><p>验证在线身份对于人们来说是一个艰难的过程，因为它要求他们通过严格的安全功能来管理他们的在线帐户。在许多情况下，现在的在线服务已经超越了简单的密码，其中大多数现在使用双因素身份验证作为增加的安全层。<strong>虽然这有利于网络安全，但对于需要快速访问其在线身份的许多人来说，这变得很麻烦。为此，微软现在正在与万事达卡合作，以加强数字身份管理。</strong></p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794413.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1203/b1aee7206d5129f.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-03 22:12</li>
+                        <li>阅读 (415)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794413.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794391.htm" target="_blank">普林斯顿大学和微软就微生物学研究进行合作</a></dt>
+                    <dd><p><strong>普林斯顿大学宣布与微软合作，微软将帮助普林斯顿进行微生物学和计算机模拟研究。</strong>该研究将侧重于了解生物膜形成的机制，微软将为其提供云和先进的机器学习功能。生物膜 - 表面相关的细菌群落 - 是全球微生物感染的主要原因，并且像癌症一样杀死许多人。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794391.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1203/d6e5363274b335c.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-03 21:17</li>
+                        <li>阅读 (311)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794391.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794309.htm" target="_blank">[图]11月Steam硬件报告之VR头显：WMR设备占比小幅上升</a></dt>
+                    <dd><p>Steam的11月硬件报告近日出炉，由于Steam是跨平台支持，也是诸多VR游戏和应用分发平台，从中我们能初步了解当前VR硬件市场情况。数据显示目前主流VR头显设备中Oculus Rift占比最高，但是明显呈现下滑的趋势。本月市场占比为46.9%，而上个月为47.28%，前个月为48.38%。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794309.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1203/d27b6d5df2de8ef.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-12-03 16:46</li>
+                        <li>阅读 (547)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794309.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794071.htm" target="_blank">微软不做大哥好多年：现在的对手曾经只是自己的零头</a></dt>
+                    <dd><p><strong>北京时间12月3日，微软和苹果为争夺“美国市值最高的公司”的头衔展开了为期一周的较量，标志着长达数十年的竞争重新开始。</strong>这场角逐包括各自在行业里主导地位、遭遇失败、东山再起、推出标志性产品以及两位变革型商业领袖：比尔-盖茨（Bill
+ Gates）和已故的史蒂夫-乔布斯（Steve Jobs）。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794071.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1203/aa80c2f16e0af04.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-03 06:52</li>
+                        <li>阅读 (7288)</li>
+                        <li>评论 (4)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794071.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794037.htm" target="_blank">微软时隔20年重回全球市值第一 是运气还是实力？</a></dt>
+                    <dd><p>时隔20年后，微软夺回了全球市值最大的公司，再一次站上巅峰。上一次，还是在1998年的9月15日。<strong>12月1日，截至美股市场周五收盘，微软收涨0.64%，报110.89美元，市值8512亿美元。苹果收跌0.54%，报178.58美元，市值8474亿美元，仅38亿美元之差让位微软。</strong></p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794037.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1202/aa80c2f16e0af04.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-02 20:21</li>
+                        <li>阅读 (3512)</li>
+                        <li>评论 (3)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794037.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/794031.htm" target="_blank">微软确认将向美国军方提供全面和无条件的支持</a></dt>
+                    <dd><p>微软总裁布拉德·史密斯重申了微软对美国军方的全面和无条件支持。周六在西米谷罗纳德·里根总统图书馆的里根国防论坛上发表演讲时，他表示微软<strong>“将为美国军队提供最佳技术......我们创造的所有技术。“</strong>史密斯表示，人工智能和其他自治系统的使用对每个人都很重要，而<strong>不仅仅是碰巧住在西海岸的年轻人。</strong></p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/794031.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1202/8ed40f3764dd7f2.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-02 20:11</li>
+                        <li>阅读 (2820)</li>
+                        <li>评论 (2)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/794031.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/793891.htm" target="_blank">[图]报告称微软正研发笔记本尺寸的Andromeda折叠设备</a></dt>
+                    <dd><p>从美国商标专利局公示的诸多技术专利，以及媒体和爆料人士的深入挖掘，尽管微软官方始终没有做出正面回应，但公司内部从未停止过对可折叠设备的开发。该项目最早以“Microsoft Courier”曝光，随后是谣传中的Surface Phone，以及最近的Andromeda项目。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/793891.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1202/01916eadfd043ca.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-12-02 08:03</li>
+                        <li>阅读 (1138)</li>
+                        <li>评论 (1)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/793891.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="//hot.cnbeta.com/articles/game/793823" target="_blank">网传微软仍在收购工作室 正与多家工作室积极谈判中</a></dt>
+                    <dd><p>知名爆料人士Klobrille今日在推特发布了一条消息，爆料微软收购工作室的计划还没有完成，仍在与多家工作室谈判。“好吧，让我们来谈谈这个显而易见而又被忽略的事情。微软的工作室扩张还没有完成，他们仍在与多家工作室进行积极的谈判，有大的也有小的，其中一些可能会让你很惊讶。</p></dd>
+                    <a href="//hot.cnbeta.com/articles/game/793823" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1201/ae9031b81f2c5b2.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels game"><a href="https://www.cnbeta.com/category/game" target="_blank">游戏</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-01 16:09</li>
+                        <li>阅读 (866)</li>
+                        <li>评论 (1)</li>
+                        <li class="b"><a href="//hot.cnbeta.com/articles/game/793823" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/793681.htm" target="_blank">微软收盘市值多年以来重新超过苹果</a></dt>
+                    <dd><p><strong>北京时间12月1日，微软超过了苹果成为美国市值最大的上市公司。</strong>周五收盘时，微软的市值高于苹果。在本周的盘中交易中，微软不时超越苹果。在收盘时，微软收涨0.64%，报110.89美元，而苹果收跌0.54%，报178.58美元。此长彼消之下，微软成功超过苹果成为美国市值最大的上市公司。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/793681.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1201/f428e64e82f3b5a.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-01 07:08</li>
+                        <li>阅读 (1029)</li>
+                        <li>评论 (8)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/793681.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/793663.htm" target="_blank">微软与新德里警方合作打击以微软支持呼叫中心为名义的诈骗活动</a></dt>
+                    <dd><p><strong>11月下旬，微软与印度古尔冈100名当地执法官员一起，打击了16个从事技术支持骗局的呼叫中心。</strong>警察高级警司Ajay Pal Sharma表示，诈骗者从成千上万的受害者那里榨取了钱，其中大多数是美国人或加拿大人。<br/></p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/793663.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1201/e5147e367f50228.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>maomao 2018-12-01 00:31</li>
+                        <li>阅读 (297)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/793663.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/793593.htm" target="_blank">微软将数据中心放在海底 这会是未来么？</a></dt>
+                    <dd><p>2018 年 6 月，苏格兰奥克尼群岛上，一群来自微软的工程师聚集在一起，他们见证了代号「北方群岛」（Northern 
+Isles）的大型数据中心正式下海，但是对于这项技术仍有许多疑问，上海举办的微软技术暨生态大会上，微软全球研究院首席项目经理 Ben 
+Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/793593.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1130/62b9c85a5bced95.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-11-30 17:33</li>
+                        <li>阅读 (2511)</li>
+                        <li>评论 (2)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/793593.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/793391.htm" target="_blank">老牌巨头焕发新春 微软市值怎么就追上苹果了？</a></dt>
+                    <dd><p><strong>就在几年前，微软公司还被视为科技行业的一家动作迟缓、过气的巨头</strong>。
+
+微软的体量依旧庞大，而且利润丰厚，但是已经失去了光彩，在移动、搜索、网络广告以及云计算等未来市场遭遇失败或者处于落后位置。微软的股价表现乏善可陈，在截至2012年底的10年里仅增长了3%。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/793391.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1130/aa80c2f16e0af04.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-11-30 10:48</li>
+                        <li>阅读 (2716)</li>
+                        <li>评论 (1)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/793391.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/793275.htm" target="_blank">微软Andromeda被曝推迟至2019年年底 尺寸要比手机更大</a></dt>
+                    <dd><p>尽管微软的Andromeda近期频繁曝光，但这个可折叠手机项目至今仍未得到官方承认。最新谣传称，Andromeda发布时间已经推迟至2019年年底，而且这款折叠设备可能会配备更大的尺寸和屏幕。根据Brad Sams新书《Beneath a Surface》透露的信息，在微软设定中Andromeda的尺寸要比主流手机更大。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/793275.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1130/07f69621c2691ec.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-11-30 08:12</li>
+                        <li>阅读 (1395)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/793275.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/793211.htm" target="_blank">传微软研发采用AMD处理器的Surface笔记本和模块化Surface Studio</a></dt>
+                    <dd><p>前Neowin执行编辑Brad Sams今天发行了一本名为Beneath a Surface的书。这本书讲述了Surface品牌起步的不为人知的故事，还概述了Surface未来的路线图。<strong>首先，微软可能正在开发基于AMD的Surface笔记本电脑。鉴于AMD已经在其Ryzen处理器方面取得了重大进展，并且新款笔记本电脑将基于Picasso架构，这一点也不足为奇。</strong><br/></p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/793211.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1130/28f49603b0261a4.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>maomao 2018-11-30 00:58</li>
+                        <li>阅读 (1813)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/793211.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/792917.htm" target="_blank">微软16年后又将成全球市值最大公司 但苹果不甘落后</a></dt>
+                    <dd><p>11月29日消息，据CNBC网站报道，苹果可能会将全球最有价值公司的桂冠拱手让给微软，后者16年前曾经拥有这一称号。美国时间周二早间，微软的市值一度超过了苹果，然后在美国时间周三，在美联储主席杰罗姆·鲍威尔（?Jerome Powell）发表评论后，微软股价突然加速上涨，市值再次一度超越苹果。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/792917.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1129/107e9a319f0fa4d.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>teikaei  2018-11-29 09:43</li>
+                        <li>阅读 (1493)</li>
+                        <li>评论 (1)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/792917.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/792903.htm" target="_blank">微软拿下美军4.8亿美元合同 将提供10万台Hololens</a></dt>
+                    <dd><p>美国陆军军方称，其已经与微软签订一份4.8亿美元合同，为陆军提供AR头戴设备，以用于实战和训练。根据合同，陆军将购买超过10万台头戴设备。政府对该项目的描述是，该合同旨在“通过提高交战前发现敌人、决定和进攻的能力来增加军队杀伤力”。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/792903.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1129/86398cb896c886b.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>KungfuDogg 2018-11-29 09:11</li>
+                        <li>阅读 (2199)</li>
+                        <li>评论 (1)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/792903.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/792465.htm" target="_blank">微软车库绘图应用Sketch 360上线：降低3D创作门槛</a></dt>
+                    <dd><p><strong>微软车库再次推出名为“Sketch 360”的全新绘图应用，在Windows 10平台和其他第三方平台支持3D创作。</strong>具体来说就是，用户能够创建简单的绘画草图，然后可以在3D平面上进行查看和操作。
+
+事实上在Sketch 360应用之前，微软已经推出过名为“Microsoft Maquette”的3D创作工具，但这款应用需要昂贵的Mixed Reality头显设备的支持，而新款Sketch 360应用门槛明显更低。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/792465.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1128/22223d04fe9f52b.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-11-28 08:55</li>
+                        <li>阅读 (1908)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/792465.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/792451.htm" target="_blank">[图]微软折叠设备新专利：相机组件一分为二 避免镜头凸出</a></dt>
+                    <dd><p>在相机成为衡量手机优劣的重要指标后，各家手机厂商绞尽脑汁地增强相机的性能，从华为P20系列的三摄到三星Galaxy A9的四摄，而且传闻中Nokia 9会启用五摄方案。但这些摄像头方案都不可避免的凸出，而微软内部正在研发的Andromeda可折叠设备有望避免这个问题。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/792451.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1128/f07ea77c592c0eb.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-11-28 08:28</li>
+                        <li>阅读 (1229)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/792451.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/792095.htm" target="_blank">微软将为新收购的Xbox Exclusive工作室提供梦想预算</a></dt>
+                    <dd><p><strong>据外媒Segmentnext报导，微软将为新收购的Xbox Exclusive工作室提供无限预算 。</strong>众所周知，微软是一家拥有雄厚资金和资源实力的巨型企业，<strong>由于Xbox One系列主机上第一方独占大作的缺失，就算是已发售的独占作品也不能和PS4相提并论，所以说微软在本世代的主机之战上已经告负。</strong></p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/792095.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1127/526c0579553ef8b.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-11-27 10:43</li>
+                        <li>阅读 (553)</li>
+                        <li>评论 (2)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/792095.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/792035.htm" target="_blank">Politico利用微软Power BI为读者提供更优质的欧盟选举报道</a></dt>
+                    <dd><p>据外媒<em>onmsft</em>报道，几周前他们曾了解到政治新闻公司Politico Europe与微软合作推出了一个新的工具，叫选举中心(Election Hub)。这个互动工具利用了微软的PowerBI分析服务来进一步改善Politico对2019年欧洲议会选举的报道。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/792035.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1127/dbffc132c5d16c6.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>teikaei  2018-11-27 09:03</li>
+                        <li>阅读 (719)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/792035.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/792009.htm" target="_blank">此消彼长 微软市值增至创纪录8160亿美元逼近苹果</a></dt>
+                    <dd><p>就在苹果公司的市值突破1万亿美元大关四个月后，这家iPhone制造商几乎已经丧失了领先优势。作为华尔街市值最高的公司，苹果市值即将被微软公司超越。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/792009.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1127/6dee0da5e68b2d6.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>KungfuDogg 2018-11-27 08:31</li>
+                        <li>阅读 (1266)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/792009.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/791663.htm" target="_blank">微软宣布与大疆DJI合作 开发无人机云端后台SDK等解决方案</a></dt>
+                    <dd><p>在Autel Robotics等竞争对手的崛起下，大疆DJI公司的无人机业务日渐面临威胁。微软与DJI达成了一项新的合作协议，微软将为其研发一款全新的SDK套件，能够让Windows 10 PC直接对DJI的无人产品进行完整的飞行操控，并且进行实时数据传输。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/791663.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1126/18b6d52d3e3516c.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>KungfuDogg 2018-11-26 11:09</li>
+                        <li>阅读 (1745)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/791663.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/791179.htm" target="_blank">[图]微软总市值超过苹果亚马逊 成为硅谷最有价值科技公司</a></dt>
+                    <dd><p>在苹果阴影下生活近十年后，微软的市值终于超过了这家总部位于库比蒂诺的公司。在撰写本文时，微软当日收盘时总市值为7533.4亿美元，高于苹果公司（市值为7468.2亿美元）65亿美元。今年早些时候紧随苹果迈入万亿大关的亚马逊目前市值为7419.0亿美元。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/791179.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1124/af4085fdc6534db.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-11-24 07:36</li>
+                        <li>阅读 (4957)</li>
+                        <li>评论 (2)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/791179.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/791011.htm" target="_blank">微软发布KB4461585更新：修复Outlook 2010崩溃问题</a></dt>
+                    <dd><p>上周本站曾报道部分Windows 10用户在安装Windows 10更新KB4461529后，导致Outlook 2010崩溃无法正常使用。<strong>而今天微软再发布了KB4461585更新，修复了上述BUG，用户也可以通过<a href="https://www.microsoft.com/zh-CN/download/details.aspx?id=57598" target="_blank">Microsoft Download Center进行手动下载安装。</a></strong></p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/791011.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1123/d858b02be2706ea.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-11-23 14:50</li>
+                        <li>阅读 (843)</li>
+                        <li>评论 (1)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/791011.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/790601.htm" target="_blank">沈向洋：微软亚洲研究院成立20年发表超5000篇论文</a></dt>
+                    <dd><p><strong>微软全球执行副总裁、微软人工智能及微软研究事业部负责人沈向洋近日在其LinkedIn主页发表博文《书写未来科研的二十年》称，微软亚洲研究院成立20周年，已发表了超过5000篇科研论文，</strong>成为了世界上最受赞许的企业研究院。沈向洋认为，微软亚洲研究院为全球计算科学研究的五个领域带来了重大影响：互联网和搜索、网络和系统、机器学习和智能、语音和语言、视觉和图形。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/790601.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1122/0b22b60db944a35.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-11-22 11:32</li>
+                        <li>阅读 (712)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/790601.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <div class="loading-bar J_an_load"><div class="loader-inner ball-beat"><div></div><div></div><div></div></div>加载中...</div>
+            <div id="linkpager"></div>
+        </div>
+        <div class="cnbeta-home-side">
+            <div class="cbv"></div>
+            <div class="cbv" id="right1">
+                <div class="cbv">
+<p><script type="text/javascript"><!--
+google_ad_client = "ca-pub-3507708728694406";
+/* cnBeta.COM 首页右一屏 #1 */
+google_ad_slot = "6365711539";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></p>
+<p>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3507708728694406";
+/* cnBeta.COM 首页右二屏 #2 */
+google_ad_slot = "7842419419";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p>
+</div>            </div>
+            <div class="cnbeta-side-box">
+    <h3 class="cnbeta-side-yellow-title">精彩评论</h3>
+    <div class="cnbeta-hot-comments-wrapper" id="J-HC-panel">
+        <ul id="J-HC-area">
+            <li >
+                <div class="c-avatar">
+                    <img src="https://tvax4.sinaimg.cn/default/images/default_avatar_male_50.gif" width="40px" height="40px;"><p>frankh</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>两边竞价，哪边出钱多哪边是绿灯</div>
+                </div>
+                <div class="link-article">对文章:<a href="http://www.cnbeta.com/articles/tech/786381.htm" target="_blank">李彦宏：百度接管红绿灯 将减少30-40%等待时间</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="https://static.cnbetacdn.com/images/user/face/face_middle.jpg" width="40px" height="40px;"><p>小夫子</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>如果苹果真的是这种设计的话，国内手机市场份额肯定会被国产机蚕食，有了OV最近的设计创新，下一部手机我更倾向于国产了</div>
+                </div>
+                <div class="link-article">对文章:<a href="http://www.cnbeta.com/articles/tech/751767.htm" target="_blank">玻璃后盖+窄边框刘海屏:6.5与6.1英寸iPhone新品真机曝光</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="https://tva1.sinaimg.cn/crop.0.0.180.180.50/63f9267fjw1e8qgp5bmzyj2050050aa8.jpg" width="40px" height="40px;"><p>玩血</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>照这理论，熊猫烧香算国产精英换图标软件了。</div>
+                </div>
+                <div class="link-article">对文章:<a href="http://www.cnbeta.com/articles/tech/745899.htm" target="_blank">快压发布告用户书 称国产软件生存实乃不易</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="https://qzapp.qlogo.cn/qzapp/100370481/AE1052CCA67F69609E56E8698CACBEE7/100" width="40px" height="40px;"><p>cyk553312</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>这锤子也是锤子得狠，改个铲铲名字</div>
+                </div>
+                <div class="link-article">对文章:<a href="http://www.cnbeta.com/articles/tech/691633.htm" target="_blank">罗永浩自曝锤子科技要改名：“锤子”在四川不太雅观</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="https://qzapp.qlogo.cn/qzapp/100370481/9C91264C1F869857F7CA331C1A9C27F9/100" width="40px" height="40px;"><p>魏魏</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>[s:哭]看到Annual Income那项我估计在座各位都活不长了。。。。</div>
+                </div>
+                <div class="link-article">对文章:<a href="http://www.cnbeta.com/articles/tech/685351.htm" target="_blank">你还能活多久？这个寿命计算器可以给出答案</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="https://tp4.sinaimg.cn/1721960887/180/0/0" width="40px" height="40px;"><p>牛天王</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>刚看完王老吉的贴，刚下的结论，老鼠实验不适用于人。</div>
+                </div>
+                <div class="link-article">对文章:<a href="http://www.cnbeta.com/articles/tech/677251.htm" target="_blank">吃胖算我输 华人学者今日带来减肥新思路</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="https://qzapp.qlogo.cn/qzapp/100370481/C2E828E5A67D5269D97119BF7DBB5E3E/100" width="40px" height="40px;"><p>Yeb123</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>开了一年了，操控很好 -Forza Horizon 3 用户</div>
+                </div>
+                <div class="link-article">对文章:<a href="http://www.cnbeta.com/articles/tech/676637.htm" target="_blank">全球最快量产SUV兰博基尼Urus正式发布 中国售价313万</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="https://qzapp.qlogo.cn/qzapp/100370481/1EE0219309CA142A8089E923285BA50E/100" width="40px" height="40px;"><p>jimmyfluore</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>国有国法，咖有咖规</div>
+                </div>
+                <div class="link-article">对文章:<a href="http://hot.cnbeta.com/articles/game/667439.htm" target="_blank">玩家网吧玩《绝地求生：大逃杀》开挂被制裁 网管无限重启其电脑</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="https://tp4.sinaimg.cn/2155060191/180/5601972670/1" width="40px" height="40px;"><p>Cloud_Atlas</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>“人工智障”果不其然。[s:黑]</div>
+                </div>
+                <div class="link-article">对文章:<a href="http://hot.cnbeta.com/articles/music/658013.htm" target="_blank">Siri再闹乌龙：将西语神曲《Despacito》认作保加利亚国歌</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>“复兴号”从北京到上海跑一趟，单程1318公里，记录的数据达300多兆。相比之下，73万字的《红楼梦》所占数据空间仅有1.7兆。  亏你想的出来 这么比</div>
+                </div>
+                <div class="link-article">来自<strong>湖北武汉</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/tech/656563.htm" target="_blank">“复兴号”上的黑科技：往返一趟京沪省电5000度</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>程序员抢了一盒月饼被开除了,现在出了这么大的事,警告完事.
+价值观进步真大啊.</div>
+                </div>
+                <div class="link-article">来自<strong>湖北荆门</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/tech/656817.htm" target="_blank">天猫承认说明和文案抄袭 永久下线"智能测肤"功能</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>然而国内都是 叉</div>
+                </div>
+                <div class="link-article">来自<strong>河南安阳</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/tech/656803.htm" target="_blank">iPhone X读音成问题：多数人不愿读“10”</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>建议改名叫浏览器算了。</div>
+                </div>
+                <div class="link-article">来自<strong>广东深圳</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/soft/656661.htm" target="_blank">迅雷9新一代下载引擎：下载速度提升100%</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>饭店每天都要研究各种生物。</div>
+                </div>
+                <div class="link-article">来自<strong>浙江温州</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/science/655959.htm" target="_blank">日本称今年捕杀177头鲸为研究鲸鱼的身体</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>刚刚还在微博看到这件事！豆瓣的评分机制本来就不好，连零分都没有，导致这样的片子只能打2分。。。。</div>
+                </div>
+                <div class="link-article">来自<strong>广东广州</strong>的匿名人士对文章:<a href="http://hot.cnbeta.com/articles/movie/654771.htm" target="_blank">不满成为豆瓣史上最低分 这部影片向豆瓣出具了交涉函</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>时间就是金钱，效率就是生命。</div>
+                </div>
+                <div class="link-article">来自<strong>重庆</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/tech/654021.htm" target="_blank">济南一外卖小哥疑因出餐慢 一板砖拍昏餐馆老板</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>马的。我还以为是掉个大闸蟹下去夹娃娃呢。</div>
+                </div>
+                <div class="link-article">来自<strong>四川成都</strong>的匿名人士对文章:<a href="http://hot.cnbeta.com/articles/funny/653167.htm" target="_blank">杭州现大闸蟹夹娃娃机 有人连抓10对蟹</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>刚建模，还没上色</div>
+                </div>
+                <div class="link-article">来自<strong>北京</strong>的匿名人士对文章:<a href="http://hot.cnbeta.com/articles/funny/652035.htm" target="_blank">肯尼亚惊现白色长颈鹿 宛如天上来</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>如果用户发点不当的言论，责任也全是微博，这样可不可以?[s:汗]</div>
+                </div>
+                <div class="link-article">来自<strong>辽宁沈阳</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/tech/652175.htm" target="_blank">微博新规惹争议：用户原创内容版权归属于微博？</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>全栈餐饮师</div>
+                </div>
+                <div class="link-article">来自<strong>福建宁德</strong>的匿名人士对文章:<a href="http://hot.cnbeta.com/articles/funny/650453.htm" target="_blank">外卖小哥嫌出餐速度太慢 自己上阵炒菜</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>速度太快,车厢外的三哥抓不住车厢怎么办?</div>
+                </div>
+                <div class="link-article">来自<strong>北京</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/tech/649331.htm" target="_blank">印度安得拉邦将开建“高级高铁”：6分钟穿越两座城市</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>越级管理本身就是错的，如果开错了人那就把开错人的人开掉，这才是老板该干的事</div>
+                </div>
+                <div class="link-article">来自<strong>北京</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/tech/649363.htm" target="_blank">任正非点名一离职员工：你回来吧 是公司错了</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>把加班时间说得这么清新脱俗?[s:贱笑]</div>
+                </div>
+                <div class="link-article">来自<strong>广东潮州</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/tech/649325.htm" target="_blank">Ryzen Threadripper是AMD工程师在业余时间开发的</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>真是瞎眼了，六卡蓝宝石超白金显卡矿机，一台1.3万</div>
+                </div>
+                <div class="link-article">来自<strong>上海</strong>的匿名人士对文章:<a href="http://hot.cnbeta.com/articles/funny/648909.htm" target="_blank">济南一小区地下室隔老远就觉得热 一查竟是……</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>这是典型的过河拆桥啊。</div>
+                </div>
+                <div class="link-article">来自<strong>北京</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/tech/647453.htm" target="_blank">14岁少年设计游戏“防沉迷系统”  获全国二等奖</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>这设计还不错，脑残穿着掉进窨井后，雨衣就自动套在窨井口，提醒路人已经有脑残掉下去了，注意安全。</div>
+                </div>
+                <div class="link-article">来自<strong>浙江杭州</strong>的匿名人士对文章:<a href="http://hot.cnbeta.com/articles/funny/646367.htm" target="_blank">这是一把能打《王者荣耀》的雨伞</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>英语老师听闻雷军回来了，避而不见- [s:笑]</div>
+                </div>
+                <div class="link-article">来自<strong>河南郑州</strong>的匿名人士对文章:<a href="http://www.cnbeta.com/articles/tech/646311.htm" target="_blank">雷军重回30年前高中毕业母校：这画面太励志</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>有毒蚂蚁，这样一窝浮在水面上可以一窝端，泡酒去风湿</div>
+                </div>
+                <div class="link-article">来自<strong>广东深圳</strong>的ios客户端用户对文章:<a href="http://www.cnbeta.com/articles/tech/646499.htm" target="_blank">除了洪灾 休斯顿居民还要小心蚂蚁形成的“救生筏”</a>的评论</div>
+            </li>
+            <li >
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>700万的房子买不起 7000的iPhone还是买得起的</div>
+                </div>
+                <div class="link-article">来自<strong>上海</strong>的ios客户端用户对文章:<a href="http://www.cnbeta.com/articles/tech/645455.htm" target="_blank">iPhone 8定价1000美元的可能性越来越高</a>的评论</div>
+            </li>
+            <li class="reply">
+                <div class="c-avatar">
+                    <img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>
+                </div>
+                <div class="msg-box">
+                    <div class="inner"><span class="arrow"></span>这下真的是祝有情人终成兄妹了。。。</div>
+                </div>
+                <div class="link-article">来自<strong>浙江温州</strong>的匿名人士对文章:<a href="http://hot.cnbeta.com/articles/funny/645427.htm" target="_blank">102名母亲发现孩子长得太像？结果发现父亲都是一人</a>的评论</div>
+            </li>
+        </ul>
+        <button id="comments-page-next" data-page="1" class="c-load-more-button">加载更多</button>
+    </div>
+    <a class="hot-comments-plus" id="J-HC-expand" data-open="0">全部展开</a>
+</div>
+
+<script charset="utf-8" type="text/javascript">
+CB.use('paging',function(){
+    $("#comments-page-next").paging({type:'jhcomment'}, function(data){
+        if(data.length>0){
+            for(var i=0;i<data.length;i++) {
+                $("#J-HC-area").append('<li '+(i%2==1?'class="reply"':'')+'><div class="c-avatar">'+((data[i]['user'].length > 0)?'<img src="'+data[i]['user']['icon']+'" width="40px" height="40px;"><p>'+data[i]['user']['nick']+'</p>':'<img src="/images/anonymous.jpg" width="40px" height="40px;"><p>匿名人士</p>')+'</div><div class="msg-box"><div class="inner"><span class="arrow"></span>'+data[i]['title']+'</div></div><div class="link-article">'+data[i]['description']+'</div></li>');
+            }
+        }
+    });
+});
+</script>
+            <div class="cbv" id="right2">
+                <div class="cbv"><p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9066977823953139"
+     data-ad-slot="0948614537"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</p>
+<p>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({home:'auto'});
+  !function (e, f, u, i) {
+    if (!document.getElementById(i)){
+      e.async = 1;
+      e.src = u;
+      e.id = i;
+      f.parentNode.insertBefore(e, f);
+    }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/cnbeta-english/loader.js',
+  'tb_loader_script');
+  if(window.performance && typeof window.performance.mark == 'function')
+    {window.performance.mark('tbl_ic');}
+</script> 
+<div id="taboola-below-article-thumbnails"></div>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({
+    mode: 'thumbnails-rr1',
+    container: 'taboola-below-article-thumbnails',
+    placement: 'Below Article Thumbnails',
+    target_type: 'mix'
+  });
+</script> 
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script> 
+</p>
+</div>            </div>
+            
+<div class="cnbeta-side-box">
+    <h3 class="cnbeta-side-yellow-title">CBer 热度</h3>
+    <div class="cnbeta-side-wrapper">
+        <div class="cber-hot-tabs-handler cb-side-tabs">
+            <a data-target="topConmments" class="active">评论量</a>            <a data-target="topClicks">点击率</a>        </div>
+                <div class="cber-hot-tabs-contents tabs-con topConmments active">
+            <ul>
+                        <li class="top3">
+                    <label>1</label>
+                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/792919.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1129/e7fbda2b6d2aefc.jpg&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="https://www.cnbeta.com/articles/tech/792919.htm" target="_blank">华为全新手机操作系统曝光：不基于安卓 正在研发中</a></h4>
+                    <div class="meta-status">阅读 (21027) 评论 (20)</div>
+                </li>
+                        <li class="top3">
+                    <label>2</label>
+                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/792847.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1129/655c41875a59c55.jpg&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="https://www.cnbeta.com/articles/tech/792847.htm" target="_blank">中国电信公告：VoLTE通话服务今日开始试商用</a></h4>
+                    <div class="meta-status">阅读 (17341) 评论 (17)</div>
+                </li>
+                        <li class="top3">
+                    <label>3</label>
+                    <a class="lazy story-image" href="//hot.cnbeta.com/articles/movie/794281" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1203/e34d3c7dcf44ec3.jpg&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="//hot.cnbeta.com/articles/movie/794281" target="_blank">新版《神雕侠侣》电视剧人物海报 全阵容角色亮相</a></h4>
+                    <div class="meta-status">阅读 (11032) 评论 (17)</div>
+                </li>
+                        <li><label>4</label><a href="https://www.cnbeta.com/articles/tech/793669.htm" target="_blank">刘强东性侵案更多细节：女生说自己被骗去参加晚宴</a></li>
+                        <li><label>5</label><a href="https://www.cnbeta.com/articles/tech/794145.htm" target="_blank">董明珠：与雷军五年赌约已胜出 赌局毫无意义</a></li>
+                        <li><label>6</label><a href="https://www.cnbeta.com/articles/tech/793185.htm" target="_blank">微信语音为啥不能转发？官方：保护隐私和安全</a></li>
+                        <li><label>7</label><a href="https://www.cnbeta.com/articles/tech/793221.htm" target="_blank">微软用更现代化的风格重新设计Office的各个软件图标</a></li>
+                        <li><label>8</label><a href="//hot.cnbeta.com/articles/movie/793197" target="_blank">周星驰新片《新喜剧之王》海报公布 大年初一上映</a></li>
+                        <li><label>9</label><a href="https://www.cnbeta.com/articles/tech/793049.htm" target="_blank">李开复：买车是一生最坏投资 大V神评论抢眼</a></li>
+                        <li><label>10</label><a href="https://www.cnbeta.com/articles/tech/793063.htm" target="_blank">[图]携号转网新流程12月1日生效：短信方式就可查询申请</a></li>
+                    </ul>
+        </div>
+                        <div class="cber-hot-tabs-contents tabs-con topClicks">
+            <ul>
+                        <li class="top3">
+                    <label>1</label>
+                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/793063.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1129/f5542f7f2acd4d4.png&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="https://www.cnbeta.com/articles/tech/793063.htm" target="_blank">[图]携号转网新流程12月1日生效：短信方式就可查询申请</a></h4>
+                    <div class="meta-status">阅读 (24200) 评论 (11)</div>
+                </li>
+                        <li class="top3">
+                    <label>2</label>
+                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/794365.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1203/139033f9eeabb07.jpg&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="https://www.cnbeta.com/articles/tech/794365.htm" target="_blank">[评论]被遗忘的 Office 2019</a></h4>
+                    <div class="meta-status">阅读 (22687) 评论 (10)</div>
+                </li>
+                        <li class="top3">
+                    <label>3</label>
+                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/792919.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1129/e7fbda2b6d2aefc.jpg&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="https://www.cnbeta.com/articles/tech/792919.htm" target="_blank">华为全新手机操作系统曝光：不基于安卓 正在研发中</a></h4>
+                    <div class="meta-status">阅读 (21022) 评论 (20)</div>
+                </li>
+                        <li><label>3</label><a href="https://www.cnbeta.com/articles/tech/794145.htm" target="_blank">董明珠：与雷军五年赌约已胜出 赌局毫无意义</a></li>
+                        <li><label>4</label><a href="https://www.cnbeta.com/articles/tech/794177.htm" target="_blank">章泽天抛售澳洲近600平米豪宅 售价超1.1亿元</a></li>
+                        <li><label>5</label><a href="https://www.cnbeta.com/articles/tech/792847.htm" target="_blank">中国电信公告：VoLTE通话服务今日开始试商用</a></li>
+                        <li><label>6</label><a href="//hot.cnbeta.com/articles/movie/794741" target="_blank">《新神雕侠侣》曝光神雕夫妇剧照 纯情小龙女美如画</a></li>
+                        <li><label>7</label><a href="https://www.cnbeta.com/articles/tech/794019.htm" target="_blank">马云谈“风口论”：风停了摔死的都是猪</a></li>
+                        <li><label>8</label><a href="https://www.cnbeta.com/articles/tech/793221.htm" target="_blank">微软用更现代化的风格重新设计Office的各个软件图标</a></li>
+                        <li><label>9</label><a href="https://www.cnbeta.com/articles/tech/793669.htm" target="_blank">刘强东性侵案更多细节：女生说自己被骗去参加晚宴</a></li>
+                    </ul>
+        </div>
+            </div>
+</div>
+            <div class="cnbeta-side-sponsor">
+                <div class="cbv" id="fixed_area">
+                    <p>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3507708728694406";
+/* cnBeta.COM 首页右二屏 #3 */
+google_ad_slot = "1795835179";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p>
+<p>
+<div id="taboola-below-article-thumbnails-indexright4"></div>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({
+    mode: 'thumbnails-rr1',
+    container: 'taboola-below-article-thumbnails-indexright4',
+    placement: 'Below Article Thumbnails indexright4',
+    target_type: 'mix'
+  });
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script>
+</p><div id="fixed_body">
+<p><script type="text/javascript"><!--
+google_ad_client = "ca-pub-3507708728694406";
+/* cnBeta.COM 全站右悬浮特约点位 */
+google_ad_slot = "9319127299";
+google_ad_width = 300;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></p>
+</div>                </div>
+            </div>
+        </div>
+        <br class="clear">
+
+    </div>
+</div>
+<div class="w1200">
+    <div class="cnbeta-side-sponsor mt5"><script type='text/javascript' data-turbolinks-eval='false'>
+var DuoMaiSiteID = 242986;
+document.write(unescape("%3Cscript src='https://djl.duomai.com/index.php?site_id=" + DuoMaiSiteID + ".js' type='text/javascript'%3E%3C/script%3E"));
+document.write(unescape("%3Cscript src='https://djl.duomai.com/duojinlian.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript' data-turbolinks-eval='false'>
+try{
+	var _djl_ = DuoJinLian._init_();
+	_djl_.hulue('');
+	_djl_.fankuibiaoqian('');
+         _djl_.zhizuo('');
+	_djl_.run();
+}
+catch(e)
+{}
+</script></div>
+</div>
+<script type="text/javascript">
+(function($) {
+    CB.use('index', 'common', 'lazyload', 'carousel', function() {
+        if($('.cnbeta-update-list').length > 0) {
+            $(".cnbeta-update-list img").lazyload({effect:"show",failurelimit:5,threshold:20});
+            $(".cnbeta-update-list").more({show:'cate_tp'});
+        }
+    });
+})(jQuery);
+</script>
+</div>
+<footer class="pageFooter">
+	<div class="w1200">
+		<div class="cnbeta-logo-white"></div>
+		<div class="rule">报道中出现的商标及图像版权属于其合法持有人，只供传递信息之用，非商务用途。互动交流时请遵守理性，宽容，换位思考的原则。</div>
+		<div class="media">
+			<h2>合作媒体与供稿人(部分)</h2>
+	        <ul class="links"><li><a href="http://news.mydrivers.com/" target="_blank">驱动之家</a></li><li><a href="http://www.bio360.net/" target="_blank">生物360</a></li><li><a href="http://www.feng.com/" target="_blank">威锋网</a></li><li><a href="http://www.huxiu.com/" target="_blank">虎嗅网</a></li><li><a href="http://www.leica.org.cn/" target="_blank">中文摄影杂志</a></li><li><a href="http://www.geekpark.net/" target="_blank">极客公园</a></li><li><a href="http://www.macx.cn/" target="_blank">MacX</a></li><li><a href="http://imcn.me/" target="_blank">IMCN</a></li><li><a href="https://www.landiannews.com/" target="_blank">蓝点网</a></li><li><a href="http://www.leiphone.com/" target="_blank">雷锋网</a></li><li><a href="http://www.anzhuo.cn/" target="_blank">安卓中国</a></li><li><a href="http://www.fengniao.com/" target="_blank">蜂鸟网</a></li><li><a href="http://bbs.chongdiantou.com/default.php" target="_blank">充电头</a></li><li><a href="http://www.keke289.com/" target="_blank">科客</a></li><li><a href="http://www.nruan.com/" target="_blank">N软网</a></li><li><a href="https://www.oschina.net/" target="_blank">开源中国</a></li><li><a href="http://www.kepuchina.cn/" target="_blank">科普中国网</a></li></ul>
+		</div>
+		<div class="sponsors">
+鸣谢通信合作伙伴提供部分节点: <a href="http://www.verycloud.cn/" target="_blank">VeryCloud</a><a href="http://www.qy.cn/" target="_blank">高防服务器</a><span class="sep"><a href="http://www.hypo.cn/" target="_blank">海波网络</a></span><span class="sep"><a href="http://www.wdw6.com/" target="_blank">万达网络</a></span><span class="sep"><a href="http://www.yisu.com/" target="_blank">香港服务器</a></span><span class="sep"><a href="http://www.aiemy.com" target="_blank">易迈云</a></span><span class="sep"><a href="http://ecp.eflycloud.com/#/activity-recharge?from=RJ00201" target="_blank">睿江云主机</a></span>		</div>
+<div class="about"><a href="https://www.cnbeta.com/page/aboutus/">关于我们</a>&nbsp;<a href="https://www.cnbeta.com/page/cooperation/">广告招租</a>&nbsp;<a href="mailto:ugmbbc@gmail.com">报告不适当内容</a>&nbsp;</div>        <div class="copy">
+            <span>&copy;2003-2018 cnBeta <a href="http://www.miibeian.gov.cn" target="_blank">浙ICP备11027646号</a> 
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33100302000002" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;padding-top: 5px"><img src="//static.cnbetacdn.com/beian/zgwab.png" style="float:left;"/><span style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">浙公网安备 33100302000002号</span></a></span>
+        </div>
+	</div>
+</footer><script type="text/javascript">
+(function($) {
+
+})(jQuery);
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?4216c57ef1855492a9281acd553f8a6e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124336984-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-124336984-1');
+</script><span style="display:none">created by ceallan</span>
+</body>
+</html>
