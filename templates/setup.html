@@ -192,7 +192,7 @@
         <div class="col-md-5"></div>
         <div class="col-md-2">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="confirminfo">
+                <input class="form-check-input" type="checkbox" onchange="comfirmInfo()" id="confirminfo">
                 <label class="form-check-label" for="confirminfo">
                     Info Is Right
                 </label>
@@ -220,15 +220,14 @@
 </div>
 <script>
 
-    $(document).ready(function () {
-        $('#confirminfo').change(function () {
-            if (this.checked != true) {
-                btnconfirm.disable(true);
-            }else{
-                btnconfirm.disable(false);
-            }
-        });
-    });
+    function comfirmInfo() {
+        console.log("this.checked=" + $("#confirminfo").is(':checked'));
+        if ($("#confirminfo").is(':checked') != true) {
+                $("#btnconfirm").attr("disabled", "disabled");
+        } else {
+            $("#btnconfirm").removeAttr("disabled");
+        }
+    }
 
     function setup() {
         var email = $("#email").val();
@@ -251,6 +250,8 @@
             }
         });
     }
+
+    comfirmInfo();
 </script>
 </body>
 </html>

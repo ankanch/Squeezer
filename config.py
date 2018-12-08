@@ -1,8 +1,16 @@
 from np_tools.loadconfidentials import loadConfidential
 from np_tools.configmanager import loadKey
 
+# others
+DEBUG_MODE = eval(loadKey("DEBUG_MODE"))
+
+
 # email api key
-SENDGRID_MAIL_API_KEY = loadConfidential("confidentials/SendGridAPIKey.txt")
+SENDGRID_MAIL_API_KEY = ""
+if DEBUG_MODE:
+    SENDGRID_MAIL_API_KEY = loadConfidential("confidentials/SendGridAPIKey.txt")
+else:
+    SENDGRID_MAIL_API_KEY = loadKey("sendgrid_mail_api_key")
 
 # email preference
 EMAIL_SENDING_TIME = loadKey("EMAIL_SENDING_TIME")     # in UTC+0

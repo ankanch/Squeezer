@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f419f54-965b-434c-92fb-f648b8edc8b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/np_tools/commandmanager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start_squeezer.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start_squeezer.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/news.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cache/news.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/user.logged" beforeDir="false" afterPath="$PROJECT_DIR$/cache/user.logged" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobschduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobscheduler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/np_tools/configmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/np_tools/configmanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/setup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,19 +20,20 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NewsPush$SendMail.coverage" NAME="SendMail Coverage Results" MODIFIED="1542117636818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newspusher" />
-    <SUITE FILE_PATH="coverage/NewsPush$jobscheduler.coverage" NAME="jobscheduler Coverage Results" MODIFIED="1544065292596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NewsPush$jobscheduler.coverage" NAME="jobscheduler Coverage Results" MODIFIED="1544073042089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewsPush$jobschduler.coverage" NAME="jobschduler Coverage Results" MODIFIED="1543306039588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewsPush$rulemanager.coverage" NAME="rulemanager Coverage Results" MODIFIED="1543547450413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
-    <SUITE FILE_PATH="coverage/NewsPush$config.coverage" NAME="config Coverage Results" MODIFIED="1542170563961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NewsPush$config.coverage" NAME="config Coverage Results" MODIFIED="1544246110233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewsPush$newscache.coverage" NAME="newscache Coverage Results" MODIFIED="1543305743252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_tools" />
     <SUITE FILE_PATH="coverage/NewsPush$timeconversion.coverage" NAME="timeconversion Coverage Results" MODIFIED="1542165362727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_tools" />
     <SUITE FILE_PATH="coverage/NewsPush$newsextractor.coverage" NAME="newsextractor Coverage Results" MODIFIED="1543841371052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
     <SUITE FILE_PATH="coverage/NewsPush$NewsPush.coverage" NAME="NewsPush Coverage Results" MODIFIED="1541250867566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/NewsPush$rsinterpreter.coverage" NAME="rsinterpreter Coverage Results" MODIFIED="1543841671248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
+    <SUITE FILE_PATH="coverage/NewsPush$scheduler_interface.coverage" NAME="scheduler_interface Coverage Results" MODIFIED="1544075995512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewsPush$loadconfidentials.coverage" NAME="loadconfidentials Coverage Results" MODIFIED="1542169182971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_tools" />
     <SUITE FILE_PATH="coverage/NewsPush$ruleset.coverage" NAME="ruleset Coverage Results" MODIFIED="1543841558120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
     <SUITE FILE_PATH="coverage/NewsPush$pagedownloader.coverage" NAME="pagedownloader Coverage Results" MODIFIED="1543306805034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
-    <SUITE FILE_PATH="coverage/NewsPush$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1543917712934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NewsPush$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1544246222771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewsPush$extractrules.coverage" NAME="extractrules Coverage Results" MODIFIED="1542112808583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/np_newsextractor" />
   </component>
   <component name="DatabaseView">
@@ -51,17 +54,17 @@
     <session id="883783434">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="7" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="9" />
           <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -69,11 +72,13 @@
           <entry key="1" value="2" />
           <entry key="Google@cnBeta" value="1" />
           <entry key="Password" value="3" />
+          <entry key="bat" value="2" />
           <entry key="cache" value="6" />
-          <entry key="html" value="30" />
-          <entry key="ini" value="12" />
+          <entry key="html" value="31" />
+          <entry key="ini" value="17" />
           <entry key="logged" value="5" />
-          <entry key="py" value="115" />
+          <entry key="py" value="133" />
+          <entry key="sh" value="2" />
           <entry key="td2" value="2" />
           <entry key="td3" value="2" />
           <entry key="td4" value="3" />
@@ -81,101 +86,54 @@
           <entry key="tr_1" value="9" />
           <entry key="tr_1_new" value="1" />
           <entry key="tr_2" value="2" />
-          <entry key="txt" value="3" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="30" />
-          <entry key="Ini" value="12" />
-          <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Python" value="115" />
+          <entry key="Bash" value="2" />
+          <entry key="Bat" value="1" />
+          <entry key="HTML" value="31" />
+          <entry key="Ini" value="17" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="Python" value="133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Password" value="10" />
+          <entry key="bat" value="158" />
           <entry key="cache" value="11" />
           <entry key="dummy" value="35" />
-          <entry key="html" value="7891" />
-          <entry key="ini" value="85" />
-          <entry key="py" value="15251" />
+          <entry key="html" value="8010" />
+          <entry key="ini" value="116" />
+          <entry key="py" value="16708" />
+          <entry key="sh" value="5" />
           <entry key="tr_0" value="1" />
           <entry key="tr_1_new" value="209" />
           <entry key="tr_2" value="2" />
-          <entry key="txt" value="855" />
+          <entry key="txt" value="993" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="7891" />
-          <entry key="Ini" value="85" />
-          <entry key="PLAIN_TEXT" value="1123" />
-          <entry key="Python" value="15251" />
+          <entry key="Bash" value="5" />
+          <entry key="Bat" value="158" />
+          <entry key="HTML" value="8010" />
+          <entry key="Ini" value="116" />
+          <entry key="PLAIN_TEXT" value="1261" />
+          <entry key="Python" value="16708" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/setup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="227" column="40" selection-start-line="227" selection-start-column="40" selection-end-line="227" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#92#0" expanded="true" />
-                <marker date="1543918041218" expanded="true" signature="2874:3838" ph="..." />
-                <marker date="1543918041218" expanded="true" signature="3298:3370" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scheduler_interface.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1544062301000" expanded="true" signature="101:102" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobscheduler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1544065256717" expanded="true" signature="695:697" ph="..." />
-                <marker date="1544065256717" expanded="true" signature="1267:1951" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="349">
+              <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -200,6 +158,7 @@
       <find>getFilteredTitleLinks</find>
       <find>getNewsList</find>
       <find>bypasscheck</find>
+      <find>../cache/last_feed.txt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -231,20 +190,22 @@
         <option value="$PROJECT_DIR$/webui/usermanager.py" />
         <option value="$PROJECT_DIR$/webui/configmanager.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/np_newsextractor/newsextractor.py" />
         <option value="$PROJECT_DIR$/schduled_rulesets/tr_2" />
         <option value="$PROJECT_DIR$/np_newsextractor/rsinterpreter.py" />
         <option value="$PROJECT_DIR$/np_newsextractor/ruleset.py" />
         <option value="$PROJECT_DIR$/webui/rulemanager.py" />
         <option value="$PROJECT_DIR$/templates/console.html" />
-        <option value="$PROJECT_DIR$/templates/setup.html" />
-        <option value="$PROJECT_DIR$/np_tools/configmanager.py" />
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/np_tools/commandmanager.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/np_newsextractor/newsextractor.py" />
         <option value="$PROJECT_DIR$/jobscheduler.py" />
+        <option value="$PROJECT_DIR$/np_tools/commandmanager.py" />
         <option value="$PROJECT_DIR$/scheduler_interface.py" />
+        <option value="$PROJECT_DIR$/start.bat" />
+        <option value="$PROJECT_DIR$/start_squeezer.sh" />
+        <option value="$PROJECT_DIR$/np_tools/configmanager.py" />
+        <option value="$PROJECT_DIR$/templates/setup.html" />
+        <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -274,11 +235,6 @@
             <path>
               <item name="NewsPush" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewsPush" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewsPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsPush" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +271,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jobscheduler">
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewsPush" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="jobscheduler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsPush" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -330,28 +308,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobscheduler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="newsextractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NewsPush" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/np_newsextractor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/np_newsextractor/newsextractor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,7 +338,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ruleset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scheduler_interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsPush" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -390,12 +346,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/np_newsextractor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/np_newsextractor/ruleset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scheduler_interface.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -440,18 +396,18 @@
     <list>
       <item itemvalue="Flask server.NewsPush" />
       <item itemvalue="Flask server.Flask (app.py)" />
-      <item itemvalue="Python.newsextractor" />
-      <item itemvalue="Python.ruleset" />
       <item itemvalue="Python.rsinterpreter" />
       <item itemvalue="Python.jobscheduler" />
+      <item itemvalue="Python.scheduler_interface" />
+      <item itemvalue="Python.config" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.jobscheduler" />
         <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Python.config" />
+        <item itemvalue="Python.scheduler_interface" />
+        <item itemvalue="Python.jobscheduler" />
         <item itemvalue="Python.rsinterpreter" />
-        <item itemvalue="Python.ruleset" />
-        <item itemvalue="Python.newsextractor" />
       </list>
     </recent_temporary>
   </component>
@@ -564,7 +520,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543918134473</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add new control implementations (COMMANDS).">
+      <created>1544065753835</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1544065753835</updated>
+    </task>
+    <task id="LOCAL-00016" summary="implement interactions of scheduler , use &lt;scheduler_interface.py&gt; to start and control scheduler.">
+      <created>1544076531473</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1544076531473</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -580,11 +550,11 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16490166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17170954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.1812596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -624,7 +594,9 @@
     <MESSAGE value="complete the UI of setup page, add change push time in console (for UI only, backend TBD)." />
     <MESSAGE value="implement backend of console settings and first setups. Change configures from config.py to config.ini. &lt;bug raised: seems like first_setup field doesn't working?User can visit setup page directly by the address.&gt;" />
     <MESSAGE value="fixed for first_setup field doesn't work. (timezone conversion TBD)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed for first_setup field doesn't work. (timezone conversion TBD)" />
+    <MESSAGE value="add new control implementations (COMMANDS)." />
+    <MESSAGE value="implement interactions of scheduler , use &lt;scheduler_interface.py&gt; to start and control scheduler." />
+    <option name="LAST_COMMIT_MESSAGE" value="implement interactions of scheduler , use &lt;scheduler_interface.py&gt; to start and control scheduler." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/np_pagedownloader/PageDownloader.py" />
@@ -732,13 +704,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webui/configmanager.py" />
-    <entry file="file://$PROJECT_DIR$/np_newsextractor/newsextractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/schduled_rulesets/tr_1" />
     <entry file="file://$PROJECT_DIR$/tests/td3">
       <provider selected="true" editor-type-id="text-editor">
@@ -775,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/np_newsextractor/rsinterpreter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="65" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/np_newsextractor/ruleset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-97">
@@ -796,11 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543886998758" expanded="true" signature="768:1726" ph="..." />
-            <marker date="1543886998758" expanded="true" signature="1108:1568" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,88 +772,93 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cache/WebUI.Password" />
-    <entry file="file://$PROJECT_DIR$/np_tools/configmanager.py">
+    <entry file="file://$PROJECT_DIR$/np_newsextractor/rsinterpreter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <marker date="1543917610601" expanded="true" signature="89:94" ph="..." />
-            <marker date="1543917610601" expanded="true" signature="690:691" ph="..." />
-          </folding>
+        <state relative-caret-position="201">
+          <caret line="29" column="65" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/setup.html">
+    <entry file="file://$PROJECT_DIR$/np_newsextractor/newsextractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="227" column="40" selection-start-line="227" selection-start-column="40" selection-end-line="227" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-            <marker date="1543918041218" expanded="true" signature="2874:3838" ph="..." />
-            <marker date="1543918041218" expanded="true" signature="3298:3370" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="95">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/np_tools/commandmanager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding>
-            <marker date="1544063951698" expanded="true" signature="37:39" ph="..." />
-            <marker date="1544063951698" expanded="true" signature="61:165" ph="..." />
-            <marker date="1544063951698" expanded="true" signature="189:194" ph="..." />
-            <marker date="1544063951698" expanded="true" signature="189:296" ph="..." />
-            <marker date="1544063951698" expanded="true" signature="323:328" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobscheduler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1544065256717" expanded="true" signature="695:697" ph="..." />
-            <marker date="1544065256717" expanded="true" signature="1267:1951" ph="..." />
-          </folding>
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler_interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="114">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobscheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="96" column="19" lean-forward="true" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confidentials/SendGridAPIKey.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/setup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="247" column="38" selection-start-line="247" selection-start-column="38" selection-end-line="247" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/np_tools/configmanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1544062301000" expanded="true" signature="101:102" ph="..." />
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start_squeezer.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start_squeezer.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
         </state>
       </provider>
     </entry>

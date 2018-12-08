@@ -15,6 +15,9 @@ def changConfigure(key,value):
     elif key == "password":
         CFG.CONSOLE_PWD = value
         keyname = "console_password"
+    elif key == "first_setup":
+        CFG.FIRST_SETUP = False
+        keyname = "first_setup"
     saveKey(keyname, value)
     return "Success"
 

@@ -19,7 +19,6 @@ def login_required(f):
         sid = UM.generateSID()
         session["sid"] = sid
         return redirect(url_for('loginpage', next=request.url))
-
     return decorated_function
 
 
@@ -88,6 +87,8 @@ def api_firstsetup():
         CFGM.changConfigure("time",time)
         CFGM.changConfigure("apikey",apikey)
         CFGM.changConfigure("password",password)
+        CFGM.changConfigure("first_setup", "False")
+        return "success! please refresh this page." #make_response(redirect(url_for("loginpage"),code=307))
     return "error,you already setup Squeezer"
 
 
@@ -127,4 +128,4 @@ def api_updatetime():
     return "Success"
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=1030)
