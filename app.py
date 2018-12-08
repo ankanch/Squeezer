@@ -4,6 +4,7 @@ from webui import usermanager as UM
 from webui import rulemanager as RM
 from np_tools import  configmanager as CFGM
 import config as CFG
+import sys
 
 app = Flask(__name__)
 app.secret_key = '238947uwJASOUD238UAOSDJAQ2ASD35482sad'
@@ -128,4 +129,7 @@ def api_updatetime():
     return "Success"
 
 if __name__ == '__main__':
-    app.run(port=1030)
+    if CFG.DEBUG_MODE:
+        app.run(hotst="127.0.0.1",port=1030)
+    else:
+        app.run(hotst="0.0.0.0", port=1030)
