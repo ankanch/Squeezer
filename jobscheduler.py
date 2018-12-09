@@ -69,7 +69,7 @@ def performTask():
             nl = runTask()
             nl = nc.filternews(nl)
             pushNews(nl)
-            print("news pushed")
+            print("performTask():news pushed")
             finsiehd = True
         except:
             print("performTask(): error occurred. retry in 15 seconds.")
@@ -95,8 +95,10 @@ if __name__ == "__main__":
     else:
         print("jobscheduler.py:Scheduler Started ")
         while True:
+            print("jobscheduler.py:check time ")
             if checkTime():
                 if commandmanager.checkCommand(commandmanager.COMMAND_RUN_SCHEDULER):
+                    print("jobscheduler.py:ready to send,waiting 60 seconds")
                     time.sleep(60)
                     performTask()
             time.sleep(10)

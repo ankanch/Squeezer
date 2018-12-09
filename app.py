@@ -130,6 +130,6 @@ def api_updatetime():
 
 if __name__ == '__main__':
     if CFG.DEBUG_MODE:
-        app.run(hotst="127.0.0.1",port=1030)
+        app.run(host="127.0.0.1",port=1030)
     else:
-        app.run(hotst="0.0.0.0", port=1030)
+        app.run(host="0.0.0.0", port=1030)

@@ -28,7 +28,7 @@
 <script src="//www.cnbeta.com/js/jquery.js"></script>
 <script src="//www.cnbeta.com/js/cb.js"></script><link rel="shortcut icon" href="//static.cnbetacdn.com/favicon.ico" type="image/x-icon">
 <meta name="csrf-param" content="_csrf">
-    <meta name="csrf-token" content="6CRnINz5hmBAUU7B_Z3LXcsgJ27JK4-7fcTO03gasweMayJEqoDuVRhleqiLr7lum2x4OI8cvMsvsYSQL0CFXw==">
+    <meta name="csrf-token" content="bSm7pjnfCAGPJnsQJ_68xyannPAmLSajgDMfFJlB2ioIUerEULklVf8SMV0Tp82GH-PPuXZ5dOTjbEpVwXe2Tw==">
 </head>
 <body><header class="pageHeader home_topics">
     <div class="w1200">
@@ -68,6 +68,83 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
             <div class="items-area">
             <div class="item">
                 <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/796387.htm" target="_blank">微软向 Code.org 提供1000万美元用于推动计算机教育</a></dt>
+                    <dd><p>微软近日宣布将<a href="https://educationblog.microsoft.com/2018/12/computer-science-education-week-tips-courses/" target="_blank">提供 1000 万美元</a>资金以帮助&nbsp;Code.org 继续推动美国计算机科学教育的普及。Code.org&nbsp;是一家非盈利组织，旨在让更多学校开设计算机科学教育相关课程，最终愿景是每个学校的每个学生都有机会学习计算机科学，就像学习数理化一样。Code.org
+ 的主要赞助者包括亚马逊、Facebook、Google、Infosys 基金会，以及微软。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/796387.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1209/f52237ac39a1381.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-09 08:16</li>
+                        <li>阅读 (221)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/796387.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/796015.htm" target="_blank">[图]微软中止推送KB467682：导致Surface Book 2蓝屏</a></dt>
+                    <dd><p>由于导致Surface Book 2设备出现蓝屏现象，微软官方决定中止推送累积更新KB467682。该累积更新于11月27日上线，在更新日志中表示修复了大量BUG，并且没有任何已知问题。但是Surface Book 2设备在安装之后多次出现蓝屏问题。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/796015.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1207/c8f44c96cd39c03.png"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>study875 2018-12-07 16:14</li>
+                        <li>阅读 (1114)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/796015.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/795943.htm" target="_blank">微软呼吁政府立法监管人脸识别技术 防止滥用</a></dt>
+                    <dd><p>设想下《疑犯追踪》中的动态人脸识别技术，大规模网络监控防止和打击犯罪。微软的首席顾问Brad 
+Smith发表了一篇博文，督促政府尽快立法限制和监管先进的人脸识别技术，负责任地进行行业应用。尽管该技术可能对社会有益，但是防止其滥用刻不容缓，否则微软担心此类技术泛滥最终会形成1984小说中描写的反乌托邦社会。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/795943.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1207/1b99c98e2762bf7.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>KungfuDogg 2018-12-07 14:17</li>
+                        <li>阅读 (558)</li>
+                        <li>评论 (1)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/795943.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/795921.htm" target="_blank">微软呼吁政府对面部识别技术进行监管：可能存在滥用</a></dt>
+                    <dd><p><strong>当地时间12月6日，据《华尔街日报》报道，微软正在敦促全球各地政府明年出台针对面部识别技术的监管条例，条例需要对这一技术的准确性有独立评价标准，并禁止在法院许可的范围外对特定对象进行持续监控。</strong>微软推动对新兴技术的监管，是伴随着包括Facebook、谷歌在内的竞争对手面临着来自立法者和其他人对其隐私做法的强烈反对。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/795921.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1207/ec2c8b4c9012cb1.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-07 13:33</li>
+                        <li>阅读 (304)</li>
+                        <li>评论 (0)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/795921.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
+                    <dt><a href="https://www.cnbeta.com/articles/tech/795819.htm" target="_blank">微软下乡送温暖：免费给美国大农村铺宽带</a></dt>
+                    <dd><p>老乡开门啊，我们是微软啊，给你送温暖啦，哦不，我们是来送宽带的。如何为全球偏远地区提供互联网，是各大科技公司近年来的一大情怀和挑战。为了同样的目的，不同公司有不同的技术方案，其中最为炫酷的就是空降：谷歌选择了平流层气球，Facebook选择了无人机，SpaceX选择了发射卫星。</p></dd>
+                    <a href="https://www.cnbeta.com/articles/tech/795819.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1207/edcba2951d6bd90.jpg"></a>
+                </dl>
+                <div class="meta-data">
+<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
+                        <li>ugmbbc 2018-12-07 09:13</li>
+                        <li>阅读 (1796)</li>
+                        <li>评论 (2)</li>
+                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/795819.htm" target="_blank">详细内容</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <dl>
                     <dt><a href="https://www.cnbeta.com/articles/tech/795545.htm" target="_blank">微软游戏业务营收2018财年首超100亿美元 占公司总营收9.4%</a></dt>
                     <dd><p><strong>据美国财经网站CNBC报道，在截至6月30日的2018财年里，微软游戏业务营收首次超过100亿美元，占公司总营收的9.4%。</strong>自世纪之交以来，微软就一直从事游戏业务。从财务角度来看，该业务对公司很重要。
 
@@ -77,8 +154,8 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-12-06 12:52</li>
-                        <li>阅读 (83)</li>
-                        <li>评论 (0)</li>
+                        <li>阅读 (814)</li>
+                        <li>评论 (1)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/795545.htm" target="_blank">详细内容</a></li>
                     </ul>
                 </div>
@@ -95,8 +172,8 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>ugmbbc 2018-12-06 10:01</li>
-                        <li>阅读 (1983)</li>
-                        <li>评论 (0)</li>
+                        <li>阅读 (3710)</li>
+                        <li>评论 (1)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/795465.htm" target="_blank">详细内容</a></li>
                     </ul>
                 </div>
@@ -110,7 +187,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-12-06 08:19</li>
-                        <li>阅读 (491)</li>
+                        <li>阅读 (686)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/795401.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -125,7 +202,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>maomao 2018-12-06 01:36</li>
-                        <li>阅读 (1965)</li>
+                        <li>阅读 (3699)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/795325.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -140,7 +217,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-12-05 09:55</li>
-                        <li>阅读 (554)</li>
+                        <li>阅读 (587)</li>
                         <li>评论 (1)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/795011.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -155,7 +232,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-12-05 09:26</li>
-                        <li>阅读 (1109)</li>
+                        <li>阅读 (1202)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794995.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -170,7 +247,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-12-05 08:26</li>
-                        <li>阅读 (1019)</li>
+                        <li>阅读 (1102)</li>
                         <li>评论 (2)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794953.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -185,7 +262,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-12-04 14:02</li>
-                        <li>阅读 (672)</li>
+                        <li>阅读 (718)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794695.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -200,7 +277,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-12-04 08:54</li>
-                        <li>阅读 (313)</li>
+                        <li>阅读 (334)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794527.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -215,7 +292,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>maomao 2018-12-04 00:22</li>
-                        <li>阅读 (1441)</li>
+                        <li>阅读 (1477)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794439.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -230,7 +307,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>ugmbbc 2018-12-03 22:12</li>
-                        <li>阅读 (415)</li>
+                        <li>阅读 (428)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794413.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -245,7 +322,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>ugmbbc 2018-12-03 21:17</li>
-                        <li>阅读 (311)</li>
+                        <li>阅读 (319)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794391.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -260,7 +337,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-12-03 16:46</li>
-                        <li>阅读 (547)</li>
+                        <li>阅读 (694)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794309.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -276,7 +353,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>ugmbbc 2018-12-03 06:52</li>
-                        <li>阅读 (7288)</li>
+                        <li>阅读 (7328)</li>
                         <li>评论 (4)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794071.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -291,7 +368,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>ugmbbc 2018-12-02 20:21</li>
-                        <li>阅读 (3512)</li>
+                        <li>阅读 (3565)</li>
                         <li>评论 (3)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794037.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -306,7 +383,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>ugmbbc 2018-12-02 20:11</li>
-                        <li>阅读 (2820)</li>
+                        <li>阅读 (2950)</li>
                         <li>评论 (2)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/794031.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -321,7 +398,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-12-02 08:03</li>
-                        <li>阅读 (1138)</li>
+                        <li>阅读 (1157)</li>
                         <li>评论 (1)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/793891.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -336,7 +413,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels game"><a href="https://www.cnbeta.com/category/game" target="_blank">游戏</a></label>                    <ul class="status">
                         <li>ugmbbc 2018-12-01 16:09</li>
-                        <li>阅读 (866)</li>
+                        <li>阅读 (878)</li>
                         <li>评论 (1)</li>
                         <li class="b"><a href="//hot.cnbeta.com/articles/game/793823" target="_blank">详细内容</a></li>
                     </ul>
@@ -351,7 +428,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>ugmbbc 2018-12-01 07:08</li>
-                        <li>阅读 (1029)</li>
+                        <li>阅读 (1038)</li>
                         <li>评论 (8)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/793681.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -366,7 +443,7 @@ Xbox游戏机和在线服务的销售意味着，微软不再那么依赖Windows
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>maomao 2018-12-01 00:31</li>
-                        <li>阅读 (297)</li>
+                        <li>阅读 (306)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/793663.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -383,7 +460,7 @@ Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>ugmbbc 2018-11-30 17:33</li>
-                        <li>阅读 (2511)</li>
+                        <li>阅读 (2576)</li>
                         <li>评论 (2)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/793593.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -400,7 +477,7 @@ Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-11-30 10:48</li>
-                        <li>阅读 (2716)</li>
+                        <li>阅读 (2739)</li>
                         <li>评论 (1)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/793391.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -415,7 +492,7 @@ Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-11-30 08:12</li>
-                        <li>阅读 (1395)</li>
+                        <li>阅读 (1399)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/793275.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -430,7 +507,7 @@ Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>maomao 2018-11-30 00:58</li>
-                        <li>阅读 (1813)</li>
+                        <li>阅读 (1817)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/793211.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -445,7 +522,7 @@ Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>teikaei  2018-11-29 09:43</li>
-                        <li>阅读 (1493)</li>
+                        <li>阅读 (1501)</li>
                         <li>评论 (1)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/792917.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -460,7 +537,7 @@ Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>KungfuDogg 2018-11-29 09:11</li>
-                        <li>阅读 (2199)</li>
+                        <li>阅读 (2280)</li>
                         <li>评论 (1)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/792903.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -477,7 +554,7 @@ Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-11-28 08:55</li>
-                        <li>阅读 (1908)</li>
+                        <li>阅读 (1931)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/792465.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -492,7 +569,7 @@ Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-11-28 08:28</li>
-                        <li>阅读 (1229)</li>
+                        <li>阅读 (1237)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/792451.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -507,7 +584,7 @@ Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>study875 2018-11-27 10:43</li>
-                        <li>阅读 (553)</li>
+                        <li>阅读 (578)</li>
                         <li>评论 (2)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/792095.htm" target="_blank">详细内容</a></li>
                     </ul>
@@ -522,84 +599,9 @@ Cutler 对于这个项目存在的所有疑问进行了公开解答。</p></dd>
                 <div class="meta-data">
 <label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
                         <li>teikaei  2018-11-27 09:03</li>
-                        <li>阅读 (719)</li>
+                        <li>阅读 (723)</li>
                         <li>评论 (0)</li>
                         <li class="b"><a href="https://www.cnbeta.com/articles/tech/792035.htm" target="_blank">详细内容</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <dl>
-                    <dt><a href="https://www.cnbeta.com/articles/tech/792009.htm" target="_blank">此消彼长 微软市值增至创纪录8160亿美元逼近苹果</a></dt>
-                    <dd><p>就在苹果公司的市值突破1万亿美元大关四个月后，这家iPhone制造商几乎已经丧失了领先优势。作为华尔街市值最高的公司，苹果市值即将被微软公司超越。</p></dd>
-                    <a href="https://www.cnbeta.com/articles/tech/792009.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1127/6dee0da5e68b2d6.jpg"></a>
-                </dl>
-                <div class="meta-data">
-<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
-                        <li>KungfuDogg 2018-11-27 08:31</li>
-                        <li>阅读 (1266)</li>
-                        <li>评论 (0)</li>
-                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/792009.htm" target="_blank">详细内容</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <dl>
-                    <dt><a href="https://www.cnbeta.com/articles/tech/791663.htm" target="_blank">微软宣布与大疆DJI合作 开发无人机云端后台SDK等解决方案</a></dt>
-                    <dd><p>在Autel Robotics等竞争对手的崛起下，大疆DJI公司的无人机业务日渐面临威胁。微软与DJI达成了一项新的合作协议，微软将为其研发一款全新的SDK套件，能够让Windows 10 PC直接对DJI的无人产品进行完整的飞行操控，并且进行实时数据传输。</p></dd>
-                    <a href="https://www.cnbeta.com/articles/tech/791663.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1126/18b6d52d3e3516c.jpg"></a>
-                </dl>
-                <div class="meta-data">
-<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
-                        <li>KungfuDogg 2018-11-26 11:09</li>
-                        <li>阅读 (1745)</li>
-                        <li>评论 (0)</li>
-                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/791663.htm" target="_blank">详细内容</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <dl>
-                    <dt><a href="https://www.cnbeta.com/articles/tech/791179.htm" target="_blank">[图]微软总市值超过苹果亚马逊 成为硅谷最有价值科技公司</a></dt>
-                    <dd><p>在苹果阴影下生活近十年后，微软的市值终于超过了这家总部位于库比蒂诺的公司。在撰写本文时，微软当日收盘时总市值为7533.4亿美元，高于苹果公司（市值为7468.2亿美元）65亿美元。今年早些时候紧随苹果迈入万亿大关的亚马逊目前市值为7419.0亿美元。</p></dd>
-                    <a href="https://www.cnbeta.com/articles/tech/791179.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1124/af4085fdc6534db.png"></a>
-                </dl>
-                <div class="meta-data">
-<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
-                        <li>study875 2018-11-24 07:36</li>
-                        <li>阅读 (4957)</li>
-                        <li>评论 (2)</li>
-                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/791179.htm" target="_blank">详细内容</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <dl>
-                    <dt><a href="https://www.cnbeta.com/articles/tech/791011.htm" target="_blank">微软发布KB4461585更新：修复Outlook 2010崩溃问题</a></dt>
-                    <dd><p>上周本站曾报道部分Windows 10用户在安装Windows 10更新KB4461529后，导致Outlook 2010崩溃无法正常使用。<strong>而今天微软再发布了KB4461585更新，修复了上述BUG，用户也可以通过<a href="https://www.microsoft.com/zh-CN/download/details.aspx?id=57598" target="_blank">Microsoft Download Center进行手动下载安装。</a></strong></p></dd>
-                    <a href="https://www.cnbeta.com/articles/tech/791011.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1123/d858b02be2706ea.jpg"></a>
-                </dl>
-                <div class="meta-data">
-<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
-                        <li>study875 2018-11-23 14:50</li>
-                        <li>阅读 (843)</li>
-                        <li>评论 (1)</li>
-                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/791011.htm" target="_blank">详细内容</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <dl>
-                    <dt><a href="https://www.cnbeta.com/articles/tech/790601.htm" target="_blank">沈向洋：微软亚洲研究院成立20年发表超5000篇论文</a></dt>
-                    <dd><p><strong>微软全球执行副总裁、微软人工智能及微软研究事业部负责人沈向洋近日在其LinkedIn主页发表博文《书写未来科研的二十年》称，微软亚洲研究院成立20周年，已发表了超过5000篇科研论文，</strong>成为了世界上最受赞许的企业研究院。沈向洋认为，微软亚洲研究院为全球计算科学研究的五个领域带来了重大影响：互联网和搜索、网络和系统、机器学习和智能、语音和语言、视觉和图形。</p></dd>
-                    <a href="https://www.cnbeta.com/articles/tech/790601.htm" target="_blank"><img src="https://static.cnbetacdn.com/thumb/mini/article/2018/1122/0b22b60db944a35.jpg"></a>
-                </dl>
-                <div class="meta-data">
-<label class="labels tech"><a href="https://www.cnbeta.com/category/tech" target="_blank">科技</a></label>                    <ul class="status">
-                        <li>study875 2018-11-22 11:32</li>
-                        <li>阅读 (712)</li>
-                        <li>评论 (0)</li>
-                        <li class="b"><a href="https://www.cnbeta.com/articles/tech/790601.htm" target="_blank">详细内容</a></li>
                     </ul>
                 </div>
             </div>
@@ -982,58 +984,58 @@ CB.use('paging',function(){
             <ul>
                         <li class="top3">
                     <label>1</label>
-                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/792919.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1129/e7fbda2b6d2aefc.jpg&quot;);background-repeat:no-repeat;"></a>
-                    <h4><a href="https://www.cnbeta.com/articles/tech/792919.htm" target="_blank">华为全新手机操作系统曝光：不基于安卓 正在研发中</a></h4>
-                    <div class="meta-status">阅读 (21027) 评论 (20)</div>
+                    <a class="lazy story-image" href="//hot.cnbeta.com/articles/movie/794281" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1203/e34d3c7dcf44ec3.jpg&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="//hot.cnbeta.com/articles/movie/794281" target="_blank">新版《神雕侠侣》电视剧人物海报 全阵容角色亮相</a></h4>
+                    <div class="meta-status">阅读 (11928) 评论 (18)</div>
                 </li>
                         <li class="top3">
                     <label>2</label>
-                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/792847.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1129/655c41875a59c55.jpg&quot;);background-repeat:no-repeat;"></a>
-                    <h4><a href="https://www.cnbeta.com/articles/tech/792847.htm" target="_blank">中国电信公告：VoLTE通话服务今日开始试商用</a></h4>
-                    <div class="meta-status">阅读 (17341) 评论 (17)</div>
+                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/794145.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1203/eb6b59a3e555d7a.jpg&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="https://www.cnbeta.com/articles/tech/794145.htm" target="_blank">董明珠：与雷军五年赌约已胜出 赌局毫无意义</a></h4>
+                    <div class="meta-status">阅读 (21868) 评论 (15)</div>
                 </li>
                         <li class="top3">
                     <label>3</label>
-                    <a class="lazy story-image" href="//hot.cnbeta.com/articles/movie/794281" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1203/e34d3c7dcf44ec3.jpg&quot;);background-repeat:no-repeat;"></a>
-                    <h4><a href="//hot.cnbeta.com/articles/movie/794281" target="_blank">新版《神雕侠侣》电视剧人物海报 全阵容角色亮相</a></h4>
-                    <div class="meta-status">阅读 (11032) 评论 (17)</div>
+                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/795397.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1206/864c7972412dba2.jpg&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="https://www.cnbeta.com/articles/tech/795397.htm" target="_blank">华为最新回应孟晚舟被捕一事:不知其有任何不当行为</a></h4>
+                    <div class="meta-status">阅读 (20275) 评论 (10)</div>
                 </li>
-                        <li><label>4</label><a href="https://www.cnbeta.com/articles/tech/793669.htm" target="_blank">刘强东性侵案更多细节：女生说自己被骗去参加晚宴</a></li>
-                        <li><label>5</label><a href="https://www.cnbeta.com/articles/tech/794145.htm" target="_blank">董明珠：与雷军五年赌约已胜出 赌局毫无意义</a></li>
-                        <li><label>6</label><a href="https://www.cnbeta.com/articles/tech/793185.htm" target="_blank">微信语音为啥不能转发？官方：保护隐私和安全</a></li>
-                        <li><label>7</label><a href="https://www.cnbeta.com/articles/tech/793221.htm" target="_blank">微软用更现代化的风格重新设计Office的各个软件图标</a></li>
-                        <li><label>8</label><a href="//hot.cnbeta.com/articles/movie/793197" target="_blank">周星驰新片《新喜剧之王》海报公布 大年初一上映</a></li>
-                        <li><label>9</label><a href="https://www.cnbeta.com/articles/tech/793049.htm" target="_blank">李开复：买车是一生最坏投资 大V神评论抢眼</a></li>
-                        <li><label>10</label><a href="https://www.cnbeta.com/articles/tech/793063.htm" target="_blank">[图]携号转网新流程12月1日生效：短信方式就可查询申请</a></li>
+                        <li><label>4</label><a href="https://www.cnbeta.com/articles/tech/793831.htm" target="_blank">百度杀毒退出江湖 盘点那些年红极一时的杀毒软件</a></li>
+                        <li><label>5</label><a href="https://www.cnbeta.com/articles/tech/794365.htm" target="_blank">[评论]被遗忘的 Office 2019</a></li>
+                        <li><label>6</label><a href="https://www.cnbeta.com/articles/tech/794991.htm" target="_blank">有高速不走还走辅路？ IPv6普及难事出有因</a></li>
+                        <li><label>7</label><a href="https://www.cnbeta.com/articles/tech/793971.htm" target="_blank">[图]2018八大旗舰手机横评：谁是你的菜？</a></li>
+                        <li><label>8</label><a href="//hot.cnbeta.com/articles/movie/794049" target="_blank">刘慈欣《流浪地球》新预告：逃离太阳系险象环生</a></li>
+                        <li><label>9</label><a href="https://www.cnbeta.com/articles/tech/794099.htm" target="_blank">电信VoLTE怎么开 所有的注意点全在这了</a></li>
+                        <li><label>10</label><a href="//hot.cnbeta.com/articles/funny/794101" target="_blank">当一头狮子遭遇20只鬣狗围攻 结局令人意外</a></li>
                     </ul>
         </div>
                         <div class="cber-hot-tabs-contents tabs-con topClicks">
             <ul>
                         <li class="top3">
                     <label>1</label>
-                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/793063.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1129/f5542f7f2acd4d4.png&quot;);background-repeat:no-repeat;"></a>
-                    <h4><a href="https://www.cnbeta.com/articles/tech/793063.htm" target="_blank">[图]携号转网新流程12月1日生效：短信方式就可查询申请</a></h4>
-                    <div class="meta-status">阅读 (24200) 评论 (11)</div>
+                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/794365.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1203/139033f9eeabb07.jpg&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="https://www.cnbeta.com/articles/tech/794365.htm" target="_blank">[评论]被遗忘的 Office 2019</a></h4>
+                    <div class="meta-status">阅读 (24597) 评论 (10)</div>
                 </li>
                         <li class="top3">
                     <label>2</label>
-                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/794365.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1203/139033f9eeabb07.jpg&quot;);background-repeat:no-repeat;"></a>
-                    <h4><a href="https://www.cnbeta.com/articles/tech/794365.htm" target="_blank">[评论]被遗忘的 Office 2019</a></h4>
-                    <div class="meta-status">阅读 (22687) 评论 (10)</div>
+                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/795381.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1206/04849a5328dba6b.png&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="https://www.cnbeta.com/articles/tech/795381.htm" target="_blank">华为回应孟晚舟被捕一事：系转机被扣留 华为遵守各国法律法规</a></h4>
+                    <div class="meta-status">阅读 (24366) 评论 (9)</div>
                 </li>
                         <li class="top3">
                     <label>3</label>
-                    <a class="lazy story-image" href="https://www.cnbeta.com/articles/tech/792919.htm" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1129/e7fbda2b6d2aefc.jpg&quot;);background-repeat:no-repeat;"></a>
-                    <h4><a href="https://www.cnbeta.com/articles/tech/792919.htm" target="_blank">华为全新手机操作系统曝光：不基于安卓 正在研发中</a></h4>
-                    <div class="meta-status">阅读 (21022) 评论 (20)</div>
+                    <a class="lazy story-image" href="//hot.cnbeta.com/articles/movie/794741" target="_blank" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image:url(&quot;https://static.cnbetacdn.com/thumb/mini/article/2018/1204/3b5df6948e1a9bb.jpg&quot;);background-repeat:no-repeat;"></a>
+                    <h4><a href="//hot.cnbeta.com/articles/movie/794741" target="_blank">《新神雕侠侣》曝光神雕夫妇剧照 纯情小龙女美如画</a></h4>
+                    <div class="meta-status">阅读 (23642) 评论 (7)</div>
                 </li>
-                        <li><label>3</label><a href="https://www.cnbeta.com/articles/tech/794145.htm" target="_blank">董明珠：与雷军五年赌约已胜出 赌局毫无意义</a></li>
-                        <li><label>4</label><a href="https://www.cnbeta.com/articles/tech/794177.htm" target="_blank">章泽天抛售澳洲近600平米豪宅 售价超1.1亿元</a></li>
-                        <li><label>5</label><a href="https://www.cnbeta.com/articles/tech/792847.htm" target="_blank">中国电信公告：VoLTE通话服务今日开始试商用</a></li>
-                        <li><label>6</label><a href="//hot.cnbeta.com/articles/movie/794741" target="_blank">《新神雕侠侣》曝光神雕夫妇剧照 纯情小龙女美如画</a></li>
-                        <li><label>7</label><a href="https://www.cnbeta.com/articles/tech/794019.htm" target="_blank">马云谈“风口论”：风停了摔死的都是猪</a></li>
-                        <li><label>8</label><a href="https://www.cnbeta.com/articles/tech/793221.htm" target="_blank">微软用更现代化的风格重新设计Office的各个软件图标</a></li>
-                        <li><label>9</label><a href="https://www.cnbeta.com/articles/tech/793669.htm" target="_blank">刘强东性侵案更多细节：女生说自己被骗去参加晚宴</a></li>
+                        <li><label>3</label><a href="https://www.cnbeta.com/articles/tech/794177.htm" target="_blank">章泽天抛售澳洲近600平米豪宅 售价超1.1亿元</a></li>
+                        <li><label>4</label><a href="https://www.cnbeta.com/articles/tech/794145.htm" target="_blank">董明珠：与雷军五年赌约已胜出 赌局毫无意义</a></li>
+                        <li><label>5</label><a href="https://www.cnbeta.com/articles/tech/795397.htm" target="_blank">华为最新回应孟晚舟被捕一事:不知其有任何不当行为</a></li>
+                        <li><label>6</label><a href="https://www.cnbeta.com/articles/tech/794019.htm" target="_blank">马云谈“风口论”：风停了摔死的都是猪</a></li>
+                        <li><label>7</label><a href="https://www.cnbeta.com/articles/science/794747.htm" target="_blank">官方紧急提醒：这两种感冒药 全国停用、停产</a></li>
+                        <li><label>8</label><a href="https://www.cnbeta.com/articles/tech/794851.htm" target="_blank">"微信支付"勒索病毒制造者被锁定 传播、危害和疫情终极解密</a></li>
+                        <li><label>9</label><a href="https://www.cnbeta.com/articles/tech/794495.htm" target="_blank">"微信支付"勒索病毒愈演愈烈 边勒索边窃取支付宝密码</a></li>
                     </ul>
         </div>
             </div>
