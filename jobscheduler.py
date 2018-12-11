@@ -71,8 +71,8 @@ def performTask():
             pushNews(nl)
             print("performTask():news pushed")
             finsiehd = True
-        except:
-            print("performTask(): error occurred. retry in 15 seconds.")
+        except Exception as e:
+            print("performTask(): error occurred. retry in 15 seconds.",e)
             time.sleep(15)
             tried += 1
     return finsiehd
@@ -83,9 +83,8 @@ def checkTime():
     :return: True, if minute matched
     """
     ct = datetime.datetime.now().strftime('%H:%M')
-    if ct[:2] == CFG.EMAIL_SENDING_TIME[:2]:
-        if int(ct[3:]) - int(CFG.EMAIL_SENDING_TIME[3:]) <= 0:
-            return True
+    if ct == CFG.EMAIL_SENDING_TIME:
+        return True
     return False
 
 if __name__ == "__main__":
@@ -100,7 +99,10 @@ if __name__ == "__main__":
                 if commandmanager.checkCommand(commandmanager.COMMAND_RUN_SCHEDULER):
                     print("jobscheduler.py:ready to send,waiting 60 seconds")
                     time.sleep(60)
-                    performTask()
+                    if performTask() == False:
+                        print("failed to push news, restarting Squeezer... ")
+                        commandmanager.removeCommand(commandmanager.COMMAND_RUN_SCHEDULER)
+                        commandmanager.addCommand(commandmanager.COMMAND_RESTART_SCHEDULER)
             time.sleep(10)
             if commandmanager.checkCommand(commandmanager.COMMAND_RESTART_SCHEDULER):
                 commandmanager.removeCommand(commandmanager.COMMAND_RESTART_SCHEDULER)
