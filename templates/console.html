@@ -261,88 +261,9 @@
             </div>
         </div>
     </div>
-    <!-- Modal -->
-    <div class="modal fade" id="addnewrule" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-         aria-hidden="true" data-backdrop="static" data-keyboard="false">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Add a news grab rule</h5>
-                </div>
-                <div class="modal-body">
-                    <form id="form_add_rule">
-                        <h6>Basic info:</h6>
-                        <div class=" row">
-                            <div class="form-group col-md-4">
-                                <input type="text" class="form-control" id="add_rulename" aria-describedby="emailHelp"
-                                       placeholder="Name of the rule" name="nr_name">
-                            </div>
-                            <div class="form-group col-md-8">
-                                <input type="text" class="form-control" id="add_website"
-                                       placeholder="Website for this rule" name="nr_site">
-                            </div>
-                        </div>
-                        <hr>
-                        <h6>Rule:</h6>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <select class="form-control" id="add_ruletype" onchange="selectRuleType()">
-                                    <option>---Select Rule Type---</option>
-                                    <option value="rt_gnc">Grab News Container</option>
-                                    <option value="rt_gn">Get News</option>
-                                </select>
-                            </div>
-                            <div class="col-md-2">
-                                <button type="button" class="btn btn-success" onclick="allArule()">Add</button>
-                            </div>
-                        </div>
-                        <small>Rule Parameters:</small>
-                        <div class="row" id="rp_rt_gnc" style="display: none;">
-                            <div class="form-group col-md-10">
-                                <input type="text" class="form-control" id="add_gnc_selector"
-                                       placeholder="selector which selects news from a news list.">
-                            </div>
-                            <div class="form-group col-md-10">
-                                <input type="text" class="form-control" id="add_gnc_ignorechild"
-                                       placeholder="child list to ignore,use comma to split multiples">
-                            </div>
-                        </div>
-                        <div class="row" id="rp_rt_gn" style="display: none;">
-                            <div class="form-group col-md-8">
-                                <input type="text" class="form-control" id="add_gn_keywords"
-                                       placeholder="keywords to filter news">
-                            </div>
-                        </div>
-                        <h6>Ruleset:</h6>
-                        <div class="form-group">
-                            <textarea class="form-control" id="add_ruleset" rows="2"
-                                      placeholder="preview for the rule set" name="nr_ruleset" readonly></textarea>
-                        </div>
-                    </form>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <button type="button" class="btn btn-warning" onclick="testNewRule()">-- Test --</button>
-                        </div>
-                        <div class="col-md-10" id="testresult">After you added rule information,please click test to
-                            test if the rule works as expected. The test result(grabbed news) will be displayed in this
-                            filed.
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <div id="viewrule_btn" style="display: none;">
-                        <button type="button" class="btn btn-danger" onclick="closeview()">Close</button>
-                        <button type="button" class="btn btn-primary">Update</button>
-                    </div>
-                    <div id="addrule_btn">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-primary" onclick="addrule()">Save Rule</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- add ruleset -->
+    {% include  "parts_console/rulesetpopup.html" %}
+
     <hr style="margin-top: 50px">
     <div class="row">
         <div class="col-md-6">
@@ -382,88 +303,6 @@
         return checkstatus;
     }
 
-    function testNewRule() {
-        if (validateform() == false) {
-            alert("please fill all necessary filed before you continue.");
-            return;
-        }
-        $.ajax({
-            url: '/api/testrule',
-            type: 'post',
-            dataType: 'html',
-            data: $("#form_add_rule").serialize(),
-            success: function (data) {
-                $("#testresult").text(data);
-            }
-        });
-
-    }
-
-    function selectRuleType() {
-        var selval = $("#add_ruletype").val();
-        switch (selval) {
-            case "rt_gnc":
-                $("#rp_rt_gnc").show();
-                $("#rp_rt_gn").hide();
-                break;
-            case "rt_gn":
-                $("#rp_rt_gnc").hide();
-                $("#rp_rt_gn").show();
-                break;
-            default:
-                console.log("no selected or unexpected value.")
-        }
-    }
-
-    function allArule() {
-        var selval = $("#add_ruletype").val();
-        var ruleparam = [];
-        var action = "";
-        switch (selval) {
-            case "rt_gnc":
-                action = "SELECT_ALL";
-                ruleparam.push($("#add_gnc_selector").val());
-                var ilist = []
-                var silist = $("#add_gnc_ignorechild").val().split(",");
-                for (var i = 0; i < silist.length; i++) {
-                    ilist.push(parseInt(silist[i]));
-                }
-                ruleparam.push(ilist);
-                break;
-            case "rt_gn":
-                action = "GET_NEWS"
-                silist = $("#add_gn_keywords").val().split(",");
-                ruleparam.push(silist);
-                break;
-            default:
-                alert("select a rule type before you continue.");
-                return;
-        }
-        if (selval == "rt_gnc" && ruleparam[0].length < 2) {
-            alert("Please fill the selector filed!");
-            return;
-        }
-        // make up rule and fill it into the preview
-        ruleset.push([action, ruleparam]);
-        $("#add_ruleset").val(JSON.stringify(ruleset));
-    }
-
-    function addrule() {
-        if (validateform() == false) {
-            alert("please fill all necessary filed before you continue.");
-            return;
-        }
-        $.ajax({
-            url: '/api/addrule',
-            type: 'post',
-            dataType: 'html',
-            data: $("#form_add_rule").serialize(),
-            success: function (data) {
-                alert(data);
-            }
-        });
-    }
-
     String.prototype.replaceAll = function (search, replacement) {
         var target = this;
         return target.replace(new RegExp(search, 'g'), replacement);
@@ -495,12 +334,6 @@
                 }
             });
         }
-    }
-
-    function closeview() {
-        $('#addnewrule').modal('hide');
-        $("#addrule_btn").toggle();
-        $("#viewrule_btn").toggle();
     }
 
     function updateInfo(infotype) {
