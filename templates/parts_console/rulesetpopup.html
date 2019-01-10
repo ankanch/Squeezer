@@ -44,7 +44,7 @@
                                     <button type="button" class="btn-sm btn-success" onclick="addaruleindent()">Add Rule </button>
                                 </div>
                                 <div class="col-md-4">
-                                    <button type="button" class="btn-sm btn-primary" onclick="allArule()">Generate Raw Code</button>
+                                    <button type="button" class="btn-sm btn-primary" onclick="generateRawRuleset()">Generate Raw Code</button>
                                 </div>
                             </div>
                             <div class="row" style="text-align: center">
@@ -62,30 +62,7 @@
                                 </div>
                             </div>
                             <div id="rule_list">
-                                <div class="row" id="rule_0">
-                                    <div class="col-md-1" style="text-align: center;">
-                                        <button type="button" class="btn btn-sm btn-warning btn-circle"
-                                                onclick="javascript:$('#rule_0').remove();">Del 0
-                                        </button>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <select class="form-control form-control-sm" id="add_ruletype_"
-                                                onchange="selectRuleType()">
-                                            <option>---Select Rule Type---</option>
-                                            <option value="rt_gnc">Grab News Container</option>
-                                            <option value="rt_gn">Get News</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <input type="text" class="form-control form-control-sm" id="add_gnc_selector_"
-                                               placeholder="selector which selects news from a news list.">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                               id="add_gnc_ignorechild_"
-                                               placeholder="child list to ignore,use comma to split multiples">
-                                    </div>
-                                </div>
+                                <p style="margin:0 auto;text-align: center;margin-top:15px;margin-button:15px;">Please add your first rule by clicking [Add Rule].</p>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-rawview-c" role="tabpanel" aria-labelledby="nav-rawview">
@@ -94,15 +71,15 @@
                                       placeholder="preview for the rule set" name="nr_ruleset" readonly></textarea>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="nav-help" role="tabpanel" aria-labelledby="nav-help">
-                            ...
+                        <div class="tab-pane fade" id="nav-help-c" role="tabpanel" aria-labelledby="nav-help">
+                            Help content here.
                         </div>
                     </div>
                 </form>
                 <hr>
                 <div class="row">
                     <div class="col-md-2">
-                        <button type="button" class="btn btn-warning" onclick="testNewRule()">-- Test --</button>
+                        <button type="button" class="btn btn-sm btn-warning" onclick="testNewRule()">-- Test --</button>
                     </div>
                     <div class="col-md-10" id="testresult">After you added rule information,please click test to
                         test if the rule works as expected. The test result(grabbed news) will be displayed in this
@@ -142,22 +119,29 @@
     }
 
     function selectRuleType(id) {
-        var selval = $("#add_ruletype").val();
+        var selval = $("#add_ruletype_" + id).val();
         switch (selval) {
             case "rt_gnc":
                 $("#add_gnc_selector_" + id).show();
-                $("#add_gnc_ignorechild_" + id).show();
+                $("#add_gnc_params_" + id).show();
+                $("#add_gnc_params_" + id).attr("placeholder","childs to ignore,use comma to separate");
                 break;
             case "rt_gn":
                 $("#add_gnc_selector_" + id).hide();
-                $("#add_gnc_ignorechild_" + id).show();
+                $("#add_gnc_params_" + id).show();
+                $("#add_gnc_params_" + id).attr("placeholder","keywords to ignore, use comma to separate");
                 break;
             default:
                 console.log("no selected or unexpected value.")
+                return;
         }
+        $("#ruleapplied_" + id).text("TRUE");
     }
 
-    function allArule() {
+    function generateRawRuleset() {
+        //start of new code
+        rulelist = $("#rule_list").childList;
+        //end of new code
         var selval = $("#add_ruletype").val();
         var ruleparam = [];
         var action = "";
@@ -166,7 +150,7 @@
                 action = "SELECT_ALL";
                 ruleparam.push($("#add_gnc_selector").val());
                 var ilist = []
-                var silist = $("#add_gnc_ignorechild").val().split(",");
+                var silist = $("#add_gnc_params").val().split(",");
                 for (var i = 0; i < silist.length; i++) {
                     ilist.push(parseInt(silist[i]));
                 }
@@ -213,11 +197,13 @@
     }
 
     var currule_id = 1;
+    var first_add = true;
 
     function addaruleindent() {
         var ruleident = `                                <div class="row" id="rule_@ID" style="margin-top:1px;">
                                     <div class="col-md-1" style="text-align: center;">
                                         <button type="button" class="btn btn-sm btn-light " onclick="javascript:$('#rule_@ID').remove();">Del @ID</button>
+                                         <p style="display: none;" id="ruleapplied_@ID">FALSE</p>
                                     </div>
                                     <div class="col-md-3">
                                         <select class="form-control form-control-sm" id="add_ruletype_@ID"
@@ -233,10 +219,14 @@
                                     </div>
                                     <div class="col-md-4">
                                         <input type="text" class="form-control form-control-sm"
-                                               id="add_gnc_ignorechild_@ID"
+                                               id="add_gnc_params_@ID"
                                                placeholder="child list to ignore,use comma to split multiples" style="display: none;">
                                     </div>
                                 </div>`;
+        if(first_add){
+            $("#rule_list").html("");
+            first_add = false;
+        }
         $("#rule_list").append(ruleident.replaceAll("@ID", currule_id));
         currule_id++;
 

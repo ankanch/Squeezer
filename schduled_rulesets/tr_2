@@ -1,4 +1,0 @@
-Squeezer by kanch. This is the rule definition for grabber.
-Microsoft@CnBeta
-https://www.cnbeta.com/topics/4.htm
-[[10, 'body > div.main-wrap > div.cnbeta-update > div > div.cnbeta-update-list.category-update > div.items-area > div > dl > dt > a'], [11, '']]
