@@ -41,10 +41,14 @@
                              aria-labelledby="nav-listview">
                             <div class="row">
                                 <div class="col-md-8">
-                                    <button type="button" class="btn-sm btn-success" onclick="addaruleindent()">Add Rule </button>
+                                    <button type="button" class="btn-sm btn-success" onclick="addaruleindent()">Add
+                                        Rule
+                                    </button>
                                 </div>
                                 <div class="col-md-4">
-                                    <button type="button" class="btn-sm btn-primary" onclick="generateRawRuleset()">Generate Raw Code</button>
+                                    <button type="button" class="btn-sm btn-primary" onclick="generateRawRuleset()">
+                                        Generate Raw Code
+                                    </button>
                                 </div>
                             </div>
                             <div class="row" style="text-align: center">
@@ -62,7 +66,8 @@
                                 </div>
                             </div>
                             <div id="rule_list">
-                                <p style="margin:0 auto;text-align: center;margin-top:15px;margin-button:15px;">Please add your first rule by clicking [Add Rule].</p>
+                                <p style="margin:0 auto;text-align: center;margin-top:15px;margin-button:15px;">Please
+                                    add your first rule by clicking [Add Rule].</p>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-rawview-c" role="tabpanel" aria-labelledby="nav-rawview">
@@ -124,12 +129,12 @@
             case "rt_gnc":
                 $("#add_gnc_selector_" + id).show();
                 $("#add_gnc_params_" + id).show();
-                $("#add_gnc_params_" + id).attr("placeholder","childs to ignore,use comma to separate");
+                $("#add_gnc_params_" + id).attr("placeholder", "childs to ignore,use comma to separate");
                 break;
             case "rt_gn":
                 $("#add_gnc_selector_" + id).hide();
                 $("#add_gnc_params_" + id).show();
-                $("#add_gnc_params_" + id).attr("placeholder","keywords to ignore, use comma to separate");
+                $("#add_gnc_params_" + id).attr("placeholder", "keywords to ignore, use comma to separate");
                 break;
             default:
                 console.log("no selected or unexpected value.")
@@ -140,38 +145,43 @@
 
     function generateRawRuleset() {
         //start of new code
-        rulelist = $("#rule_list").childList;
-        //end of new code
-        var selval = $("#add_ruletype").val();
-        var ruleparam = [];
-        var action = "";
-        switch (selval) {
-            case "rt_gnc":
-                action = "SELECT_ALL";
-                ruleparam.push($("#add_gnc_selector").val());
-                var ilist = []
-                var silist = $("#add_gnc_params").val().split(",");
-                for (var i = 0; i < silist.length; i++) {
-                    ilist.push(parseInt(silist[i]));
-                }
-                ruleparam.push(ilist);
-                break;
-            case "rt_gn":
-                action = "GET_NEWS"
-                silist = $("#add_gn_keywords").val().split(",");
-                ruleparam.push(silist);
-                break;
-            default:
-                alert("select a rule type before you continue.");
-                return;
-        }
-        if (selval == "rt_gnc" && ruleparam[0].length < 2) {
-            alert("Please fill the selector filed!");
+        rulelist = $("#rule_list > div");
+        if(rulelist.length == 0){
+            alert("Please add rules before you proceed.")
             return;
         }
-        // make up rule and fill it into the preview
-        ruleset.push([action, ruleparam]);
-        $("#add_ruleset").val(JSON.stringify(ruleset));
+        var ruleset = [];
+        for (var t = 0; t < rulelist.length; t++) {
+            var ruleid = rulelist[t].id.substr(5);
+            if ($("#ruleapplied_" + ruleid).text() == "FALSE") {
+                alert("Please fill empty rules or remove them.");
+                return;
+            }
+            var selval = $("#add_ruletype_" + ruleid).val();
+            var ruleparam = [];
+            var action = "";
+            switch (selval) {
+                case "rt_gnc":
+                    action = "SELECT_ALL";
+                    ruleparam.push($("#add_gnc_selector_" + ruleid).val());
+                    var ilist = []
+                    var silist = $("#add_gnc_params_" + ruleid).val().split(",");
+                    for (var i = 0; i < silist.length; i++) {
+                        ilist.push(parseInt(silist[i]));
+                    }
+                    ruleparam.push(ilist);
+                    break;
+                case "rt_gn":
+                    action = "GET_NEWS"
+                    silist = $("#add_gnc_params_" + ruleid).val().split(",");
+                    ruleparam.push(silist);
+                    break;
+            }
+            // make up rule and fill it into the preview
+            ruleset.push([action, ruleparam]);
+        }
+        $("#add_ruleset-c").val(JSON.stringify(ruleset));
+        return;
     }
 
     function addrule() {
@@ -223,7 +233,7 @@
                                                placeholder="child list to ignore,use comma to split multiples" style="display: none;">
                                     </div>
                                 </div>`;
-        if(first_add){
+        if (first_add) {
             $("#rule_list").html("");
             first_add = false;
         }
