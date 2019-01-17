@@ -98,7 +98,8 @@
                     <button type="button" class="btn btn-primary">Update</button>
                 </div>
                 <div id="addrule_btn">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="canceladd()">Cancel
+                    </button>
                     <button type="button" class="btn btn-primary" onclick="addrule()">Save Rule</button>
                 </div>
             </div>
@@ -117,7 +118,7 @@
             dataType: 'html',
             data: $("#form_add_rule").serialize(),
             success: function (data) {
-                $("#testresult").text(data);
+                $("#testresult").html(data);
             }
         });
 
@@ -146,7 +147,7 @@
     function generateRawRuleset() {
         //start of new code
         rulelist = $("#rule_list > div");
-        if(rulelist.length == 0){
+        if (rulelist.length == 0) {
             alert("Please add rules before you proceed.")
             return;
         }
@@ -200,17 +201,30 @@
         });
     }
 
+    function canceladd() {
+        $('#addnewrule').modal('hide');
+        resetPopupWindow();
+    }
+
     function closeview() {
         $('#addnewrule').modal('hide');
         $("#addrule_btn").toggle();
         $("#viewrule_btn").toggle();
+        resetPopupWindow();
+    }
+
+    function resetPopupWindow() {
+        // clear popup data
+        $("#add_rulename").val("");
+        $("#add_website").val("");
+        $("#add_ruleset-c").val("");
+        $("#testresult").val("After you added rule information,please click test to test if the rule works as expected. The test result(grabbed news) will be displayed in this filed.");
+        $("#rule_list").html(`<p style="margin:0 auto;text-align: center;margin-top:15px;margin-button:15px;">Please add your first rule by clicking [Add Rule].</p>`);
     }
 
     var currule_id = 1;
     var first_add = true;
-
-    function addaruleindent() {
-        var ruleident = `                                <div class="row" id="rule_@ID" style="margin-top:1px;">
+    var ruleident = `                                <div class="row" id="rule_@ID" style="margin-top:1px;">
                                     <div class="col-md-1" style="text-align: center;">
                                         <button type="button" class="btn btn-sm btn-light " onclick="javascript:$('#rule_@ID').remove();">Del @ID</button>
                                          <p style="display: none;" id="ruleapplied_@ID">FALSE</p>
@@ -233,6 +247,8 @@
                                                placeholder="child list to ignore,use comma to split multiples" style="display: none;">
                                     </div>
                                 </div>`;
+
+    function addaruleindent() {
         if (first_add) {
             $("#rule_list").html("");
             first_add = false;

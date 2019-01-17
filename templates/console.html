@@ -316,8 +316,35 @@
         ruledata = ($("#" + id).html()).split("-SP;");
         $("#add_rulename").val(ruledata[1]);
         $("#add_website").val(ruledata[2]);
-        $("#add_ruleset").val(ruledata[3].replaceAll("&gt;", ">"));
+        ruledata = ruledata[3].replaceAll("&gt;", ">");
+        $("#add_ruleset-c").val(ruledata);
+        resolveListView(ruledata.replaceAll("'", "\""));
 
+    }
+
+    function resolveListView(rawview) {
+        $("#rule_list").html("");
+        srs = JSON.parse(rawview);
+        for (var i = 0; i < srs.length; i++) {
+            var rule = srs[i];
+            var rtype = rule[0];
+            var rcmd = rule[1];
+            var ruledata = ruleident.replaceAll("@ID", i);
+            $("#rule_list").append(ruledata);
+            var cmdtypecode = "";
+            switch (rtype) {
+                case "SELECT_ALL":
+                    cmdtypecode = "rt_gnc";
+                    break;
+                case "GET_NEWS":
+                    cmdtypecode = "rt_gn";
+                    break;
+            }
+            $("#add_ruletype_" + i).val(cmdtypecode);
+            selectRuleType(i);
+            $("#add_gnc_selector_" + i).val(rcmd[0]);
+            $("#add_gnc_params_" + i).val(rcmd[1]);
+        }
     }
 
     function delRule(id) {
