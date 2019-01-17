@@ -96,13 +96,15 @@ def api_firstsetup():
 @app.route('/api/testrule', methods=['POST'])
 @login_required
 def api_testrule():
+    retmsg = "empty"
     try:
         website = request.form["nr_site"]
         ruleset = request.form["nr_ruleset"]
         ret = RM.testRuleset(website, ruleset)
-        return str("<br/>".join([news[0] for news in ret]))
+        retmsg = str("<br/>".join([news[0] for news in ret]))
     except Exception as e:
-        return "error:" + e
+        retmsg = "error:" + str(e)
+    return retmsg
 
 
 @app.route('/api/delrule', methods=['POST'])

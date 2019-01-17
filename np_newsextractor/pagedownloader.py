@@ -1,10 +1,11 @@
-import urllib.request
+import urllib3
 
 class npPageDownloder:
     def getPage(self,url,timeout=30):
-        resp = urllib.request.urlopen(url,timeout=timeout)
-        html = resp.read()
-        return self.convertToString(html)
+        urllib3.disable_warnings()
+        http = urllib3.PoolManager()
+        response = http.request('GET', url, headers={'User-Agent': "Mozilla/5.0",'accept': "*/*"},decode_content=True)
+        return response.data
 
     def convertToString(self,bhtml):
         shtml = ""
@@ -20,6 +21,8 @@ class npPageDownloder:
 if __name__ == "__main__":
     v = npPageDownloder()
     t = v.getPage("https://www.cnbeta.com/topics/4.htm")
+    print(type(t),len(t))
+    t = v.getPage("https://www.qq.com/")
     print(type(t),len(t))
     t = v.getPage("https://blogs.windows.com/windowsexperience/tag/windows-insider-program")
     print(type(t),len(t))
