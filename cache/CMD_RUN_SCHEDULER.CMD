@@ -1,0 +1,1 @@
+this is a command file of Squeezer

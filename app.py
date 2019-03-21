@@ -1,13 +1,20 @@
+"""
+This script runs the application using a development server.
+It contains the definition of routes and views for the application.
+"""
+
 from flask import Flask, render_template, session, redirect, url_for, request, make_response
 from functools import wraps
 from webui import usermanager as UM
 from webui import rulemanager as RM
 from np_tools import  configmanager as CFGM
 import config as CFG
-import sys
 
 app = Flask(__name__)
 app.secret_key = '238947uwJASOUD238UAOSDJAQ2ASD35482sad'
+
+# Make the WSGI interface available at the top level so wfastcgi can get it.
+wsgi_app = app.wsgi_app
 
 
 def login_required(f):
