@@ -77,7 +77,17 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-help-c" role="tabpanel" aria-labelledby="nav-help">
-                            Help content here.
+                            <b>Step 1.</b>Fill the basic info eg. rule name and website to apply<br />
+                            <b>Step 2.</b>Add rules by clicking [Add Rule] in rule section.<br />
+                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFO:</b>Currently,there are two type of rules: [Grab News Container] and [Get News].<br />
+                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grab News Container:</b> Get new container, it's usaully a div which mantains a list of news.<br />
+                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get News:</b> Get all news(Titles + links) in news container that [Grab News Container] specified.<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            News can be filtered by keywords in title.<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Usually, you only need one Grab Container rule and one Get News Rule to grab the news. <br />
+                            <b>Step 4.</b>Click [Generate Raw Code] to generate a rule set which is able to be proceeed.<br />
+                            <b>Step 5.</b>Test your rule by clicking [--Test--] button. If you can get news' title then your rule set is correct, you may need to restruct your rule otherwise.<br />
+                            <b>Step 6.</b>After comfirming your rule works fine, you can save your rules by clicking [Save Rule].You can edit your rule anytime in Subscription Preference section of Squeezer console<br />
                         </div>
                     </div>
                 </form>
@@ -218,7 +228,7 @@
         $("#add_rulename").val("");
         $("#add_website").val("");
         $("#add_ruleset-c").val("");
-        $("#testresult").val("After you added rule information,please click test to test if the rule works as expected. The test result(grabbed news) will be displayed in this filed.");
+        $("#testresult").html("After you added rule information,please click test to test if the rule works as expected. The test result(grabbed news) will be displayed in this filed.");
         $("#rule_list").html(`<p style="margin:0 auto;text-align: center;margin-top:15px;margin-button:15px;">Please add your first rule by clicking [Add Rule].</p>`);
     }
 
