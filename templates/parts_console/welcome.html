@@ -1,0 +1,19 @@
+This is a simple application for daily news push. You can set different grape rules for different
+sites. And we will push all the message you subscribed it to you at the time you set.
+You can change your Email preference in [Email Preference] section. You can add grape rules for
+different site in [Subscriptions Preference].
+<hr>
+<h5>Service Status</h5>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-3">Job Scheduler: {{ status_js | safe }}</div>
+    <div class="col-md-4"> <button type="button" class="btn btn-outline-info btn-sm" disabled>Restart</button></div>
+</div>
+<div class="row" style="margin-top:5px;">
+    <div class="col-md-1"></div>
+    <div class="col-md-3">Web Interface: {{ status_wi | safe }}</div>
+    <div class="col-md-4"></div>
+</div>
+<script>
+    
+</script>

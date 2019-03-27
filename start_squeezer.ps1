@@ -1,6 +1,6 @@
-@echo off
+echo off
 echo "Squeezer 0.1"
 echo "Starting Squeezer Scheduler..."
-start  python scheduler_interface.py
+start-process .\start_jobscheduler.bat
 echo "Starting Web Interface..."
-python app.py
+start-process .\start_webinterface.bat

@@ -149,9 +149,12 @@ def api_restartservice():
     return "Success"
 
 if __name__ == '__main__':
+    #if PWATCH.checkService(PWATCH.SERVICE_WEB_INTERFACE):
+    #    print("Squeezer>>>Web Interface already started.")
+    #    exit()
+    PWATCH.flagScriptRunning(PWATCH.SERVICE_WEB_INTERFACE)
     if CFG.DEBUG_MODE:
-        PWATCH.flagScriptRunning(PWATCH.SERVICE_WEB_INTERFACE)
-        app.run(host="127.0.0.1",port=1030,debug=True)
+        app.run(host="127.0.0.1",port=1000,debug=True)
     else:
         app.run(host="0.0.0.0", port=1030)
     PWATCH.removeFlag(PWATCH.SERVICE_WEB_INTERFACE)

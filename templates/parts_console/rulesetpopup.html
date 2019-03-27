@@ -4,7 +4,7 @@
     }
 </style>
 <div class="modal fade" id="addnewrule" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-     aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    aria-hidden="true" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -16,11 +16,11 @@
                     <div class=" row">
                         <div class="form-group col-md-4">
                             <input type="text" class="form-control" id="add_rulename" aria-describedby="emailHelp"
-                                   placeholder="Name of the rule" name="nr_name">
+                                placeholder="Name of the rule" name="nr_name">
                         </div>
                         <div class="form-group col-md-8">
-                            <input type="text" class="form-control" id="add_website"
-                                   placeholder="Website for this rule" name="nr_site">
+                            <input type="text" class="form-control" id="add_website" placeholder="Website for this rule"
+                                name="nr_site">
                         </div>
                     </div>
                     <hr>
@@ -28,17 +28,17 @@
                     <nav>
                         <div class="nav nav-tabs " id="nav-tab" role="tablist">
                             <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab"
-                               href="#nav-listview-c"
-                               role="tab" aria-controls="nav-listview" aria-selected="true">List View</a>
+                                href="#nav-listview-c" role="tab" aria-controls="nav-listview" aria-selected="true">List
+                                View</a>
                             <a class="nav-item nav-link" id="nav-rawview" data-toggle="tab" href="#nav-rawview-c"
-                               role="tab" aria-controls="nav-profile" aria-selected="false">Raw View</a>
-                            <a class="nav-item nav-link" id="nav-help" data-toggle="tab" href="#nav-help-c"
-                               role="tab" aria-controls="nav-contact" aria-selected="false">Help</a>
+                                role="tab" aria-controls="nav-profile" aria-selected="false">Raw View</a>
+                            <a class="nav-item nav-link" id="nav-help" data-toggle="tab" href="#nav-help-c" role="tab"
+                                aria-controls="nav-contact" aria-selected="false">Help</a>
                         </div>
                     </nav>
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-listview-c" role="tabpanel"
-                             aria-labelledby="nav-listview">
+                            aria-labelledby="nav-listview">
                             <div class="row">
                                 <div class="col-md-8">
                                     <button type="button" class="btn-sm btn-success" onclick="addaruleindent()">Add
@@ -72,22 +72,32 @@
                         </div>
                         <div class="tab-pane fade" id="nav-rawview-c" role="tabpanel" aria-labelledby="nav-rawview">
                             <div class="form-group">
-                            <textarea class="form-control" id="add_ruleset-c" rows="2"
-                                      placeholder="preview for the rule set" name="nr_ruleset" readonly></textarea>
+                                <textarea class="form-control" id="add_ruleset-c" rows="2"
+                                    placeholder="preview for the rule set" name="nr_ruleset" readonly></textarea>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-help-c" role="tabpanel" aria-labelledby="nav-help">
                             <b>Step 1.</b>Fill the basic info eg. rule name and website to apply<br />
                             <b>Step 2.</b>Add rules by clicking [Add Rule] in rule section.<br />
-                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFO:</b>Currently,there are two type of rules: [Grab News Container] and [Get News].<br />
-                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grab News Container:</b> Get new container, it's usaully a div which mantains a list of news.<br />
-                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get News:</b> Get all news(Titles + links) in news container that [Grab News Container] specified.<br />
+                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFO:</b>Currently,there are two type of
+                            rules: [Grab News Container] and [Get News].<br />
+                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grab
+                                News Container:</b> Get new container, it's usaully a div which mantains a list of
+                            news.<br />
+                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get
+                                News:</b> Get all news(Titles + links) in news container that [Grab News Container]
+                            specified.<br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             News can be filtered by keywords in title.<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Usually, you only need one Grab Container rule and one Get News Rule to grab the news. <br />
-                            <b>Step 4.</b>Click [Generate Raw Code] to generate a rule set which is able to be proceeed.<br />
-                            <b>Step 5.</b>Test your rule by clicking [--Test--] button. If you can get news' title then your rule set is correct, you may need to restruct your rule otherwise.<br />
-                            <b>Step 6.</b>After comfirming your rule works fine, you can save your rules by clicking [Save Rule].You can edit your rule anytime in Subscription Preference section of Squeezer console<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Usually, you only need one Grab Container
+                            rule and one Get News Rule to grab the news. <br />
+                            <b>Step 4.</b>Click [Generate Raw Code] to generate a rule set which is able to be
+                            proceeed.<br />
+                            <b>Step 5.</b>Test your rule by clicking [--Test--] button. If you can get news' title then
+                            your rule set is correct, you may need to restruct your rule otherwise.<br />
+                            <b>Step 6.</b>After comfirming your rule works fine, you can save your rules by clicking
+                            [Save Rule].You can edit your rule anytime in Subscription Preference section of Squeezer
+                            console<br />
                         </div>
                     </div>
                 </form>
