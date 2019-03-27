@@ -6,6 +6,7 @@ from np_tools.newscache import newscache
 import config as CFG
 from np_tools import commandmanager
 from subprocess import Popen
+from np_tools import processwatch as PWATCH
 
 bypasscheck = False
 
@@ -93,6 +94,7 @@ if __name__ == "__main__":
         performTask()
     else:
         print("jobscheduler.py:Scheduler Started ")
+        PWATCH.flagScriptRunning(PWATCH.SERVICE_JOB_SCHEDULER)
         while True:
             print("jobscheduler.py:check time ")
             if checkTime():
@@ -108,4 +110,5 @@ if __name__ == "__main__":
                 commandmanager.removeCommand(commandmanager.COMMAND_RESTART_SCHEDULER)
                 break
         print("jobscheduler.py:Scheduler Stopped.")
+        PWATCH.removeFlag(PWATCH.SERVICE_JOB_SCHEDULER)
         sys.exit(commandmanager.SCHEDULER_EXIT_CODE)

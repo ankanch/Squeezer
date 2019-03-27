@@ -8,7 +8,9 @@ from functools import wraps
 from webui import usermanager as UM
 from webui import rulemanager as RM
 from np_tools import  configmanager as CFGM
+from np_tools import processwatch as PWATCH
 import config as CFG
+
 
 app = Flask(__name__)
 app.secret_key = '238947uwJASOUD238UAOSDJAQ2ASD35482sad'
@@ -67,7 +69,9 @@ def consolepage():
                            email=CFG.EMAIL_RECIVIER,
                            apikey=CFG.SENDGRID_MAIL_API_KEY,
                            pushtime=CFG.EMAIL_SENDING_TIME.split(":"),
-                           version=CFG.VERSION
+                           version=CFG.VERSION,
+                           status_js=PWATCH.getServiceStatusHTML(PWATCH.SERVICE_JOB_SCHEDULER),
+                           status_wi=PWATCH.getServiceStatusHTML(PWATCH.SERVICE_WEB_INTERFACE)
                            )
 
 
@@ -137,8 +141,17 @@ def api_updatetime():
     CFGM.changConfigure(infotype,data)
     return "Success"
 
+@app.route('/api/restartservice', methods=['POST'])
+@login_required
+def api_restartservice():
+    stype = request.form["stype"]
+    # add code here
+    return "Success"
+
 if __name__ == '__main__':
     if CFG.DEBUG_MODE:
-        app.run(host="127.0.0.1",port=1000,debug=True)
+        PWATCH.flagScriptRunning(PWATCH.SERVICE_WEB_INTERFACE)
+        app.run(host="127.0.0.1",port=1030,debug=True)
     else:
         app.run(host="0.0.0.0", port=1030)
+    PWATCH.removeFlag(PWATCH.SERVICE_WEB_INTERFACE)

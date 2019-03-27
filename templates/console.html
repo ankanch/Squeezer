@@ -37,11 +37,17 @@
                     sites. And we will push all the message you subscribed it to you at the time you set.
                     You can change your Email preference in [Email Preference] section. You can add grape rules for
                     different site in [Subscriptions Preference].
-                    <h5>Status</h5>
+                    <hr>
+                    <h5>Service Status</h5>
                     <div class="row">
-                        <div class="col-md-4">Sample:<span class="badge badge-success">Running</span></div>
-                        <div class="col-md-4">Sample:<span class="badge badge-danger">Terminated</span></div>
-                        Job Scheduler:
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">Job Scheduler: {{ status_js | safe }}</div>
+                        <div class="col-md-4"> <button type="button" class="btn btn-outline-info btn-sm">Restart</button></div>
+                    </div>
+                    <div class="row" style="margin-top:5px;">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">Web Interface: {{ status_wi | safe }}</div>
+                        <div class="col-md-4"> <button type="button" class="btn btn-outline-info btn-sm">Restart</button> </div>
                     </div>
                 </div>
             </div>
