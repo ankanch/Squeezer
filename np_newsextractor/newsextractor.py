@@ -10,14 +10,14 @@ class newsextractor:
     def feedHTML(self, html):
         try:
             self.soup = BeautifulSoup(html, 'html5lib')
-            shtml = html
+            self.shtml = html.decode(encoding="utf-8")
             self.feeded = True
-            print("HTML with length of ",len(html),"feeded")
-            with open("cache/last_feed.txt","w", encoding="utf-8",) as f:
+            print("newsextractor|feedHTML>>HTML with length of ",len(self.shtml),"feeded")
+            with open("cache/last_feed.txt","wb" ) as f:
                 f.truncate()
                 f.write(html)
         except Exception as e:
-            print("err:",e)
+            print("newsextractor|feedHTML>>err:",e)
         return True, self.soup
 
     def digested(self, feeded=False):

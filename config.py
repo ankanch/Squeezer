@@ -26,5 +26,4 @@ EMAIL_RECIVIER = loadKey("EMAIL_RECIVIER")
 MAX_CACHED_NEWS = eval(loadKey("MAX_CACHED_NEWS"))
 
 # squeezer source fixed
-SPIDER_UA = "Mozilla/5.0"
-VERSION = "ver 0.1 @ 2018"
+VERSION = "ver 0.1 @ 2019"

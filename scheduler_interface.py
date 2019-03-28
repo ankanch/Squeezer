@@ -20,5 +20,5 @@ if __name__ == "__main__":
             print("scheduler_interface.py:Restarting....")
             p = Popen("python jobscheduler.py run as production env", shell=True)
         else:
-            print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"|scheduler_interface.py: running fine")
+            print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"|scheduler_interface.py: running fine\r")
             time.sleep(5)

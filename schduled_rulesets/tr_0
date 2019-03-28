@@ -1,4 +1,4 @@
 Squeezer by kanch. This is the rule definition for grabber.
 tr_0
-https://www.gamersky.com/
+https://www.gamersky.com
 [['SELECT_ALL', ['body > div.Mid > div.Mid1 > div.Mid1_M > div:nth-child(1) > div.Mid1Mcon.block > ul.Ptxt.block > li:nth-child(1) > div.txt > a', [2], []]], ['GET_NEWS', ['', []]]]

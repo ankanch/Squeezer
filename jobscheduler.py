@@ -31,7 +31,7 @@ def runTask():
             rs = ruleset()
             rs.importRules(dir= "schduled_rulesets/" + task)
             # perform task
-            print("executing rule for ",rs.name, rs.site)
+            print("runTask():executing rule for ",rs.name.replace("\n",""), "at" , rs.site.replace("\n",""))
             data = executeRuleset(rs)
             nl.extend(data)
     return nl
@@ -51,10 +51,10 @@ def runScheduler():
                 nl = nc.filternews(nl)
                 pushNews(nl)
                 bypasscheck = False
-                print("news pushed")
+                print("runScheduler():news pushed")
             except:
                 bypasscheck = True
-                print("error in grab or push, bypass check for once.")
+                print("runScheduler():error in grab or push, bypass check for once.")
                 time.sleep(10)
     print("runScheduler(): COMMAND_RUN_SCHEDULER not detected! Exit.")
 
@@ -73,7 +73,7 @@ def performTask():
             print("performTask():news pushed")
             finsiehd = True
         except Exception as e:
-            print("performTask(): error occurred. retry in 15 seconds.",e)
+            print("performTask(): error occurred. retry in 15 seconds.\n",e)
             time.sleep(15)
             tried += 1
     return finsiehd
@@ -90,7 +90,6 @@ def checkTime():
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        #runScheduler()
         performTask()
     else:
         print("jobscheduler.py:Scheduler Started ")

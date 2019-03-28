@@ -4,7 +4,14 @@ class npPageDownloder:
     def getPage(self,url,timeout=30):
         urllib3.disable_warnings()
         http = urllib3.PoolManager()
-        response = http.request('GET', url, headers={'User-Agent': "Mozilla/5.0",'accept': "*/*"},decode_content=True)
+        response = http.request('GET', 
+                                url.replace("\n","").replace("\r","").replace(" ",""), 
+                                headers={
+                                    'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
+                                    'accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+                                    'upgrade-insecure-requests': 1,
+                                    },
+                                decode_content=True)
         return response.data
 
     def convertToString(self,bhtml):
