@@ -69,6 +69,7 @@ def consolepage():
                            email=CFG.EMAIL_RECIVIER,
                            apikey=CFG.SENDGRID_MAIL_API_KEY,
                            pushtime=CFG.EMAIL_SENDING_TIME.split(":"),
+                           usertimezone=CFG.EMAIL_SENDING_TIMEZONE,
                            version=CFG.VERSION,
                            status_js=PWATCH.getServiceStatusHTML(PWATCH.SERVICE_JOB_SCHEDULER),
                            status_wi=PWATCH.getServiceStatusHTML(PWATCH.SERVICE_WEB_INTERFACE)
@@ -154,7 +155,7 @@ if __name__ == '__main__':
     #    exit()
     PWATCH.flagScriptRunning(PWATCH.SERVICE_WEB_INTERFACE)
     if CFG.DEBUG_MODE:
-        app.run(host="127.0.0.1",port=1000,debug=True)
+        app.run(host="127.0.0.1",port=1030,debug=True)
     else:
         app.run(host="0.0.0.0", port=1030)
     PWATCH.removeFlag(PWATCH.SERVICE_WEB_INTERFACE)

@@ -131,8 +131,33 @@
                 <option>59</option>
             </select>
         </div>
-        <div class="col-md-2">
-            Format: HH:MM
+        <div class="col-md-2 form-group">
+            <select class="form-control" id="time_timezone">
+                <option>UTC-11</option>
+                <option>UTC-10</option>
+                <option>UTC-9</option>
+                <option>UTC-8</option>
+                <option>UTC-7</option>
+                <option>UTC-6</option>
+                <option>UTC-5</option>
+                <option>UTC-4</option>
+                <option>UTC-3</option>
+                <option>UTC-2</option>
+                <option>UTC-1</option>
+                <option>UTC+0</option>
+                <option>UTC+1</option>
+                <option>UTC+2</option>
+                <option>UTC+3</option>
+                <option>UTC+4</option>
+                <option>UTC+5</option>
+                <option>UTC+6</option>
+                <option>UTC+7</option>
+                <option>UTC+8</option>
+                <option>UTC+9</option>
+                <option>UTC+10</option>
+                <option>UTC+11</option>
+                <option>UTC+12</option>
+            </select>
         </div>
         <div class="col-md-4">
             <small id="emailHelp" class="form-text text-muted">Time to send email to you.Squeezer will deal with the
@@ -194,7 +219,7 @@
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" onchange="comfirmInfo()" id="confirminfo">
                 <label class="form-check-label" for="confirminfo">
-                    Info Is Right
+                    Info Is Correct
                 </label>
             </div>
         </div>
@@ -233,7 +258,8 @@
         var email = $("#email").val();
         var hh = $('#time_hour').find(":selected").text();
         var mm = $('#time_minute').find(":selected").text();
-        var time = hh + ":" + mm;
+        var timezone = $('#time_timezone').find(":selected").text();
+        var time = hh + ":" + mm +"@" + timezone;
         var apikey = $("#apikey").val();
         var password = $("#password").val();
         if (email.length < 0 || time.length < 2 || apikey.length < 10 || password.length < 6) {

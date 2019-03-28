@@ -114,7 +114,34 @@
             <option>59</option>
         </select>
     </div>
-    <div class="col-md-2">Format HH:MM</div>
+    <div class="col-md-2 form-group">
+        <select class="form-control" id="time_timezone">
+            <option>UTC-11</option>
+            <option>UTC-10</option>
+            <option>UTC-9</option>
+            <option>UTC-8</option>
+            <option>UTC-7</option>
+            <option>UTC-6</option>
+            <option>UTC-5</option>
+            <option>UTC-4</option>
+            <option>UTC-3</option>
+            <option>UTC-2</option>
+            <option>UTC-1</option>
+            <option>UTC+0</option>
+            <option>UTC+1</option>
+            <option>UTC+2</option>
+            <option>UTC+3</option>
+            <option>UTC+4</option>
+            <option>UTC+5</option>
+            <option>UTC+6</option>
+            <option>UTC+7</option>
+            <option>UTC+8</option>
+            <option>UTC+9</option>
+            <option>UTC+10</option>
+            <option>UTC+11</option>
+            <option>UTC+12</option>
+        </select>
+    </div>
     <div class="col-md-2">
         <button type="button" class="btn btn-primary" onclick="updateInfo('time')">Update</button>
     </div>
@@ -169,7 +196,8 @@
             case "time":
                 var hh = $('#time_hour').find(":selected").text();
                 var mm = $('#time_minute').find(":selected").text();
-                data = hh + ":" + mm;
+                var timezone = $('#time_timezone').find(":selected").text();
+                data = hh + ":" + mm + "@" + timezone;
                 break;
             case "apikey":
                 data = $("#apikey").val();

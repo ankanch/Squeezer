@@ -18,7 +18,8 @@ else:
     SENDGRID_MAIL_API_KEY = loadKey("sendgrid_mail_api_key")
 
 # email preference
-EMAIL_SENDING_TIME = loadKey("EMAIL_SENDING_TIME")     # in UTC+0
+EMAIL_SENDING_TIME = loadKey("EMAIL_SENDING_TIME")     # in local machine time
+EMAIL_SENDING_TIMEZONE = loadKey("EMAIL_SENDING_TIMEZONE") 
 EMAIL_RECIVIER = loadKey("EMAIL_RECIVIER")
 
 # news cache

@@ -12,5 +12,5 @@ exit /b
 
 :main
 del cache\SERVICE_JOB_SCHEDULER_*
-.\venv\Scripts\activate && python .\jobscheduler.py ss ss && deactivate
+.\venv\Scripts\activate && python .\scheduler_interface.py ss ss && deactivate
 exit /b
