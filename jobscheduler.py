@@ -84,6 +84,7 @@ def checkTime():
     :return: True, if minute matched
     """
     ct = datetime.datetime.now().strftime('%H:%M')
+    print("jobscheduler.py:check time >> current time:",ct,"\tdesigned time:",CFG.EMAIL_SENDING_TIME)
     if ct == CFG.EMAIL_SENDING_TIME:
         return True
     return False
@@ -95,7 +96,6 @@ if __name__ == "__main__":
         print("jobscheduler.py:Scheduler Started ")
         PWATCH.flagScriptRunning(PWATCH.SERVICE_JOB_SCHEDULER)
         while True:
-            print("jobscheduler.py:check time ")
             if checkTime():
                 if commandmanager.checkCommand(commandmanager.COMMAND_RUN_SCHEDULER):
                     print("jobscheduler.py:ready to send,waiting 60 seconds")

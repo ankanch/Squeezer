@@ -37,6 +37,8 @@ def changConfigure(key,value):
     elif key == "time":
         timedata = value.split("@")
         value = convertTime(timedata[0],timedata[1])
+        if len(value) < 5:
+            value = "0" + value
         CFG.EMAIL_SENDING_TIME = value
         CFG.EMAIL_SENDING_TIMEZONE = timedata[1]
         saveKey("EMAIL_SENDING_TIMEZONE",timedata[1])
