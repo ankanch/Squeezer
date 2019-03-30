@@ -8,7 +8,7 @@ A news grabber and pusher. Including a web interface to manage grab rules. The f
 
 ### How to
 * Step 1: Download source from release to somewhere on your server.
-* Step 2: Enter Squeezer folder and run cmd `virtualenv venv` to set up a [Python virtual environment](https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/), then activating it by `.\env\Scripts\activate`. After that, you can install required Python packages from `requirements.txt`.
+* Step 2: Enter Squeezer folder and run cmd `virtualenv venv` to set up a [Python virtual environment](https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/), then activating it by `.\env\Scripts\activate`. After that, you can install required Python packages from `requirements.txt`. **You can do this in a easier way, just run `setup_env.bat` in command prompt, we will set the environment for you.**
 * Step 3: Run cmd `.\start_squeezer.bat` to start Squeezer service.
 * Step 4: Visit `http://your-server-ip:1030` to configure Squeezer. (You have to sign up a [SendGrid](https://sendgrid.com/) account to send email.)
 * Step 5: Add your own rules in Squeezer console, then you are all done. Desigend updates will be send to your email directly.
