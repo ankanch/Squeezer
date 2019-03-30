@@ -40,26 +40,8 @@ def pushNews(nl):
     data = makeupNewsList(nl)
     sendMail("squeezer@akakanch.com",CFG.EMAIL_RECIVIER,"Squeezer:News of the day",data)
 
-def runScheduler():
-    print("runScheduler():Squeezer Job Scheduler Running.Schedule push time is ", CFG.EMAIL_SENDING_TIME)
-    nc = newscache()
-    nc.load()
-    while True and commandmanager.checkCommand(commandmanager.COMMAND_RUN_SCHEDULER):
-        if checkschdule():
-            try:
-                nl = runTask()
-                nl = nc.filternews(nl)
-                pushNews(nl)
-                bypasscheck = False
-                print("runScheduler():news pushed")
-            except:
-                bypasscheck = True
-                print("runScheduler():error in grab or push, bypass check for once.")
-                time.sleep(10)
-    print("runScheduler(): COMMAND_RUN_SCHEDULER not detected! Exit.")
-
 def performTask():
-    print("performTask():Start grabbing and pushing ")
+    print("   |performTask():Start grabbing and pushing                        ")
     nc = newscache()
     nc.load()
     finsiehd  = False
@@ -70,10 +52,10 @@ def performTask():
             nl = runTask()
             nl = nc.filternews(nl)
             pushNews(nl)
-            print("performTask():news pushed")
+            print("   |performTask():news pushed")
             finsiehd = True
         except Exception as e:
-            print("performTask(): error occurred. retry in 15 seconds.\n",e)
+            print("   |err:performTask(): error occurred. retry in 15 seconds.\n",e)
             time.sleep(15)
             tried += 1
     return finsiehd
@@ -84,7 +66,10 @@ def checkTime():
     :return: True, if minute matched
     """
     ct = datetime.datetime.now().strftime('%H:%M')
-    print("jobscheduler.py:check time >> current time:",ct,"\tdesigned time:",CFG.EMAIL_SENDING_TIME)
+    print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "jobscheduler.py:check time >> current time:",
+            ct,"\tdesigned time:",CFG.EMAIL_SENDING_TIME,
+            end="\r")
     if ct == CFG.EMAIL_SENDING_TIME:
         return True
     return False
@@ -93,21 +78,21 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         performTask()
     else:
-        print("jobscheduler.py:Scheduler Started ")
+        print(">>>jobscheduler.py:Scheduler Started ")
         PWATCH.flagScriptRunning(PWATCH.SERVICE_JOB_SCHEDULER)
         while True:
             if checkTime():
                 if commandmanager.checkCommand(commandmanager.COMMAND_RUN_SCHEDULER):
-                    print("jobscheduler.py:ready to send,waiting 60 seconds")
+                    print("\n>>>jobscheduler.py:ready to send,waiting 60 seconds")
                     time.sleep(60)
                     if performTask() == False:
-                        print("failed to push news, restarting Squeezer... ")
+                        print("   |err:failed to push news, restarting Squeezer... ")
                         commandmanager.removeCommand(commandmanager.COMMAND_RUN_SCHEDULER)
                         commandmanager.addCommand(commandmanager.COMMAND_RESTART_SCHEDULER)
             time.sleep(10)
             if commandmanager.checkCommand(commandmanager.COMMAND_RESTART_SCHEDULER):
                 commandmanager.removeCommand(commandmanager.COMMAND_RESTART_SCHEDULER)
                 break
-        print("jobscheduler.py:Scheduler Stopped.")
+        print("\n>>>jobscheduler.py:Scheduler Stopped.                                                \n")
         PWATCH.removeFlag(PWATCH.SERVICE_JOB_SCHEDULER)
         sys.exit(commandmanager.SCHEDULER_EXIT_CODE)

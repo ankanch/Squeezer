@@ -7,7 +7,7 @@ different site in [Subscriptions Preference].
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-3">Job Scheduler: {{ status_js | safe }}</div>
-    <div class="col-md-4"> <button type="button" class="btn btn-outline-info btn-sm" disabled>Restart</button></div>
+    <div class="col-md-4"> <button type="button" class="btn btn-outline-info btn-sm" onclick="restartService(0)">Restart</button></div>
 </div>
 <div class="row" style="margin-top:5px;">
     <div class="col-md-1"></div>
@@ -15,5 +15,15 @@ different site in [Subscriptions Preference].
     <div class="col-md-4"></div>
 </div>
 <script>
-    
+    function restartService(service_code){
+        $.ajax({
+            url: '/api/restartservice',
+            type: 'post',
+            dataType: 'html',
+            data: {'service_code':service_code},
+            success: function (data) {
+                alert(data);
+            }
+        });
+    }
 </script>

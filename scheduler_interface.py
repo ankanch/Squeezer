@@ -17,8 +17,10 @@ if __name__ == "__main__":
     while True:
         statuscode = p.poll()
         if statuscode == cmdmgr.SCHEDULER_EXIT_CODE:
-            print("scheduler_interface.py:Restarting....")
+            print("scheduler_interface.py:Restarting....\n")
             p = Popen("python jobscheduler.py run as production env", shell=True)
         else:
-            print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"|scheduler_interface.py: running fine",end="\r")
+            print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "|scheduler_interface.py: running fine",
+                    end="                                             \r")
             time.sleep(5)

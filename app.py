@@ -145,8 +145,8 @@ def api_updatetime():
 @app.route('/api/restartservice', methods=['POST'])
 @login_required
 def api_restartservice():
-    stype = request.form["stype"]
-    # add code here
+    sc = request.form["service_code"]
+    PWATCH.restartService(int(sc))
     return "Success"
 
 if __name__ == '__main__':

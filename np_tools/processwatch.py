@@ -1,6 +1,7 @@
 import psutil
 import os
 import sys
+from .commandmanager import addCommand,COMMAND_RESTART_SCHEDULER
 
 SERVICE_JOB_SCHEDULER = 0
 SERVICE_WEB_INTERFACE = 1
@@ -65,10 +66,11 @@ def getRunningServicePID(service_code):
             return int( f[pos + len(service_name):] )
 
 def restartService(service_code):
-    #if service_code == SERVICE_JOB_SCHEDULER:
-    #    CMDMGR.addCommand(CMDMGR.COMMAND_RESTART_SCHEDULER)
-    #os.system(SERVICE_STARTCMD_LIST[service_code])
-    pass
+    if service_code == SERVICE_JOB_SCHEDULER:
+        addCommand(COMMAND_RESTART_SCHEDULER)
+    elif service_code == -1:
+        pass
+    
 
 if __name__ == "__main__":
     #print("TEST>>>Web Interface Status:",checkService(SERVICE_WEB_INTERFACE))
